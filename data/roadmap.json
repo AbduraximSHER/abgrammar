@@ -1,0 +1,161 @@
+{
+    "levels": [
+        {
+            "id": "basics",
+            "title": "Level 1: Basics",
+            "subtitle": "Foundation Tenses",
+            "description": "Master the essential tenses for everyday communication",
+            "order": 1,
+            "estimated_time": "2-3 hours",
+            "topics": [
+                {
+                    "id": "present-simple",
+                    "title": "Present Simple",
+                    "summary": "Habits, facts, and routines",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "past-simple",
+                    "title": "Past Simple",
+                    "summary": "Completed actions in the past",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "future-simple",
+                    "title": "Future Simple",
+                    "summary": "Plans and predictions",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "present-continuous",
+                    "title": "Present Continuous",
+                    "summary": "Actions happening now",
+                    "estimated_time": "15 min",
+                    "required": true
+                }
+            ],
+            "completion_badge": {
+                "name": "Basics Master",
+                "icon": "🌟",
+                "xp_reward": 100
+            }
+        },
+        {
+            "id": "core",
+            "title": "Level 2: Core Grammar",
+            "subtitle": "Essential Communication",
+            "description": "Build the skills you need for real conversations",
+            "order": 2,
+            "estimated_time": "3-4 hours",
+            "unlock_after": "basics",
+            "topics": [
+                {
+                    "id": "present-perfect",
+                    "title": "Present Perfect",
+                    "summary": "Past actions with present relevance",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "past-continuous",
+                    "title": "Past Continuous",
+                    "summary": "Ongoing past actions",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "first-conditional",
+                    "title": "First Conditional",
+                    "summary": "Real future possibilities",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "second-conditional",
+                    "title": "Second Conditional",
+                    "summary": "Unreal present situations",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "modals-can-could",
+                    "title": "Can & Could",
+                    "summary": "Ability and permission",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "modals-should-must",
+                    "title": "Should & Must",
+                    "summary": "Advice and obligation",
+                    "estimated_time": "15 min",
+                    "required": true
+                }
+            ],
+            "completion_badge": {
+                "name": "Core Grammar Expert",
+                "icon": "🎯",
+                "xp_reward": 200
+            }
+        },
+        {
+            "id": "advanced",
+            "title": "Level 3: Advanced",
+            "subtitle": "Complex Structures",
+            "description": "Master the nuances of English grammar",
+            "order": 3,
+            "estimated_time": "4-5 hours",
+            "unlock_after": "core",
+            "topics": [
+                {
+                    "id": "present-perfect-continuous",
+                    "title": "Present Perfect Continuous",
+                    "summary": "Duration with completion",
+                    "estimated_time": "25 min",
+                    "required": true
+                },
+                {
+                    "id": "past-perfect",
+                    "title": "Past Perfect",
+                    "summary": "Earlier past actions",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "passive-voice",
+                    "title": "Passive Voice",
+                    "summary": "Focus on action, not actor",
+                    "estimated_time": "25 min",
+                    "required": true
+                },
+                {
+                    "id": "third-conditional",
+                    "title": "Third Conditional",
+                    "summary": "Unreal past situations",
+                    "estimated_time": "25 min",
+                    "required": true
+                },
+                {
+                    "id": "reported-speech",
+                    "title": "Reported Speech",
+                    "summary": "Reporting what others said",
+                    "estimated_time": "20 min",
+                    "required": false
+                }
+            ],
+            "completion_badge": {
+                "name": "Grammar Master",
+                "icon": "👑",
+                "xp_reward": 300
+            }
+        }
+    ],
+    "progression_rules": {
+        "unlock_mode": "sequential",
+        "allow_skip": false,
+        "min_quiz_score": 70
+    }
+}

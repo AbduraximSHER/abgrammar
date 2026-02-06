@@ -1,0 +1,12 @@
+{
+  "totalEntries": 836,
+  "totalCorrections": 0,
+  "byCategory": {
+    "CRITICAL": 0,
+    "CORRUPTED": 0,
+    "PART_OF_SPEECH": 0,
+    "UNNATURAL": 0,
+    "CONTEXT": 0
+  },
+  "percentageCorrected": "0.00%"
+}

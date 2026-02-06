@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Grammar Master - Learn Grammar Step by Step</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="topic.css">
+    <link rel="stylesheet" href="topic-components.css">
+    <link rel="stylesheet" href="quizEngine.css">
+    <link rel="stylesheet" href="progress.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- TOP BAR -->
+    <header class="top-bar">
+        <div class="top-bar-left">
+            <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Toggle sidebar">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <h1 class="site-title">English Grammar Master</h1>
+        </div>
+
+        <div class="top-bar-center">
+            <div class="search-box">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                    <path d="M9 17A8 8 0 1 0 9 1a8 8 0 0 0 0 16zM18 18l-4.35-4.35" stroke="currentColor"
+                        stroke-width="2" stroke-linecap="round" />
+                </svg>
+                <input type="text" placeholder="Search topics..." class="search-input" id="search-input">
+            </div>
+        </div>
+
+        <div class="top-bar-right">
+            <div class="progress-indicator" id="progress-indicator">
+                <div class="progress-circle">
+                    <svg width="40" height="40">
+                        <circle cx="20" cy="20" r="16" stroke="rgba(255,255,255,0.1)" stroke-width="3" fill="none" />
+                        <circle cx="20" cy="20" r="16" stroke="#facc15" stroke-width="3" fill="none"
+                            stroke-dasharray="100" stroke-dashoffset="70" transform="rotate(-90 20 20)"
+                            class="progress-ring" />
+                    </svg>
+                    <span class="progress-text">30%</span>
+                </div>
+            </div>
+
+            <div class="dict-mode-indicator">
+                <label class="switch">
+                    <input type="checkbox" id="dict-toggle-top">
+                    <span class="slider"></span>
+                </label>
+                <span class="dict-label">📖 Dictionary</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN LAYOUT -->
+    <div class="main-layout">
+
+        <!-- LEFT SIDEBAR - GRAMMAR ROADMAP -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-content">
+                <div class="roadmap-header">
+                    <h2>📚 Grammar Roadmap</h2>
+                    <p class="roadmap-subtitle">Your learning path</p>
+                </div>
+
+                <!-- Dynamic roadmap container -->
+                <div id="roadmap-container"></div>
+            </div>
+        </aside>
+
+        <!-- MAIN CONTENT AREA -->
+        <main class="main-content" id="main-content">
+            <!-- Content will be loaded here dynamically -->
+            <div class="welcome-screen">
+                <h1>Welcome to English Grammar Master 👋</h1>
+                <p class="welcome-subtitle">Learn grammar step by step with extreme clarity</p>
+
+                <!-- Continue Learning Section (shown if user has progress) -->
+                <div id="continue-learning-container"></div>
+
+                <div class="welcome-cards">
+                    <div class="welcome-card">
+                        <div class="card-icon">🎯</div>
+                        <h3>Clear Learning Path</h3>
+                        <p>Follow our structured roadmap from basics to advanced</p>
+                    </div>
+                    <div class="welcome-card">
+                        <div class="card-icon">📝</div>
+                        <h3>Practice as You Learn</h3>
+                        <p>Instant feedback with every topic</p>
+                    </div>
+                    <div class="welcome-card">
+                        <div class="card-icon">📖</div>
+                        <h3>Built-in Dictionary</h3>
+                        <p>Click any word for instant translation</p>
+                    </div>
+                </div>
+
+                <div class="cta-section">
+                    <h2>Ready to start?</h2>
+                    <a href="#/topic/present-simple" class="cta-button">Start with Present Simple →</a>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="progress.js"></script>
+    <script src="roadmap-loader.js"></script>
+    <script src="continue-learning.js"></script>
+    <script src="dictionary.js"></script>
+    <script src="layout.js"></script>
+    <script src="quizEngine.js"></script>
+    <script src="topic.js"></script>
+    <script src="router.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

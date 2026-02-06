@@ -1,0 +1,15 @@
+{
+  "name": "english-tense-master",
+  "version": "1.0.0",
+  "description": "Interactive English tense learning platform with auto-translation",
+  "scripts": {
+    "extract": "node scripts/extract_words.js",
+    "translate": "node scripts/translate_new_words.js",
+    "generate": "node scripts/generate_dict_js.js",
+    "build:dict": "npm run extract && npm run translate && npm run generate",
+    "dict:manual": "npm run extract && npm run generate"
+  },
+  "keywords": ["english", "learning", "tenses", "translation"],
+  "author": "",
+  "license": "MIT"
+}

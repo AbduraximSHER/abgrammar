@@ -1,0 +1,1195 @@
+{
+  "totalWords": 836,
+  "totalFlagged": 233,
+  "categories": {
+    "homonyms": 15,
+    "contextDependent": 13,
+    "phrasalVerbs": 16,
+    "shortTranslations": 1,
+    "longTranslations": 25,
+    "unusualCharacters": 107,
+    "possibleErrors": 56
+  },
+  "flaggedWords": {
+    "homonyms": [
+      {
+        "word": "bank",
+        "translation": "bank",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "can",
+        "translation": "-a olmoq",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "close",
+        "translation": "yopmoq",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "fly",
+        "translation": "uchmoq",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "left",
+        "translation": "chap",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "miss",
+        "translation": "sog'inmoq",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "park",
+        "translation": "park",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "place",
+        "translation": "joy",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "play",
+        "translation": "o'ynamoq",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "present",
+        "translation": "hozir",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "rose",
+        "translation": "ko'tarildi",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "saw",
+        "translation": "ko'rdi",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "scale",
+        "translation": "o'lchov",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "table",
+        "translation": "jadval",
+        "reason": "Word has multiple meanings in English"
+      },
+      {
+        "word": "watch",
+        "translation": "qo'l soat",
+        "reason": "Word has multiple meanings in English"
+      }
+    ],
+    "contextDependent": [
+      {
+        "word": "across",
+        "translation": "bo&#39;ylab",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "after",
+        "translation": "Keyin",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "before",
+        "translation": "Avval",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "between",
+        "translation": "orasida",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "inside",
+        "translation": "ichida",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "into",
+        "translation": "ichiga",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "near",
+        "translation": "yaqin",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "off",
+        "translation": "o'ch",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "out",
+        "translation": "tashqari",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "over",
+        "translation": "ustida",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "past",
+        "translation": "o&#39;tgan",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "through",
+        "translation": "orqali",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "up",
+        "translation": "yuqoriga",
+        "reason": "Meaning varies by context"
+      }
+    ],
+    "phrasalVerbs": [
+      {
+        "word": "break",
+        "translation": "sindirmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "carry",
+        "translation": "olib yurmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "come",
+        "translation": "kelmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "do",
+        "translation": "qilmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "get",
+        "translation": "olish",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "give",
+        "translation": "bermoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "go",
+        "translation": "bormoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "let",
+        "translation": "ruxsat bering",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "look",
+        "translation": "qaramoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "make",
+        "translation": "qilmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "put",
+        "translation": "qo&#39;yish",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "run",
+        "translation": "yugurmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "set",
+        "translation": "Oʻrnatish",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "show",
+        "translation": "ko'rsatmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "take",
+        "translation": "olmoq",
+        "reason": "Often used in phrasal verbs with different meanings"
+      },
+      {
+        "word": "work",
+        "translation": "ish",
+        "reason": "Often used in phrasal verbs with different meanings"
+      }
+    ],
+    "shortTranslations": [
+      {
+        "word": "little",
+        "translation": "oz",
+        "reason": "Translation seems too short for the word"
+      }
+    ],
+    "longTranslations": [
+      {
+        "word": "arena",
+        "translation": "ArenaGenericName",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "boy",
+        "translation": "o'g'il bola",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "boys",
+        "translation": "O'g'il bolalar",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "buy",
+        "translation": "sotib olmoq",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "drag",
+        "translation": "sudrab tortmoq",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "eaten",
+        "translation": "yeb qo&#39;yilgan",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "help",
+        "translation": "yordam bermoq",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "ii",
+        "translation": "ikkinchi",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "let",
+        "translation": "ruxsat bering",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "married",
+        "translation": "Уйланган/турмушга чиққан",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "put",
+        "translation": "qo&#39;yish",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "rained",
+        "translation": "yomg&#39;ir yog&#39;di",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "rise",
+        "translation": "ko&#39;tarilish",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "shh",
+        "translation": "jim bo&#39;ling",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "sightseeing",
+        "translation": "diqqatga sazovor joylarni tomosha qilish",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "sing",
+        "translation": "ashula aytmoq",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "sings",
+        "translation": "qo&#39;shiq aytadi",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "steal",
+        "translation": "o&#39;g&#39;irlash",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "uk",
+        "translation": "Buyuk Britaniya",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "up",
+        "translation": "yuqoriga",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "use",
+        "translation": "Foydalaning",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "vi",
+        "translation": "oltinchi",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "wake",
+        "translation": "uyg&#39;onish",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "why",
+        "translation": "Nima uchun?",
+        "reason": "Translation seems unusually long"
+      },
+      {
+        "word": "woke",
+        "translation": "uyg&#39;ongan",
+        "reason": "Translation seems unusually long"
+      }
+    ],
+    "unusualCharacters": [
+      {
+        "word": "across",
+        "translation": "bo&#39;ylab",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "afraid",
+        "translation": "qo&#39;rqib",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "announces",
+        "translation": "e&#39;lon qiladi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "announcing",
+        "translation": "e&#39;lon qilish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "asking",
+        "translation": "so&#39;rab",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "asks",
+        "translation": "so&#39;raydi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "beautiful",
+        "translation": "go&#39;zal",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "become",
+        "translation": "bo&#39;lish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "becoming",
+        "translation": "bo&#39;lish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "beginner",
+        "translation": "Boshlang'ich",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "boy",
+        "translation": "o'g'il bola",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "boys",
+        "translation": "O'g'il bolalar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "changes",
+        "translation": "o'zgarishlar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "comrade",
+        "translation": "o&#39;rtoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "continues",
+        "translation": "(Davom etadi)",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "correct",
+        "translation": "To'g'ri",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "dictionary",
+        "translation": "lug'at",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "direction",
+        "translation": "Yo'nalish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "eaten",
+        "translation": "yeb qo&#39;yilgan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "elementary",
+        "translation": "boshlang'ich",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "emphasizes",
+        "translation": "ta&#39;kidlaydi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "ends",
+        "translation": "Tugaydi:",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "four",
+        "translation": "to'rt",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "friend",
+        "translation": "do'st",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "garden",
+        "translation": "bog'",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "growing",
+        "translation": "o&#39;sayotgan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "hand",
+        "translation": "qo'l",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "hands",
+        "translation": "Qo'llar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "happening",
+        "translation": "sodir bo&#39;layotgan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "harvest",
+        "translation": "o&#39;rim-yig&#39;im",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "heard",
+        "translation": "Eshitildi:",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "information",
+        "translation": "Ma'lumot ",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "known",
+        "translation": "ma&#39;lum",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "landed",
+        "translation": "qo&#39;ndi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "learn",
+        "translation": "o'rganmoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "learned",
+        "translation": "o&#39;rgangan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "learning",
+        "translation": "o&#39;rganish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "learns",
+        "translation": "o&#39;rganadi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "lies",
+        "translation": "yolg&#39;on",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "looks",
+        "translation": "ko&#39;rinadi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "losing",
+        "translation": "yo&#39;qotish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "lost",
+        "translation": "yo'qotdi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "lot",
+        "translation": "ko&#39;p",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "many",
+        "translation": "Ko'p",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "miss",
+        "translation": "sog'inmoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "most",
+        "translation": "eng ko'p",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "much",
+        "translation": "ko&#39;p",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "no",
+        "translation": "yo'q",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "noticed",
+        "translation": "e&#39;tibor bergan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "off",
+        "translation": "o'ch",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "operating",
+        "translation": "faoliyat ko'rsatmoqda",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "past",
+        "translation": "o&#39;tgan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "play",
+        "translation": "o'ynamoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "played",
+        "translation": "o&#39;ynadi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "playing",
+        "translation": "o&#39;ynamoqda",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "plays",
+        "translation": "o'ynaydi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "promise",
+        "translation": "va&#39;da",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "promises",
+        "translation": "va&#39;dalar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "put",
+        "translation": "qo&#39;yish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "rain",
+        "translation": "yomg'ir",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "rained",
+        "translation": "yomg&#39;ir yog&#39;di",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "raining",
+        "translation": "yomg'ir yog'moqda",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "rains",
+        "translation": "yomg&#39;irlar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "read",
+        "translation": "o'qish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "reading",
+        "translation": "o'qish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "reads",
+        "translation": "o'qiydi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "rise",
+        "translation": "ko&#39;tarilish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "risen",
+        "translation": "ko'tarilgan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "rises",
+        "translation": "ko&#39;tariladi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "rose",
+        "translation": "ko'tarildi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "rude",
+        "translation": "qo&#39;pol",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "saw",
+        "translation": "ko'rdi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "scale",
+        "translation": "o'lchov",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "seaside",
+        "translation": "dengiz bo&#39;yidagi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "see",
+        "translation": "ko'rmoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "seems",
+        "translation": "ko&#39;rinadi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "seen",
+        "translation": "ko&#39;rgan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "shh",
+        "translation": "jim bo&#39;ling",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "show",
+        "translation": "ko'rsatmoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "sings",
+        "translation": "qo&#39;shiq aytadi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "sitting",
+        "translation": "o&#39;tirish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "snowing",
+        "translation": "qor yog&#39;moqda",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "songs",
+        "translation": "Qo'shiqlar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "soup",
+        "translation": "sho'rva",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "space",
+        "translation": "Bo'sh joy",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "steal",
+        "translation": "o&#39;g&#39;irlash",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "stop",
+        "translation": "to'xtatmoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "studied",
+        "translation": "o&#39;rgangan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "study",
+        "translation": "O'qish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "studying",
+        "translation": "o&#39;qish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "taught",
+        "translation": "o&#39;rgatilgan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "teach",
+        "translation": "o&#39;rgatish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "teacher",
+        "translation": "o'qituvchi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "teaching",
+        "translation": "o&#39;qitish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "thief",
+        "translation": "o&#39;g&#39;ri",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "think",
+        "translation": "o'ylamoq",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "true",
+        "translation": "to'g'ri",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "verb",
+        "translation": "fe'l",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "verbs",
+        "translation": "fe'llar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "wake",
+        "translation": "uyg&#39;onish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "waked",
+        "translation": "uyg&#39;otdi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "watch",
+        "translation": "qo'l soat",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "winning",
+        "translation": "g&#39;alaba qozonish",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "woke",
+        "translation": "uyg&#39;ongan",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "word",
+        "translation": "so'z",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "words",
+        "translation": "so'zlar",
+        "reason": "Contains unusual characters that may indicate corruption"
+      },
+      {
+        "word": "would",
+        "translation": "bo&#39;lardi",
+        "reason": "Contains unusual characters that may indicate corruption"
+      }
+    ],
+    "possibleErrors": [
+      {
+        "word": "across",
+        "translation": "bo&#39;ylab",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "afraid",
+        "translation": "qo&#39;rqib",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "announces",
+        "translation": "e&#39;lon qiladi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "announcing",
+        "translation": "e&#39;lon qilish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "asking",
+        "translation": "so&#39;rab",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "asks",
+        "translation": "so&#39;raydi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "beautiful",
+        "translation": "go&#39;zal",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "become",
+        "translation": "bo&#39;lish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "becoming",
+        "translation": "bo&#39;lish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "comrade",
+        "translation": "o&#39;rtoq",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "eaten",
+        "translation": "yeb qo&#39;yilgan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "emphasizes",
+        "translation": "ta&#39;kidlaydi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "growing",
+        "translation": "o&#39;sayotgan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "happening",
+        "translation": "sodir bo&#39;layotgan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "harvest",
+        "translation": "o&#39;rim-yig&#39;im",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "known",
+        "translation": "ma&#39;lum",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "landed",
+        "translation": "qo&#39;ndi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "learned",
+        "translation": "o&#39;rgangan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "learning",
+        "translation": "o&#39;rganish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "learns",
+        "translation": "o&#39;rganadi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "lies",
+        "translation": "yolg&#39;on",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "looks",
+        "translation": "ko&#39;rinadi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "losing",
+        "translation": "yo&#39;qotish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "lot",
+        "translation": "ko&#39;p",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "much",
+        "translation": "ko&#39;p",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "noticed",
+        "translation": "e&#39;tibor bergan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "past",
+        "translation": "o&#39;tgan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "played",
+        "translation": "o&#39;ynadi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "playing",
+        "translation": "o&#39;ynamoqda",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "promise",
+        "translation": "va&#39;da",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "promises",
+        "translation": "va&#39;dalar",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "put",
+        "translation": "qo&#39;yish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "rained",
+        "translation": "yomg&#39;ir yog&#39;di",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "rains",
+        "translation": "yomg&#39;irlar",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "rise",
+        "translation": "ko&#39;tarilish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "rises",
+        "translation": "ko&#39;tariladi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "rude",
+        "translation": "qo&#39;pol",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "seaside",
+        "translation": "dengiz bo&#39;yidagi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "seems",
+        "translation": "ko&#39;rinadi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "seen",
+        "translation": "ko&#39;rgan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "shh",
+        "translation": "jim bo&#39;ling",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "sings",
+        "translation": "qo&#39;shiq aytadi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "sitting",
+        "translation": "o&#39;tirish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "snowing",
+        "translation": "qor yog&#39;moqda",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "steal",
+        "translation": "o&#39;g&#39;irlash",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "studied",
+        "translation": "o&#39;rgangan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "studying",
+        "translation": "o&#39;qish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "taught",
+        "translation": "o&#39;rgatilgan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "teach",
+        "translation": "o&#39;rgatish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "teaching",
+        "translation": "o&#39;qitish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "thief",
+        "translation": "o&#39;g&#39;ri",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "wake",
+        "translation": "uyg&#39;onish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "waked",
+        "translation": "uyg&#39;otdi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "winning",
+        "translation": "g&#39;alaba qozonish",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "woke",
+        "translation": "uyg&#39;ongan",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      },
+      {
+        "word": "would",
+        "translation": "bo&#39;lardi",
+        "reason": "Contains numbers, URLs, or technical artifacts"
+      }
+    ]
+  },
+  "generatedAt": "2026-02-05T21:03:38.276Z"
+}

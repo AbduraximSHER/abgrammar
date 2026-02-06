@@ -1,0 +1,383 @@
+/**
+ * Progress Tracking Styles
+ * Visual styling for progress bar, status icons, and locked topics
+ */
+
+/* ===== PROGRESS SECTION ===== */
+.progress-section {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    background: rgba(255, 255, 255, 0.03);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+.progress-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.progress-label {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 500;
+}
+
+.progress-percentage {
+    font-size: 1.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Progress Bar */
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 0.75rem;
+}
+
+.progress-bar-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #FFD700, #FFA500);
+    border-radius: 4px;
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+}
+
+/* Progress Details */
+.progress-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0.5rem;
+}
+
+.streak-badge {
+    background: linear-gradient(135deg, #FF6B6B, #FF8E53);
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    color: white;
+    font-size: 0.75rem;
+}
+
+/* Progress Message */
+.progress-message {
+    font-size: 0.875rem;
+    color: rgba(255, 215, 0, 0.9);
+    text-align: center;
+    font-weight: 500;
+    padding: 0.5rem;
+    background: rgba(255, 215, 0, 0.05);
+    border-radius: 8px;
+    margin-top: 0.5rem;
+}
+
+/* ===== STATUS ICONS ===== */
+.topic-status {
+    font-size: 1.125rem;
+    min-width: 24px;
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.topic-status.completed {
+    color: #4CAF50;
+}
+
+.topic-status.in-progress {
+    color: #FFD700;
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.topic-status.locked {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.topic-status.available {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* ===== LOCKED TOPICS ===== */
+.topic-link.locked {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.topic-link.locked .topic-title {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.topic-link.locked .topic-time {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.lock-icon {
+    font-size: 1rem;
+    margin-left: auto;
+    opacity: 0.6;
+}
+
+/* ===== TOPIC SCORE DISPLAY ===== */
+.topic-score {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #4CAF50;
+    background: rgba(76, 175, 80, 0.1);
+    padding: 0.25rem 0.5rem;
+    border-radius: 12px;
+    margin-left: auto;
+}
+
+/* ===== CONTINUE LEARNING BUTTON ===== */
+.continue-learning-section {
+    background: linear-gradient(135deg, rgba(255, 215, 0, 0.1), rgba(255, 165, 0, 0.1));
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    border-radius: 16px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.continue-learning-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.continue-learning-section p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+}
+
+.continue-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 1rem 2rem;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #1a1a2e;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+}
+
+.continue-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 215, 0, 0.4);
+}
+
+.continue-btn:active {
+    transform: translateY(0);
+}
+
+.continue-topic-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 1rem;
+}
+
+/* ===== CELEBRATION CONFETTI ===== */
+.confetti-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #FFD700;
+    animation: confetti-fall 3s linear forwards;
+}
+
+@keyframes confetti-fall {
+    0% {
+        transform: translateY(-100vh) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(100vh) rotate(720deg);
+        opacity: 0;
+    }
+}
+
+.confetti:nth-child(2n) {
+    background: #FFA500;
+    animation-duration: 3.5s;
+}
+
+.confetti:nth-child(3n) {
+    background: #FF6B6B;
+    animation-duration: 2.5s;
+}
+
+.confetti:nth-child(4n) {
+    background: #4CAF50;
+    animation-duration: 3.2s;
+}
+
+.confetti:nth-child(5n) {
+    background: #2196F3;
+    animation-duration: 2.8s;
+}
+
+/* ===== CELEBRATION MODAL ===== */
+.celebration-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: rgba(26, 26, 46, 0.95);
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 215, 0, 0.3);
+    border-radius: 20px;
+    padding: 3rem;
+    text-align: center;
+    z-index: 10000;
+    max-width: 500px;
+    width: 90%;
+    animation: celebration-appear 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) forwards;
+}
+
+@keyframes celebration-appear {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+.celebration-modal h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.celebration-modal p {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2rem;
+}
+
+.celebration-score {
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 1rem 0;
+}
+
+.celebration-actions {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.celebration-btn {
+    padding: 0.875rem 1.75rem;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.celebration-btn.primary {
+    background: linear-gradient(135deg, #FFD700, #FFA500);
+    color: #1a1a2e;
+}
+
+.celebration-btn.secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.celebration-btn:hover {
+    transform: translateY(-2px);
+}
+
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .progress-section {
+        padding: 1rem;
+    }
+
+    .progress-percentage {
+        font-size: 1.25rem;
+    }
+
+    .continue-learning-section {
+        padding: 1.5rem;
+    }
+
+    .continue-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .celebration-modal {
+        padding: 2rem;
+    }
+
+    .celebration-score {
+        font-size: 2.5rem;
+    }
+
+    .celebration-actions {
+        flex-direction: column;
+    }
+
+    .celebration-btn {
+        width: 100%;
+    }
+}

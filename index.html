@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate English Tense Master</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVIGATION MENU -->
+    <nav class="main-nav" id="main-nav">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="#/" class="brand-link">English Tense Master</a>
+            </div>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#/" class="nav-link">🏠 Home</a>
+                </li>
+
+                <li class="nav-item has-dropdown">
+                    <a href="#/roadmap" class="nav-link">🗺️ Grammar Roadmap</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/roadmap/basics" class="dropdown-link">Level 1: Basics</a></li>
+                        <li><a href="#/roadmap/core" class="dropdown-link">Level 2: Core Grammar</a></li>
+                        <li><a href="#/roadmap/advanced" class="dropdown-link">Level 3: Advanced</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item has-dropdown">
+                    <a href="#/topics" class="nav-link">📚 Topics</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/topics/tenses" class="dropdown-link">All Tenses</a></li>
+                        <li><a href="#/topics/conditionals" class="dropdown-link">Conditionals</a></li>
+                        <li><a href="#/topics/passive" class="dropdown-link">Passive Voice</a></li>
+                        <li><a href="#/topics/modals" class="dropdown-link">Modal Verbs</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item has-dropdown">
+                    <a href="#/practice" class="nav-link">✍️ Practice</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#/practice/topic-tests" class="dropdown-link">Topic Tests</a></li>
+                        <li><a href="#/practice/mixed-tests" class="dropdown-link">Mixed Tests</a></li>
+                        <li><a href="#/practice/timed-tests" class="dropdown-link">Timed Tests</a></li>
+                    </ul>
+                </li>
+
+                <li class="nav-item nav-toggle-item">
+                    <div class="nav-dict-toggle">
+                        <span class="dict-label">📖 Dictionary</span>
+                        <label class="switch switch-sm">
+                            <input type="checkbox" id="nav-dict-toggle" onchange="toggleDict()">
+                            <span class="slider-round"></span>
+                        </label>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- HOME VIEW -->
+    <div id="home-view" class="route-section active">
+
+        <!-- HERO SECTION: THE 4D TIMELINE -->
+        <header class="hero-section" id="hero">
+            <div class="container">
+                <h1 class="brand-title">English Tense Master</h1>
+
+                <!-- PROGRESSION UI -->
+                <div class="progression-header glass-card">
+                    <div class="stats-group">
+                        <span id="level-count" class="stat-badge">Level 1</span>
+                        <span id="streak-count" class="stat-badge">🔥 1 day streak</span>
+                        <button class="stat-badge badge-btn" onclick="progression.openBadgesModal()">🏅 Badges</button>
+                    </div>
+                    <div class="xp-container">
+                        <div class="xp-bar">
+                            <div id="xp-bar-fill" class="xp-fill" style="width: 0%"></div>
+                        </div>
+                        <span class="xp-label">XP</span>
+                    </div>
+                </div>
+
+                <div class="xray-toggle-container">
+                    <span class="xray-label">X-Ray Mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="xray-toggle" onchange="toggleXRay()">
+                        <span class="slider-round"></span>
+                    </label>
+                </div>
+
+                <div class="xray-toggle-container">
+                    <span class="xray-label">Dictionary Mode</span>
+                    <label class="switch">
+                        <input type="checkbox" id="dict-toggle" onchange="toggleDict()">
+                        <span class="slider-round"></span>
+                    </label>
+                </div>
+
+                <p class="subtitle">Drag the slider to travel through time.</p>
+
+                <div class="example-selector">
+                    <label for="verb-select">Choose Example:</label>
+                    <select id="verb-select" onchange="changeVerb()">
+                        <option value="eat">Eat (Apple)</option>
+                        <option value="play">Play (Football)</option>
+                        <option value="study">Study (English)</option>
+                        <option value="go">Go (School)</option>
+                    </select>
+                </div>
+
+                <div class="timeline-display glass-card">
+                    <h2 id="dynamic-sentence">I <span class="highlight">ate</span> the apple.</h2>
+                    <div class="time-label" id="time-label">PAST</div>
+                </div>
+
+                <div class="slider-container">
+                    <div class="range-labels">
+                        <span>PAST</span>
+                        <span>PRESENT</span>
+                        <span>FUTURE</span>
+                    </div>
+                    <input type="range" id="time-slider" min="0" max="100" value="15" class="time-slider">
+
+                    <!-- ASPECT SELECTOR -->
+                    <div class="aspect-controls">
+                        <span class="aspect-label">Aspect:</span>
+                        <button class="aspect-btn active" onclick="changeAspect('simple')">Simple</button>
+                        <button class="aspect-btn" onclick="changeAspect('continuous')">Continuous</button>
+                        <button class="aspect-btn" onclick="changeAspect('perfect')">Perfect</button>
+                        <button class="aspect-btn" onclick="changeAspect('perfect-continuous')">Perfect
+                            Continuous</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- CONTENT CONTAINER -->
+        <main class="content-container">
+            <!-- ASPECT MATRIX -->
+            <section class="module-section" id="aspect-matrix">
+                <h2 class="section-title">1. The Aspect Matrix</h2>
+                <p class="section-desc">The "Periodic Table" of English Tenses. See how time and aspect connect.</p>
+
+                <div class="matrix-grid">
+                    <!-- Headers -->
+                    <div class="matrix-header"></div>
+                    <div class="matrix-header">PAST</div>
+                    <div class="matrix-header">PRESENT</div>
+                    <div class="matrix-header">FUTURE</div>
+
+                    <!-- Row: Simple -->
+                    <div class="matrix-side-header">SIMPLE</div>
+                    <div class="matrix-card" data-tense="past-simple" data-lesson-id="matrix-past-simple"
+                        onclick="onMatrixCardClick('past-simple')">
+                        <div class="card-title">Ate <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">S + V2</div>
+                    </div>
+                    <div class="matrix-card" data-tense="present-simple" data-lesson-id="matrix-present-simple"
+                        onclick="onMatrixCardClick('present-simple')">
+                        <div class="card-title">Eat <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">S + V1(s)</div>
+                    </div>
+                    <div class="matrix-card" data-tense="future-simple" data-lesson-id="matrix-future-simple"
+                        onclick="onMatrixCardClick('future-simple')">
+                        <div class="card-title">Will Eat <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">S + will + V1</div>
+                    </div>
+
+                    <!-- Row: Continuous -->
+                    <div class="matrix-side-header">CONTINUOUS</div>
+                    <div class="matrix-card" data-tense="past-continuous" data-lesson-id="matrix-past-continuous"
+                        onclick="onMatrixCardClick('past-continuous')">
+                        <div class="card-title">Was Eating <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">was/were + V-ing</div>
+                    </div>
+                    <div class="matrix-card" data-tense="present-continuous" data-lesson-id="matrix-present-continuous"
+                        onclick="onMatrixCardClick('present-continuous')">
+                        <div class="card-title">Am Eating <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">am/is/are + V-ing</div>
+                    </div>
+                    <div class="matrix-card" data-tense="future-continuous" data-lesson-id="matrix-future-continuous"
+                        onclick="onMatrixCardClick('future-continuous')">
+                        <div class="card-title">Will be Eating <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">will be + V-ing</div>
+                    </div>
+
+                    <!-- Row: Perfect -->
+                    <div class="matrix-side-header highlight-row" onmouseenter="showBridge(true)"
+                        onmouseleave="showBridge(false)">PERFECT</div>
+                    <div class="matrix-card" data-tense="past-perfect" data-lesson-id="matrix-past-perfect"
+                        onclick="onMatrixCardClick('past-perfect')">
+                        <div class="card-title">Had Eaten <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">had + V3</div>
+                    </div>
+                    <div class="matrix-card" data-tense="present-perfect" data-lesson-id="matrix-present-perfect"
+                        onclick="onMatrixCardClick('present-perfect')">
+                        <div class="card-title">Have Eaten <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">has/have + V3</div>
+                        <div class="bridge-visual"></div>
+                    </div>
+                    <div class="matrix-card" data-tense="future-perfect" data-lesson-id="matrix-future-perfect"
+                        onclick="onMatrixCardClick('future-perfect')">
+                        <div class="card-title">Will have Eaten <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">will have + V3</div>
+                    </div>
+
+                    <!-- Row: Perfect Continuous -->
+                    <div class="matrix-side-header">PERF. CONT.</div>
+                    <div class="matrix-card" data-tense="past-perfect-continuous"
+                        data-lesson-id="matrix-past-perfect-continuous"
+                        onclick="onMatrixCardClick('past-perfect-continuous')">
+                        <div class="card-title">Had been Eating <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">had been + V-ing</div>
+                    </div>
+                    <div class="matrix-card" data-tense="present-perfect-continuous"
+                        data-lesson-id="matrix-present-perfect-continuous"
+                        onclick="onMatrixCardClick('present-perfect-continuous')">
+                        <div class="card-title">Have been Eating <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">have been + V-ing</div>
+                    </div>
+                    <div class="matrix-card" data-tense="future-perfect-continuous"
+                        data-lesson-id="matrix-future-perfect-continuous"
+                        onclick="onMatrixCardClick('future-perfect-continuous')">
+                        <div class="card-title">Will have been Eating <span class="checkmark hidden">✓</span></div>
+                        <div class="card-formula">will have been + V-ing</div>
+                    </div>
+                </div>
+
+                <div id="matrix-detail" class="detail-box glass-card hidden">
+                    <h3 id="detail-title">Tense Name</h3>
+                    <p id="detail-desc">Logic and usage explanation goes here.</p>
+
+                    <div class="detail-actions">
+                        <button id="start-quiz-btn" class="quiz-trigger-btn"
+                            onclick="quiz.startQuiz(currentTenseForQuiz)">Take Quiz</button>
+                        <button class="close-btn" onclick="closeMatrixDetail()">Close</button>
+                    </div>
+
+                    <!-- QUIZ AREA -->
+                    <div id="quiz-area" class="quiz-container hidden">
+                        <!-- JS will inject quiz card here -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- SITUATION SIMULATOR -->
+            <section class="module-section">
+                <h2 class="section-title">2. Context-First Learning</h2>
+                <p class="section-desc">Don't guess the formula. Understand the situation.</p>
+
+                <div class="scenario-container">
+                    <div class="simulator-container">
+                        <div id="scenario-area">
+                            <!-- JS will inject scenario content here -->
+                        </div>
+                    </div>
+            </section>
+
+            <!-- CONTRASTIVE ANALYSIS -->
+            <section class="module-section" id="contrastive-arena">
+                <h2 class="section-title">3. Contrastive Mode (Battle Arena)</h2>
+                <p class="section-desc">Face off between confusing tenses. See the hidden logic in action.</p>
+
+                <!-- BATTLE SELECTION HUB -->
+                <div class="battle-selection-hub glass-card">
+                    <h3>Choose Your Battle</h3>
+                    <div class="battle-grid" id="battle-grid">
+                        <div class="battle-card active" onclick="selectBattle('past_vs_perfect', this)">
+                            <span class="battle-icon">⚔️</span>
+                            <div class="battle-names">Past Simple vs Present Perfect</div>
+                        </div>
+                        <div class="battle-card" onclick="selectBattle('simple_vs_continuous', this)">
+                            <span class="battle-icon">⚡</span>
+                            <div class="battle-names">Present Simple vs Continuous</div>
+                        </div>
+                        <div class="battle-card" onclick="selectBattle('past_vs_continuous', this)">
+                            <span class="battle-icon">⏳</span>
+                            <div class="battle-names">Past Simple vs Continuous</div>
+                        </div>
+                        <div class="battle-card" onclick="selectBattle('perfect_vs_continuous', this)">
+                            <span class="battle-icon">🔄</span>
+                            <div class="battle-names">Perfect vs Perfect Continuous</div>
+                        </div>
+                        <div class="battle-card" onclick="selectBattle('past_simple_vs_perfect', this)">
+                            <span class="battle-icon">🚂</span>
+                            <div class="battle-names">Past Simple vs Past Perfect</div>
+                        </div>
+                        <div class="battle-card" onclick="selectBattle('present_perfect_vs_past', this)">
+                            <span class="battle-icon">🏞️</span>
+                            <div class="battle-names">Pres. Perfect vs Past Perfect</div>
+                        </div>
+                        <div class="battle-card" onclick="selectBattle('will_vs_going_to', this)">
+                            <span class="battle-icon">🔮</span>
+                            <div class="battle-names">Will vs Going To</div>
+                        </div>
+                        <div class="battle-card" onclick="selectBattle('will_vs_present_cont', this)">
+                            <span class="battle-icon">📅</span>
+                            <div class="battle-names">Will vs Present Continuous</div>
+                        </div>
+                    </div>
+                    <!-- Hidden select for JS compatibility with existing updateContrastArena logic if needed, 
+                     but I'll update JS to handle it directly. -->
+                    <select id="contrast-pair-selector" style="display: none;">
+                        <option value="past_vs_perfect">Past Simple vs Present Perfect</option>
+                        <option value="simple_vs_continuous">Present Simple vs Present Continuous</option>
+                        <option value="past_vs_continuous">Past Simple vs Past Continuous</option>
+                        <option value="perfect_vs_continuous">Present Perfect vs Perfect Continuous</option>
+                        <option value="past_simple_vs_perfect">Past Simple vs Past Perfect</option>
+                        <option value="present_perfect_vs_past">Present Perfect vs Past Perfect</option>
+                        <option value="perfect_cont_vs_past_cont">Present P. Cont vs Past P. Cont</option>
+                        <option value="will_vs_going_to">Future: Will vs Going To</option>
+                        <option value="will_vs_present_cont">Future: Will vs Present Continuous</option>
+                    </select>
+                </div>
+
+                <div class="battle-arena">
+                    <!-- SIDE A (Red) -->
+                    <div class="combatant combatant-left" id="combatant-a">
+                        <div class="side-indicator">SIDE A</div>
+                        <h3 id="label-a">Past Simple</h3>
+                        <div class="combat-content">
+                            <h4 id="sentence-a">I <span class="highlight-red">lost</span> my keys.</h4>
+                            <div class="combat-info-section">
+                                <div class="info-label">CONTEXT</div>
+                                <div class="combat-nuance" id="nuance-a">...</div>
+                            </div>
+                            <div class="combat-info-section">
+                                <div class="info-label">STORY</div>
+                                <div class="combat-story" id="story-a">...</div>
+                            </div>
+                            <div class="combat-info-section">
+                                <div class="info-label">LOGIC / IMPLICATION</div>
+                                <div class="combat-implication" id="implication-a">...</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- VS BADGE -->
+                    <div class="vs-container">
+                        <div class="vs-badge">VS</div>
+                        <div class="vs-glow"></div>
+                    </div>
+
+                    <!-- SIDE B (Blue) -->
+                    <div class="combatant combatant-right" id="combatant-b">
+                        <div class="side-indicator">SIDE B</div>
+                        <h3 id="label-b">Present Perfect</h3>
+                        <div class="combat-content">
+                            <h4 id="sentence-b">I <span class="highlight-blue">have lost</span> my keys.</h4>
+                            <div class="combat-info-section">
+                                <div class="info-label">CONTEXT</div>
+                                <div class="combat-nuance" id="nuance-b">...</div>
+                            </div>
+                            <div class="combat-info-section">
+                                <div class="info-label">STORY</div>
+                                <div class="combat-story" id="story-b">...</div>
+                            </div>
+                            <div class="combat-info-section">
+                                <div class="info-label">LOGIC / IMPLICATION</div>
+                                <div class="combat-implication" id="implication-b">...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <!-- TENSE IN THE WILD (MEDIA) -->
+            <section class="module-section">
+                <h2 class="section-title">5. Tense in the Wild</h2>
+                <p class="section-desc">Real-world examples from hit songs and global news.</p>
+
+                <div class="wild-gallery-controls">
+                    <button class="filter-btn active" onclick="wild.filter('all')">All</button>
+                    <button class="filter-btn" onclick="wild.filter('Song')">Songs</button>
+                    <button class="filter-btn" onclick="wild.filter('News')">News</button>
+                </div>
+
+                <div id="wild-grid" class="wild-grid">
+                    <!-- JS will inject media cards here -->
+                </div>
+            </section>
+
+
+            <!-- MASTERY ASSESSMENTS (MASSIVE EXPANSION) -->
+            <section class="module-section">
+                <h2 class="section-title">6. Mastery Assessments & Reading</h2>
+                <p class="section-desc">Scale your expertise with 500+ mixed challenges and contextual reading tests.
+                </p>
+
+                <div class="mastery-dashboard">
+                    <div class="mastery-card">
+                        <div class="mastery-icon">🎲</div>
+                        <h3>Random 30 Challenge</h3>
+                        <p>Pulls 30 unique questions from our 500+ item bank. The ultimate endurance test.</p>
+                        <button class="quiz-trigger-btn" onclick="mixedQuiz.startRandom(30)">Launch Random Test</button>
+                    </div>
+                    <div class="mastery-card">
+                        <div class="mastery-icon">📖</div>
+                        <h3>Reading Mastery</h3>
+                        <p>Deduce tenses from immersive stories. Context is everything.</p>
+                        <button class="quiz-trigger-btn" onclick="readingMastery.open()">Open Library</button>
+                    </div>
+                    <div class="mastery-card">
+                        <div class="mastery-icon">🥇</div>
+                        <h3>Advanced Mixed Sets</h3>
+                        <p>Hand-picked sets of 10-20 high-logic questions.</p>
+                        <div class="mastery-sub-btn-group">
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('test-advanced-1')">Mixed
+                                I</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('present-tenses-1')">Present I
+                                (30q)</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('present-tenses-2')">Present II
+                                (30q)</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('present-tenses-3')">Present III
+                                (44q)</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('future-tenses-5')">Future V
+                                (23q)</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('past-tenses-6')">Past VI
+                                (57q)</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('mixed-7')">Mixed VII
+                                (30q)</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('mixed-8')">Mixed VIII
+                                (30q)</button>
+                            <button class="quiz-trigger-btn" onclick="mixedQuiz.start('mixed-9')">Mixed IX
+                                (57q)</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MIXED QUIZ AREA -->
+                <div id="mixed-quiz-area" class="quiz-container hidden" style="margin-top: 2rem;">
+                    <!-- JS will inject mixed quiz here -->
+                </div>
+
+                <!-- READING MASTERY AREA -->
+                <div id="reading-area" class="reading-mastery-container hidden" style="margin-top: 2rem;">
+                    <!-- JS will inject reading passage + questions here -->
+                </div>
+            </section>
+
+
+            <!-- GLOBAL NUANCE (Regional Variations) -->
+            <section class="module-section">
+                <h2 class="section-title">7. Global Nuance</h2>
+                <p class="section-desc">Regional differences: How English shifts across the globe.</p>
+
+                <div class="nuance-world-container glass-card">
+                    <div class="region-picker">
+                        <button class="region-btn active" onclick="nuance.selectRegion('US')">🇺🇸 US</button>
+                        <button class="region-btn" onclick="nuance.selectRegion('UK')">🇬🇧 UK</button>
+                        <button class="region-btn" onclick="nuance.selectRegion('AUS')">🇦🇺 AUS</button>
+                    </div>
+
+                    <div id="nuance-display-area" class="nuance-display-area">
+                        <!-- JS will inject nuance scenarios here -->
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- MODALS & NOTIFICATIONS -->
+        <div id="badges-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Your Achievements</h2>
+                    <button class="close-modal" onclick="progression.closeBadgesModal()">&times;</button>
+                </div>
+                <div id="badges-grid" class="badges-grid">
+                    <!-- JS will inject badges here -->
+                </div>
+            </div>
+        </div>
+
+        <div id="toast-container" class="toast-container"></div>
+
+    </div>
+    <!-- END HOME VIEW -->
+
+    <!-- ========== GRAMMAR ROADMAP VIEWS ========== -->
+
+    <!-- GRAMMAR ROADMAP HUB -->
+    <div id="roadmap-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem; min-height: 80vh;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; text-align: center; margin-bottom: 1rem; color: var(--pulsar-gold);">
+                🗺️ Grammar Roadmap</h1>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; opacity: 0.8;">Your structured path to
+                mastering English grammar</p>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/roadmap/basics')">
+                    <div
+                        style="background: var(--pulsar-gold); color: var(--cosmic-bg); padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; margin-bottom: 1rem; font-weight: 700;">
+                        Level 1</div>
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Basics</h2>
+                    <p style="margin-bottom: 1.5rem; opacity: 0.8;">Foundation tenses and simple structures</p>
+                    <ul style="text-align: left; list-style: none; padding: 0; margin-bottom: 1.5rem;">
+                        <li style="padding: 0.5rem 0;">✓ Present Simple</li>
+                        <li style="padding: 0.5rem 0;">✓ Past Simple</li>
+                        <li style="padding: 0.5rem 0;">✓ Future Simple</li>
+                        <li style="padding: 0.5rem 0;">✓ Present Continuous</li>
+                    </ul>
+                    <button
+                        style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 0.75rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Start
+                        Learning →</button>
+                </div>
+
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/roadmap/core')">
+                    <div
+                        style="background: var(--pulsar-gold); color: var(--cosmic-bg); padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; margin-bottom: 1rem; font-weight: 700;">
+                        Level 2</div>
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Core Grammar</h2>
+                    <p style="margin-bottom: 1.5rem; opacity: 0.8;">Essential grammar for everyday communication</p>
+                    <ul style="text-align: left; list-style: none; padding: 0; margin-bottom: 1.5rem;">
+                        <li style="padding: 0.5rem 0;">✓ Present Perfect</li>
+                        <li style="padding: 0.5rem 0;">✓ Past Continuous</li>
+                        <li style="padding: 0.5rem 0;">✓ Conditionals (1st, 2nd)</li>
+                        <li style="padding: 0.5rem 0;">✓ Modal Verbs</li>
+                    </ul>
+                    <button
+                        style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 0.75rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Continue
+                        Learning →</button>
+                </div>
+
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/roadmap/advanced')">
+                    <div
+                        style="background: var(--pulsar-gold); color: var(--cosmic-bg); padding: 0.5rem 1rem; border-radius: 20px; display: inline-block; margin-bottom: 1rem; font-weight: 700;">
+                        Level 3</div>
+                    <h2 style="font-size: 2rem; margin-bottom: 1rem;">Advanced</h2>
+                    <p style="margin-bottom: 1.5rem; opacity: 0.8;">Complex structures and nuanced usage</p>
+                    <ul style="text-align: left; list-style: none; padding: 0; margin-bottom: 1.5rem;">
+                        <li style="padding: 0.5rem 0;">✓ Perfect Continuous Tenses</li>
+                        <li style="padding: 0.5rem 0;">✓ Passive Voice</li>
+                        <li style="padding: 0.5rem 0;">✓ 3rd Conditional</li>
+                        <li style="padding: 0.5rem 0;">✓ Advanced Modals</li>
+                    </ul>
+                    <button
+                        style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 0.75rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; transition: all 0.3s ease;">Master
+                        It →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROADMAP LEVEL 1: BASICS -->
+    <div id="roadmap-basics-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                Level 1: Basics</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 3rem;">Master the foundation of English grammar</p>
+
+            <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+                <h2>📚 What You'll Learn</h2>
+                <ul style="font-size: 1.1rem; line-height: 2;">
+                    <li><strong>Present Simple</strong> - Daily routines and facts</li>
+                    <li><strong>Past Simple</strong> - Completed actions in the past</li>
+                    <li><strong>Future Simple</strong> - Plans and predictions</li>
+                    <li><strong>Present Continuous</strong> - Actions happening now</li>
+                </ul>
+            </div>
+
+            <button onclick="navigateTo('/topics/tenses')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; font-size: 1.1rem; margin-right: 1rem;">Go
+                to Tense Overview →</button>
+            <button onclick="navigateTo('/roadmap')"
+                style="background: rgba(255,255,255,0.1); color: var(--supernova-white); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; font-size: 1.1rem;">←
+                Back to Roadmap</button>
+        </div>
+    </div>
+
+    <!-- ROADMAP LEVEL 2: CORE -->
+    <div id="roadmap-core-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                Level 2: Core Grammar</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 3rem;">Build essential communication skills</p>
+
+            <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+                <h2>📚 What You'll Learn</h2>
+                <ul style="font-size: 1.1rem; line-height: 2;">
+                    <li><strong>Present Perfect</strong> - Past actions with present relevance</li>
+                    <li><strong>Past Continuous</strong> - Ongoing past actions</li>
+                    <li><strong>Conditionals</strong> - If-clauses and hypothetical situations</li>
+                    <li><strong>Modal Verbs</strong> - Can, should, must, might</li>
+                </ul>
+            </div>
+
+            <button onclick="navigateTo('/topics/conditionals')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; font-size: 1.1rem; margin-right: 1rem;">Learn
+                Conditionals →</button>
+            <button onclick="navigateTo('/roadmap')"
+                style="background: rgba(255,255,255,0.1); color: var(--supernova-white); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; font-size: 1.1rem;">←
+                Back to Roadmap</button>
+        </div>
+    </div>
+
+    <!-- ROADMAP LEVEL 3: ADVANCED -->
+    <div id="roadmap-advanced-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                Level 3: Advanced</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 3rem;">Master complex grammar structures</p>
+
+            <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+                <h2>📚 What You'll Learn</h2>
+                <ul style="font-size: 1.1rem; line-height: 2;">
+                    <li><strong>Perfect Continuous</strong> - Duration with completion</li>
+                    <li><strong>Passive Voice</strong> - Focus on action, not actor</li>
+                    <li><strong>3rd Conditional</strong> - Unreal past situations</li>
+                    <li><strong>Advanced Modals</strong> - Nuanced meanings</li>
+                </ul>
+            </div>
+
+            <button onclick="navigateTo('/topics/passive')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; font-size: 1.1rem; margin-right: 1rem;">Learn
+                Passive Voice →</button>
+            <button onclick="navigateTo('/roadmap')"
+                style="background: rgba(255,255,255,0.1); color: var(--supernova-white); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; font-size: 1.1rem;">←
+                Back to Roadmap</button>
+        </div>
+    </div>
+
+    <!-- ========== TOPICS VIEWS ========== -->
+
+    <!-- TOPICS HUB -->
+    <div id="topics-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; text-align: center; margin-bottom: 1rem; color: var(--pulsar-gold);">
+                📚 Topics</h1>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; opacity: 0.8;">Explore grammar topics
+                in depth</p>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/topics/tenses')">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">⏰</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">All Tenses</h3>
+                    <p style="opacity: 0.8;">Complete overview of all 12 English tenses with the Aspect Matrix</p>
+                </div>
+
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/topics/conditionals')">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🔀</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Conditionals</h3>
+                    <p style="opacity: 0.8;">Master if-clauses and hypothetical situations</p>
+                </div>
+
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/topics/passive')">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🔄</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Passive Voice</h3>
+                    <p style="opacity: 0.8;">Learn when and how to use passive constructions</p>
+                </div>
+
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/topics/modals')">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">💬</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Modal Verbs</h3>
+                    <p style="opacity: 0.8;">Can, should, must, might - express possibility and obligation</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TENSES VIEW -->
+    <div id="tenses-view" class="route-section">
+        <div class="container" style="padding: 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                ⏰ All Tenses</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">The Aspect Matrix shows all 12 English tenses. Navigate
+                to Home to see the interactive timeline and full Aspect Matrix.</p>
+            <button onclick="navigateTo('/')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; margin-right: 1rem;">←
+                Go to Home (Full Matrix)</button>
+            <button onclick="navigateTo('/topics')"
+                style="background: rgba(255,255,255,0.1); color: var(--supernova-white); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer;">←
+                Back to Topics</button>
+        </div>
+    </div>
+
+    <!-- CONDITIONALS VIEW -->
+    <div id="conditionals-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                🔀 Conditionals</h1>
+            <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+                <h2>Coming Soon!</h2>
+                <p style="font-size: 1.1rem;">Comprehensive conditionals content will be added here, including:</p>
+                <ul style="font-size: 1.1rem; line-height: 2; margin-top: 1rem;">
+                    <li>Zero Conditional - General truths</li>
+                    <li>First Conditional - Real future possibilities</li>
+                    <li>Second Conditional - Unreal present situations</li>
+                    <li>Third Conditional - Unreal past situations</li>
+                </ul>
+            </div>
+            <button onclick="navigateTo('/topics')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer;">←
+                Back to Topics</button>
+        </div>
+    </div>
+
+    <!-- PASSIVE VOICE VIEW -->
+    <div id="passive-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                🔄 Passive Voice</h1>
+            <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+                <h2>Coming Soon!</h2>
+                <p style="font-size: 1.1rem;">Comprehensive passive voice content will be added here, including:</p>
+                <ul style="font-size: 1.1rem; line-height: 2; margin-top: 1rem;">
+                    <li>When to use passive voice</li>
+                    <li>Passive in different tenses</li>
+                    <li>Active vs Passive comparison</li>
+                    <li>Common mistakes to avoid</li>
+                </ul>
+            </div>
+            <button onclick="navigateTo('/topics')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer;">←
+                Back to Topics</button>
+        </div>
+    </div>
+
+    <!-- MODALS VIEW -->
+    <div id="modals-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                💬 Modal Verbs</h1>
+            <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+                <h2>Coming Soon!</h2>
+                <p style="font-size: 1.1rem;">Comprehensive modal verbs content will be added here, including:</p>
+                <ul style="font-size: 1.1rem; line-height: 2; margin-top: 1rem;">
+                    <li>Can / Could - Ability and permission</li>
+                    <li>Should / Ought to - Advice and obligation</li>
+                    <li>Must / Have to - Necessity</li>
+                    <li>May / Might - Possibility</li>
+                </ul>
+            </div>
+            <button onclick="navigateTo('/topics')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer;">←
+                Back to Topics</button>
+        </div>
+    </div>
+
+    <!-- ========== PRACTICE VIEWS ========== -->
+
+    <!-- PRACTICE HUB -->
+    <div id="practice-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; text-align: center; margin-bottom: 1rem; color: var(--pulsar-gold);">
+                ✍️ Practice</h1>
+            <p style="text-align: center; font-size: 1.2rem; margin-bottom: 3rem; opacity: 0.8;">Test your knowledge and
+                track your progress</p>
+
+            <div
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; max-width: 1200px; margin: 0 auto;">
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/practice/topic-tests')">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">📝</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Topic Tests</h3>
+                    <p style="margin-bottom: 1rem; opacity: 0.8;">Focused quizzes on specific grammar topics</p>
+                    <div
+                        style="background: rgba(250, 204, 21, 0.2); padding: 0.5rem; border-radius: 8px; font-weight: 600;">
+                        9 Tests Available</div>
+                </div>
+
+                <div class="glass-card"
+                    style="padding: 2rem; cursor: pointer; text-align: center; transition: transform 0.3s ease;"
+                    onclick="navigateTo('/practice/mixed-tests')">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Mixed Tests</h3>
+                    <p style="margin-bottom: 1rem; opacity: 0.8;">Challenge yourself with mixed grammar questions</p>
+                    <div
+                        style="background: rgba(250, 204, 21, 0.2); padding: 0.5rem; border-radius: 8px; font-weight: 600;">
+                        117 Questions</div>
+                </div>
+
+                <div class="glass-card" style="padding: 2rem; text-align: center; opacity: 0.6;">
+                    <div style="font-size: 3rem; margin-bottom: 1rem;">⏱️</div>
+                    <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Timed Tests</h3>
+                    <p style="margin-bottom: 1rem; opacity: 0.8;">Race against the clock to test your speed</p>
+                    <div
+                        style="background: rgba(255, 255, 255, 0.1); padding: 0.5rem; border-radius: 8px; font-weight: 600;">
+                        Coming Soon</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOPIC TESTS VIEW -->
+    <div id="topic-tests-view" class="route-section">
+        <div class="container" style="padding: 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                📝 Topic Tests</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">All topic-specific quizzes are available on the Home
+                page. Navigate there to access the Mastery Assessments section.</p>
+            <button onclick="navigateTo('/')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; margin-right: 1rem;">←
+                Go to Home (All Tests)</button>
+            <button onclick="navigateTo('/practice')"
+                style="background: rgba(255,255,255,0.1); color: var(--supernova-white); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer;">←
+                Back to Practice</button>
+        </div>
+    </div>
+
+    <!-- MIXED TESTS VIEW -->
+    <div id="mixed-tests-view" class="route-section">
+        <div class="container" style="padding: 2rem;">
+            <h1
+                style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                🎯 Mixed Tests</h1>
+            <p style="font-size: 1.2rem; margin-bottom: 2rem;">Mixed tests with 117 questions are available on the Home
+                page. Navigate there to access Test VII.</p>
+            <button onclick="navigateTo('/')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer; margin-right: 1rem;">←
+                Go to Home (Mixed Test)</button>
+            <button onclick="navigateTo('/practice')"
+                style="background: rgba(255,255,255,0.1); color: var(--supernova-white); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer;">←
+                Back to Practice</button>
+        </div>
+    </div>
+    <!-- TIMED TESTS VIEW -->
+    <div id="timed-tests-view" class="route-section">
+        <div class="container" style="padding: 4rem 2rem;">
+            <h1 style="font-family: var(--font-display); font-size: 3rem; margin-bottom: 2rem; color: var(--pulsar-gold);">
+                ⏱️ Timed Tests
+            </h1>
+
+            <div class="glass-card" style="padding: 2rem; margin-bottom: 2rem;">
+                <h2>Coming Soon!</h2>
+                <p style="font-size: 1.1rem;">
+                    Timed test feature will be added in a future update. This will include:
+                </p>
+                <ul style="font-size: 1.1rem; line-height: 2; margin-top: 1rem;">
+                    <li>Countdown timer for each question</li>
+                    <li>Speed tracking and analytics</li>
+                    <li>Leaderboard for fastest completions</li>
+                    <li>Time-based achievements</li>
+                </ul>
+            </div>
+
+            <button onclick="navigateTo('/practice')"
+                style="background: var(--pulsar-gold); color: var(--cosmic-bg); border: none; padding: 1rem 2rem; border-radius: 12px; font-weight: 600; cursor: pointer;">
+                ← Back to Practice
+            </button>
+        </div>
+    </div>
+
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- Data / Content -->
+    <script src="quizzes.js"></script>
+    <script src="scenarios.js"></script>
+    <script src="wild_data.js"></script>
+    <script src="nuance_data.js"></script>
+    <script src="mastery_data.js"></script>
+    <script src="mixed_quizzes.js"></script>
+
+    <!-- Dictionary (global) -->
+    <script src="dictionary.js"></script>
+
+    <!-- App core -->
+    <script src="progress.js"></script>
+    <script src="router.js"></script>
+    <script src="nav.js"></script>
+
+    <!-- Index-only logic (REPLACES script.js) -->
+    <script src="index.js"></script>
+
+</body>
+</html>

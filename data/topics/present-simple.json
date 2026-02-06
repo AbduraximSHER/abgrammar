@@ -1,0 +1,346 @@
+{
+    "id": "present-simple",
+    "title": "Present Simple",
+    "level": "basics",
+    "order": 1,
+    "summary": "Talk about habits, facts, and things that happen regularly",
+    "estimated_time": "20 min",
+    "when_to_use": [
+        {
+            "title": "Daily Habits & Routines",
+            "explanation": "Things you do regularly, every day or week",
+            "examples": [
+                "I wake up at 7 AM.",
+                "She drinks coffee every morning.",
+                "We go to the gym on Mondays."
+            ]
+        },
+        {
+            "title": "Facts & General Truths",
+            "explanation": "Things that are always true",
+            "examples": [
+                "The sun rises in the east.",
+                "Water boils at 100°C.",
+                "Cats like milk."
+            ]
+        },
+        {
+            "title": "Permanent Situations",
+            "explanation": "Things that don't change often",
+            "examples": [
+                "I live in Tashkent.",
+                "He works as a teacher.",
+                "They speak three languages."
+            ]
+        }
+    ],
+    "forms": {
+        "affirmative": {
+            "title": "✅ Affirmative (Positive)",
+            "rule": "Use the base form of the verb. Add 's' or 'es' for he/she/it.",
+            "formula": "Subject + Verb (+ s/es for he/she/it)",
+            "visual": "I/You/We/They + WORK | He/She/It + WORK<strong>S</strong>",
+            "examples": [
+                {
+                    "sentence": "I <span class='verb'>work</span> every day.",
+                    "translation_uz": "Men har kuni ishlayman.",
+                    "note": "Base form with I/you/we/they"
+                },
+                {
+                    "sentence": "She <span class='verb'>works</span> at a bank.",
+                    "translation_uz": "U bankda ishlaydi.",
+                    "note": "Add 's' with he/she/it"
+                },
+                {
+                    "sentence": "They <span class='verb'>study</span> English.",
+                    "translation_uz": "Ular ingliz tilini o'rganadilar.",
+                    "note": "Base form with they"
+                },
+                {
+                    "sentence": "The sun <span class='verb'>rises</span> in the east.",
+                    "translation_uz": "Quyosh sharqdan chiqadi.",
+                    "note": "General truth with it"
+                }
+            ]
+        },
+        "negative": {
+            "title": "❌ Negative",
+            "rule": "Use 'do not' (don't) or 'does not' (doesn't) + base verb. Never add 's' to the main verb.",
+            "formula": "Subject + do/does + not + Verb (base)",
+            "visual": "I/You/We/They + DON'T + WORK | He/She/It + DOESN'T + WORK",
+            "examples": [
+                {
+                    "sentence": "I <span class='verb'>don't work</span> on Sundays.",
+                    "translation_uz": "Men yakshanba kunlari ishlamayman.",
+                    "note": "don't + base verb"
+                },
+                {
+                    "sentence": "She <span class='verb'>doesn't like</span> coffee.",
+                    "translation_uz": "U qahvani yoqtirmaydi.",
+                    "note": "doesn't + base verb (no 's' on 'like')"
+                },
+                {
+                    "sentence": "We <span class='verb'>don't live</span> in London.",
+                    "translation_uz": "Biz Londonda yashamaymiz.",
+                    "note": "don't + base verb"
+                },
+                {
+                    "sentence": "He <span class='verb'>doesn't speak</span> Spanish.",
+                    "translation_uz": "U ispancha gapirmaydi.",
+                    "note": "doesn't + base verb"
+                }
+            ]
+        },
+        "question": {
+            "title": "❓ Questions",
+            "rule": "Start with 'Do' or 'Does', then subject, then base verb. Never add 's' to the main verb.",
+            "formula": "Do/Does + Subject + Verb (base)?",
+            "visual": "DO + I/you/we/they + WORK? | DOES + he/she/it + WORK?",
+            "examples": [
+                {
+                    "sentence": "<span class='verb'>Do</span> you <span class='verb'>work</span> here?",
+                    "translation_uz": "Siz bu yerda ishlaysizmi?",
+                    "note": "Do + you + base verb"
+                },
+                {
+                    "sentence": "<span class='verb'>Does</span> she <span class='verb'>speak</span> English?",
+                    "translation_uz": "U inglizcha gapiradimi?",
+                    "note": "Does + she + base verb (no 's' on 'speak')"
+                },
+                {
+                    "sentence": "<span class='verb'>Do</span> they <span class='verb'>live</span> in Tashkent?",
+                    "translation_uz": "Ular Toshkentda yashaydimi?",
+                    "note": "Do + they + base verb"
+                },
+                {
+                    "sentence": "<span class='verb'>Does</span> it <span class='verb'>rain</span> a lot here?",
+                    "translation_uz": "Bu yerda ko'p yomg'ir yog'adimi?",
+                    "note": "Does + it + base verb"
+                }
+            ]
+        }
+    },
+    "adverbs_of_frequency": {
+        "title": "⏰ Adverbs of Frequency",
+        "explanation": "Words that tell us HOW OFTEN something happens. They usually go BEFORE the main verb.",
+        "position": "Subject + adverb + verb",
+        "list": [
+            {
+                "adverb": "always",
+                "percentage": "100%",
+                "example": "I <strong>always</strong> brush my teeth.",
+                "translation_uz": "Men doim tishlarimni tozalayman."
+            },
+            {
+                "adverb": "usually",
+                "percentage": "90%",
+                "example": "She <strong>usually</strong> drinks tea.",
+                "translation_uz": "U odatda choy ichadi."
+            },
+            {
+                "adverb": "often",
+                "percentage": "70%",
+                "example": "We <strong>often</strong> go to the cinema.",
+                "translation_uz": "Biz tez-tez kinoga boramiz."
+            },
+            {
+                "adverb": "sometimes",
+                "percentage": "50%",
+                "example": "They <strong>sometimes</strong> eat out.",
+                "translation_uz": "Ular ba'zan tashqarida ovqatlanadilar."
+            },
+            {
+                "adverb": "rarely",
+                "percentage": "20%",
+                "example": "He <strong>rarely</strong> watches TV.",
+                "translation_uz": "U kamdan-kam televizor ko'radi."
+            },
+            {
+                "adverb": "never",
+                "percentage": "0%",
+                "example": "I <strong>never</strong> smoke.",
+                "translation_uz": "Men hech qachon chekmayman."
+            }
+        ],
+        "special_note": "With 'be' verb, adverbs go AFTER: She is <strong>always</strong> happy."
+    },
+    "common_mistakes": [
+        {
+            "wrong": "He work here.",
+            "right": "He works here.",
+            "explanation": "Don't forget to add 's' for he/she/it in affirmative sentences."
+        },
+        {
+            "wrong": "She don't like coffee.",
+            "right": "She doesn't like coffee.",
+            "explanation": "Use 'doesn't' (not 'don't') with he/she/it."
+        },
+        {
+            "wrong": "I works every day.",
+            "right": "I work every day.",
+            "explanation": "Don't add 's' with I/you/we/they. Only he/she/it takes 's'."
+        },
+        {
+            "wrong": "Does she likes pizza?",
+            "right": "Does she like pizza?",
+            "explanation": "In questions, use base verb after 'does'. No 's' on the main verb."
+        },
+        {
+            "wrong": "He doesn't works here.",
+            "right": "He doesn't work here.",
+            "explanation": "After 'doesn't', always use base verb. No 's'."
+        },
+        {
+            "wrong": "She studys English.",
+            "right": "She studies English.",
+            "explanation": "When verb ends in consonant + y, change 'y' to 'ies': study → studies."
+        }
+    ],
+    "time_markers": [
+        "every day",
+        "every week",
+        "every month",
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "rarely",
+        "never",
+        "on Mondays",
+        "in the morning",
+        "at night"
+    ],
+    "practice": {
+        "quiz_id": "present-simple-complete",
+        "question_count": 10,
+        "inline": true,
+        "questions": [
+            {
+                "id": 1,
+                "type": "multiple-choice",
+                "question": "She ___ to school every day.",
+                "options": [
+                    "go",
+                    "goes",
+                    "going",
+                    "went"
+                ],
+                "correct": 1,
+                "explanation": "Use 'goes' (base verb + s) with 'she' because it's he/she/it."
+            },
+            {
+                "id": 2,
+                "type": "multiple-choice",
+                "question": "They ___ English at university.",
+                "options": [
+                    "study",
+                    "studies",
+                    "studying",
+                    "studied"
+                ],
+                "correct": 0,
+                "explanation": "Use 'study' (base form) with 'they'. No 's' for plural."
+            },
+            {
+                "id": 3,
+                "type": "fill-blank",
+                "question": "My brother ___ in a hospital. (work)",
+                "correct": [
+                    "works"
+                ],
+                "explanation": "Use 'works' with 'my brother' (he). Add 's' for he/she/it.",
+                "hint": "Add 's' for he/she/it"
+            },
+            {
+                "id": 4,
+                "type": "multiple-choice",
+                "question": "I ___ coffee every morning.",
+                "options": [
+                    "drinks",
+                    "drink",
+                    "drinking",
+                    "drank"
+                ],
+                "correct": 1,
+                "explanation": "Use 'drink' (base form) with 'I'. No 's' for I/you/we/they."
+            },
+            {
+                "id": 5,
+                "type": "multiple-choice",
+                "question": "She ___ like pizza.",
+                "options": [
+                    "don't",
+                    "doesn't",
+                    "isn't",
+                    "aren't"
+                ],
+                "correct": 1,
+                "explanation": "Use 'doesn't' (not 'don't') with he/she/it in negative sentences."
+            },
+            {
+                "id": 6,
+                "type": "fill-blank",
+                "question": "___ you speak Spanish? (question)",
+                "correct": [
+                    "do",
+                    "Do"
+                ],
+                "explanation": "Use 'Do' at the start of questions with I/you/we/they.",
+                "hint": "Start with Do or Does"
+            },
+            {
+                "id": 7,
+                "type": "multiple-choice",
+                "question": "We ___ TV in the evening.",
+                "options": [
+                    "watchs",
+                    "watch",
+                    "watches",
+                    "watching"
+                ],
+                "correct": 1,
+                "explanation": "Use 'watch' (base form) with 'we'. No 's' for plural subjects."
+            },
+            {
+                "id": 8,
+                "type": "fill-blank",
+                "question": "He ___ play football. (negative)",
+                "correct": [
+                    "doesn't",
+                    "does not"
+                ],
+                "explanation": "Use 'doesn't' + base verb for negative with he/she/it.",
+                "hint": "Use doesn't + base verb"
+            },
+            {
+                "id": 9,
+                "type": "multiple-choice",
+                "question": "The sun ___ in the east.",
+                "options": [
+                    "rise",
+                    "rises",
+                    "rising",
+                    "rose"
+                ],
+                "correct": 1,
+                "explanation": "Use 'rises' for general facts. 'The sun' (it) takes 's'."
+            },
+            {
+                "id": 10,
+                "type": "fill-blank",
+                "question": "I ___ go to the gym. (sometimes)",
+                "correct": [
+                    "sometimes"
+                ],
+                "explanation": "Adverbs of frequency go before the main verb: I sometimes go.",
+                "hint": "Adverb goes before the verb"
+            }
+        ]
+    },
+    "related_topics": [
+        "present-continuous",
+        "past-simple"
+    ],
+    "next_topic": "past-simple",
+    "prev_topic": null
+}

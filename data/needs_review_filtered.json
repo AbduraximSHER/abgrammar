@@ -1,0 +1,298 @@
+{
+  "totalWords": 836,
+  "originalFlagged": 233,
+  "afterFiltering": 29,
+  "removed": 204,
+  "categories": {
+    "homonyms": 15,
+    "phrasalVerbs": 9,
+    "contextDependent": 5,
+    "genuineIssues": 0
+  },
+  "flaggedWords": {
+    "homonyms": [
+      {
+        "word": "bank",
+        "translation": "bank",
+        "reason": "Word has multiple meanings in English",
+        "current": "bank",
+        "issue": "homonym",
+        "meanings": [
+          "bank (financial)",
+          "qirg'oq (river bank)"
+        ],
+        "recommended": "bank",
+        "note": "Financial institution is more common"
+      },
+      {
+        "word": "can",
+        "translation": "-a olmoq",
+        "reason": "Word has multiple meanings in English",
+        "current": "-a olmoq",
+        "issue": "homonym",
+        "meanings": [
+          "-a olmoq (modal: able to)",
+          "konserva (tin can)"
+        ],
+        "recommended": "-a olmoq",
+        "note": "Modal verb is essential for grammar"
+      },
+      {
+        "word": "close",
+        "translation": "yopmoq",
+        "reason": "Word has multiple meanings in English",
+        "current": "yopmoq",
+        "issue": "homonym",
+        "meanings": [
+          "yopmoq (to close)",
+          "yaqin (near/close)"
+        ],
+        "recommended": "yopmoq",
+        "note": "Verb form is primary in grammar lessons"
+      },
+      {
+        "word": "fly",
+        "translation": "uchmoq",
+        "reason": "Word has multiple meanings in English",
+        "current": "uchmoq",
+        "issue": "homonym",
+        "meanings": [
+          "uchmoq (to fly)",
+          "chivin (insect)"
+        ],
+        "recommended": "uchmoq",
+        "note": "Verb is primary in educational context"
+      },
+      {
+        "word": "left",
+        "translation": "chap",
+        "reason": "Word has multiple meanings in English",
+        "current": "chap",
+        "issue": "homonym",
+        "meanings": [
+          "chap (direction)",
+          "ketdi (past of leave)"
+        ],
+        "recommended": "chap",
+        "note": "Direction is more common; \"ketdi\" would be \"left\" as verb"
+      },
+      {
+        "word": "miss",
+        "translation": "sog'inmoq",
+        "reason": "Word has multiple meanings in English",
+        "current": "sog'inmoq",
+        "issue": "homonym",
+        "meanings": [
+          "sog'inmoq (to miss someone)",
+          "o'tkazib yubormoq (to miss a target)"
+        ],
+        "recommended": "sog'inmoq",
+        "note": "Emotional meaning is more common in educational texts"
+      },
+      {
+        "word": "park",
+        "translation": "park",
+        "reason": "Word has multiple meanings in English",
+        "current": "park",
+        "issue": "homonym",
+        "meanings": [
+          "park (noun: green space)",
+          "to'xtatmoq (to park a car)"
+        ],
+        "recommended": "park",
+        "note": "Noun is more common in basic vocabulary"
+      },
+      {
+        "word": "place",
+        "translation": "joy",
+        "reason": "Word has multiple meanings in English",
+        "current": "joy",
+        "issue": "homonym",
+        "meanings": [
+          "joy (location)",
+          "qo'ymoq (to place/put)"
+        ],
+        "recommended": "joy",
+        "note": "Noun form is more common"
+      },
+      {
+        "word": "play",
+        "translation": "o'ynamoq",
+        "reason": "Word has multiple meanings in English",
+        "current": "o'ynamoq",
+        "issue": "homonym",
+        "meanings": [
+          "o'ynamoq (to play)",
+          "spektakl (theater play)"
+        ],
+        "recommended": "o'ynamoq",
+        "note": "Verb is more common in basic English"
+      },
+      {
+        "word": "present",
+        "translation": "hozir",
+        "reason": "Word has multiple meanings in English",
+        "current": "hozir",
+        "issue": "homonym",
+        "meanings": [
+          "hozir (time: now)",
+          "sovg'a (gift)",
+          "taqdim etmoq (to present)"
+        ],
+        "recommended": "hozirgi",
+        "note": "For grammar context, \"hozirgi\" (present tense) is clearer"
+      },
+      {
+        "word": "rose",
+        "translation": "ko'tarildi",
+        "reason": "Word has multiple meanings in English",
+        "current": "ko'tarildi",
+        "issue": "homonym",
+        "meanings": [
+          "ko'tarildi (past of rise)",
+          "atirgul (flower)"
+        ],
+        "recommended": "ko'tarildi",
+        "note": "Past tense of \"rise\" is primary in grammar lessons"
+      },
+      {
+        "word": "saw",
+        "translation": "ko'rdi",
+        "reason": "Word has multiple meanings in English",
+        "current": "ko'rdi",
+        "issue": "homonym",
+        "meanings": [
+          "ko'rdi (past of see)",
+          "arra (cutting tool)"
+        ],
+        "recommended": "ko'rdi",
+        "note": "Past tense of \"see\" is primary in educational context"
+      },
+      {
+        "word": "scale",
+        "translation": "o'lchov",
+        "reason": "Word has multiple meanings in English",
+        "current": "o'lchov",
+        "issue": "homonym",
+        "meanings": [
+          "o'lchov (measurement)",
+          "tarozi (weighing scale)",
+          "miqyos (scale/size)"
+        ],
+        "recommended": "miqyos",
+        "note": "General \"scale\" concept is most versatile"
+      },
+      {
+        "word": "table",
+        "translation": "jadval",
+        "reason": "Word has multiple meanings in English",
+        "current": "jadval",
+        "issue": "homonym",
+        "meanings": [
+          "stol (furniture)",
+          "jadval (chart/table of data)"
+        ],
+        "recommended": "stol",
+        "note": "Physical table is more common in basic English"
+      },
+      {
+        "word": "watch",
+        "translation": "qo'l soat",
+        "reason": "Word has multiple meanings in English",
+        "current": "qo'l soat",
+        "issue": "homonym",
+        "meanings": [
+          "tomosha qilmoq (verb: to watch)",
+          "qo'l soat (noun: timepiece)"
+        ],
+        "recommended": "tomosha qilmoq",
+        "note": "Verb form is more common in educational texts"
+      }
+    ],
+    "phrasalVerbs": [
+      {
+        "word": "come",
+        "translation": "kelmoq",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "get",
+        "translation": "olish",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "give",
+        "translation": "bermoq",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "go",
+        "translation": "bormoq",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "look",
+        "translation": "qaramoq",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "make",
+        "translation": "qilmoq",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "put",
+        "translation": "qo&#39;yish",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "set",
+        "translation": "Oʻrnatish",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      },
+      {
+        "word": "take",
+        "translation": "olmoq",
+        "reason": "Often used in phrasal verbs with different meanings",
+        "note": "Common in phrasal verbs - base meaning may be insufficient"
+      }
+    ],
+    "contextDependent": [
+      {
+        "word": "between",
+        "translation": "orasida",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "into",
+        "translation": "ichiga",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "over",
+        "translation": "ustida",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "through",
+        "translation": "orqali",
+        "reason": "Meaning varies by context"
+      },
+      {
+        "word": "up",
+        "translation": "yuqoriga",
+        "reason": "Meaning varies by context"
+      }
+    ],
+    "genuineIssues": []
+  },
+  "generatedAt": "2026-02-05T21:11:21.346Z"
+}
