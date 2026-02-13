@@ -1,0 +1,40 @@
+﻿{
+    "id":  "be-verb",
+    "meta":  {
+                 "topic":  "Be Verb: Am, Is, Are",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "I am ready, she is early, and they are in class. In English, the be verb changes with the subject.",
+                           "highlight_indices":  [
+                                                     "am",
+                                                     "is",
+                                                     "are"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use am with I, is with he/she/it, and are with you/we/they.",
+                               "formula":  "Subject + am/is/are + complement",
+                               "common_mistake":  "Do not use are with singular third person: say \u0027She is\u0027, not \u0027She are\u0027."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct sentence.",
+                                             "options":  [
+                                                             "He are a doctor.",
+                                                             "He is a doctor.",
+                                                             "He am a doctor.",
+                                                             "He be a doctor."
+                                                         ],
+                                             "correct_answer":  "He is a doctor.",
+                                             "explanation_for_failure":  "For he/she/it, use \u0027is\u0027."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "They is tired after school.",
+                                             "corrected_sentence":  "They are tired after school.",
+                                             "error_analysis":  "The subject \u0027they\u0027 is plural, so the verb must be \u0027are\u0027."
+                                         }
+                                     ]
+}

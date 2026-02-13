@@ -1,0 +1,40 @@
+﻿{
+    "id":  "prepositions",
+    "meta":  {
+                 "topic":  "Prepositions",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "The meeting starts at 9:00, on Monday, in May.",
+                           "highlight_indices":  [
+                                                     "at",
+                                                     "on",
+                                                     "in"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use at for precise time, on for days/dates, and in for months, years, and longer periods.",
+                               "formula":  "at + time | on + day/date | in + month/year/period",
+                               "common_mistake":  "Do not say \u0027in Monday\u0027 or \u0027on 7 PM\u0027."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct phrase.",
+                                             "options":  [
+                                                             "in Monday",
+                                                             "at Monday",
+                                                             "on Monday",
+                                                             "by Monday"
+                                                         ],
+                                             "correct_answer":  "on Monday",
+                                             "explanation_for_failure":  "Use \u0027on\u0027 with days."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "My class starts on 8:30.",
+                                             "corrected_sentence":  "My class starts at 8:30.",
+                                             "error_analysis":  "Clock times take \u0027at\u0027."
+                                         }
+                                     ]
+}

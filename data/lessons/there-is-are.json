@@ -1,0 +1,40 @@
+﻿{
+    "id":  "there-is-are",
+    "meta":  {
+                 "topic":  "There Is \u0026 There Are",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "There is a bank near my office, and there are two cafes across the street.",
+                           "highlight_indices":  [
+                                                     "There",
+                                                     "is",
+                                                     "are"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use there is with singular nouns and there are with plural nouns.",
+                               "formula":  "There is + singular noun | There are + plural noun",
+                               "common_mistake":  "Match the verb with the noun after it, not with words that come later."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Select the correct option.",
+                                             "options":  [
+                                                             "There is many books on the table.",
+                                                             "There are many books on the table.",
+                                                             "There are a book on the table.",
+                                                             "There be many books on the table."
+                                                         ],
+                                             "correct_answer":  "There are many books on the table.",
+                                             "explanation_for_failure":  "Plural noun \u0027books\u0027 needs \u0027are\u0027."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "There is three reasons to stay.",
+                                             "corrected_sentence":  "There are three reasons to stay.",
+                                             "error_analysis":  "The noun is plural, so use \u0027are\u0027."
+                                         }
+                                     ]
+}

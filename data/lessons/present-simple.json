@@ -1,0 +1,40 @@
+﻿{
+    "id":  "present-simple",
+    "meta":  {
+                 "topic":  "Present Simple",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "Sara studies every evening and her brother plays football on weekends. These are regular habits.",
+                           "highlight_indices":  [
+                                                     "studies",
+                                                     "plays",
+                                                     "every"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use present simple for habits, routines, and facts.",
+                               "formula":  "Subject + base verb (add s/es for he/she/it)",
+                               "common_mistake":  "Do not forget s/es with third person singular."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which sentence is present simple and correct?",
+                                             "options":  [
+                                                             "She go to work every day.",
+                                                             "She goes to work every day.",
+                                                             "She is go to work every day.",
+                                                             "She going to work every day."
+                                                         ],
+                                             "correct_answer":  "She goes to work every day.",
+                                             "explanation_for_failure":  "Third person singular needs -s: goes."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "My father drive to work every day.",
+                                             "corrected_sentence":  "My father drives to work every day.",
+                                             "error_analysis":  "With he/she/it, add s or es to the main verb."
+                                         }
+                                     ]
+}

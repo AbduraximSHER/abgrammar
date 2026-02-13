@@ -1,0 +1,40 @@
+﻿{
+    "id":  "reported-speech",
+    "meta":  {
+                 "topic":  "Reported Speech",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "Direct: \u0027I am busy.\u0027 Reported: She said that she was busy.",
+                           "highlight_indices":  [
+                                                     "said",
+                                                     "that",
+                                                     "was"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use reported speech to tell what someone said without quoting exact words.",
+                               "formula":  "Reporting verb + that + clause (often backshifted)",
+                               "common_mistake":  "Pronouns and time words usually change in reported speech."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct reported sentence: Tom said, \u0027I can help.\u0027",
+                                             "options":  [
+                                                             "Tom said that I can help.",
+                                                             "Tom said that he could help.",
+                                                             "Tom said he can helps.",
+                                                             "Tom said that he can helped."
+                                                         ],
+                                             "correct_answer":  "Tom said that he could help.",
+                                             "explanation_for_failure":  "Backshift can to could and adjust pronoun to he."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "She said she is tired yesterday.",
+                                             "corrected_sentence":  "She said she was tired the day before.",
+                                             "error_analysis":  "Backshift and time expression changes are usually needed in past reporting."
+                                         }
+                                     ]
+}

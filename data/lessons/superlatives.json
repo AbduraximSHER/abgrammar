@@ -1,0 +1,40 @@
+﻿{
+    "id":  "superlatives",
+    "meta":  {
+                 "topic":  "Superlatives",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "Of all the students, Lina is the fastest reader in the class.",
+                           "highlight_indices":  [
+                                                     "the",
+                                                     "fastest",
+                                                     "in"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use superlatives for one item at the top of a group.",
+                               "formula":  "the + short adj + est | the most + long adj",
+                               "common_mistake":  "Superlatives usually need \u0027the\u0027."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which sentence is correct?",
+                                             "options":  [
+                                                             "He is fastest in the team.",
+                                                             "He is the fastest in the team.",
+                                                             "He is the faster in the team.",
+                                                             "He is most fast in the team."
+                                                         ],
+                                             "correct_answer":  "He is the fastest in the team.",
+                                             "explanation_for_failure":  "Use \u0027the\u0027 before a superlative."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "This is most interesting book here.",
+                                             "corrected_sentence":  "This is the most interesting book here.",
+                                             "error_analysis":  "Long adjectives use \u0027the most + adjective\u0027."
+                                         }
+                                     ]
+}

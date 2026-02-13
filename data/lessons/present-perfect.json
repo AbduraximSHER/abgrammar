@@ -1,0 +1,40 @@
+﻿{
+    "id":  "present-perfect",
+    "meta":  {
+                 "topic":  "Present Perfect",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "I have finished my report, so I can send it now.",
+                           "highlight_indices":  [
+                                                     "have",
+                                                     "has",
+                                                     "finished"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use present perfect for past actions connected to the present.",
+                               "formula":  "Subject + have/has + past participle",
+                               "common_mistake":  "Do not use a finished-time marker like \u0027yesterday\u0027 with present perfect."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which sentence is correct?",
+                                             "options":  [
+                                                             "She has went home.",
+                                                             "She has gone home.",
+                                                             "She has go home.",
+                                                             "She is gone home."
+                                                         ],
+                                             "correct_answer":  "She has gone home.",
+                                             "explanation_for_failure":  "Present perfect needs have/has + past participle."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "I have seen him yesterday.",
+                                             "corrected_sentence":  "I saw him yesterday.",
+                                             "error_analysis":  "Use past simple with a specific finished time like yesterday."
+                                         }
+                                     ]
+}

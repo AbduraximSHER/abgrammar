@@ -1,0 +1,40 @@
+﻿{
+    "id":  "modal-perfect",
+    "meta":  {
+                 "topic":  "Modal Perfect",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "He must have forgotten the meeting, and she might have missed the bus.",
+                           "highlight_indices":  [
+                                                     "must",
+                                                     "have",
+                                                     "missed"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use modal perfect (modal + have + past participle) to make deductions or regret about the past.",
+                               "formula":  "must/might/could/should + have + past participle",
+                               "common_mistake":  "The verb after have must be a past participle."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct sentence.",
+                                             "options":  [
+                                                             "She might have took the wrong train.",
+                                                             "She might have taken the wrong train.",
+                                                             "She might taken the wrong train.",
+                                                             "She might has taken the wrong train."
+                                                         ],
+                                             "correct_answer":  "She might have taken the wrong train.",
+                                             "explanation_for_failure":  "Use modal + have + past participle."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "You should have went earlier.",
+                                             "corrected_sentence":  "You should have gone earlier.",
+                                             "error_analysis":  "Use the past participle form after have (gone, not went)."
+                                         }
+                                     ]
+}

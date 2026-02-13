@@ -1,0 +1,40 @@
+﻿{
+    "id":  "modal-must",
+    "meta":  {
+                 "topic":  "Must \u0026 Have to",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "Employees must wear ID cards, and visitors have to sign in at reception.",
+                           "highlight_indices":  [
+                                                     "must",
+                                                     "have",
+                                                     "to"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use must/have to for obligation and necessity.",
+                               "formula":  "must + base verb | have/has to + base verb",
+                               "common_mistake":  "Do not use must in past forms; use had to for past necessity."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct sentence.",
+                                             "options":  [
+                                                             "Yesterday I must finish early.",
+                                                             "Yesterday I had to finish early.",
+                                                             "Yesterday I have to finish early.",
+                                                             "Yesterday I must to finish early."
+                                                         ],
+                                             "correct_answer":  "Yesterday I had to finish early.",
+                                             "explanation_for_failure":  "Past necessity is expressed with had to."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "She musts leave now.",
+                                             "corrected_sentence":  "She must leave now.",
+                                             "error_analysis":  "Modal verbs do not take -s in third person."
+                                         }
+                                     ]
+}

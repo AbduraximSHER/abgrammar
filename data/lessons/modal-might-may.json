@@ -1,0 +1,40 @@
+﻿{
+    "id":  "modal-might-may",
+    "meta":  {
+                 "topic":  "Might \u0026 May",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "It may rain later, and the roads might be busy after 6.",
+                           "highlight_indices":  [
+                                                     "may",
+                                                     "might",
+                                                     "later"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use may/might to express possibility; might is often less certain.",
+                               "formula":  "Subject + may/might + base verb",
+                               "common_mistake":  "Do not use \u0027to\u0027 after may/might."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Pick the correct sentence.",
+                                             "options":  [
+                                                             "He might to come.",
+                                                             "He might come.",
+                                                             "He may comes.",
+                                                             "He is might come."
+                                                         ],
+                                             "correct_answer":  "He might come.",
+                                             "explanation_for_failure":  "May/might are followed by base verb."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "She may to be late.",
+                                             "corrected_sentence":  "She may be late.",
+                                             "error_analysis":  "After may, use the base form directly."
+                                         }
+                                     ]
+}

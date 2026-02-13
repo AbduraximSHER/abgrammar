@@ -1,0 +1,40 @@
+﻿{
+    "id":  "wh-questions",
+    "meta":  {
+                 "topic":  "Wh-Questions",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "Where do you live, and why did you choose that city?",
+                           "highlight_indices":  [
+                                                     "Where",
+                                                     "why",
+                                                     "did"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use wh-words to request specific information about people, time, place, reason, and method.",
+                               "formula":  "Wh-word + auxiliary + subject + base verb",
+                               "common_mistake":  "In questions, keep auxiliary before subject."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which question is correct?",
+                                             "options":  [
+                                                             "Where you live?",
+                                                             "Where do you live?",
+                                                             "Where does you live?",
+                                                             "Where living you?"
+                                                         ],
+                                             "correct_answer":  "Where do you live?",
+                                             "explanation_for_failure":  "Use auxiliary \u0027do\u0027 before the subject in present simple questions."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "Why you were late?",
+                                             "corrected_sentence":  "Why were you late?",
+                                             "error_analysis":  "Inversion is required: auxiliary before subject."
+                                         }
+                                     ]
+}

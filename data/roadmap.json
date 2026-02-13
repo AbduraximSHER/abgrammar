@@ -1,0 +1,290 @@
+{
+    "levels": [
+        {
+            "id": "1",
+            "title": "Level 1: Beginner",
+            "subtitle": "Foundation Grammar",
+            "description": "Master the essential grammar for everyday communication",
+            "emoji": "🌱",
+            "order": 1,
+            "estimated_time": "3-4 hours",
+            "topics": [
+                {
+                    "id": "be-verb",
+                    "title": "Be Verb: Am, Is, Are",
+                    "summary": "Foundation of English",
+                    "estimated_time": "10 min",
+                    "required": true
+                },
+                {
+                    "id": "present-simple",
+                    "title": "Present Simple",
+                    "summary": "Habits and facts",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "present-continuous",
+                    "title": "Present Continuous",
+                    "summary": "Actions happening now",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "past-simple",
+                    "title": "Past Simple",
+                    "summary": "Completed past actions",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "future-simple",
+                    "title": "Future Simple",
+                    "summary": "Plans and predictions",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "articles",
+                    "title": "Articles: A, An, The",
+                    "summary": "Using articles correctly",
+                    "estimated_time": "12 min",
+                    "required": true
+                },
+                {
+                    "id": "there-is-are",
+                    "title": "There Is & There Are",
+                    "summary": "Describing existence",
+                    "estimated_time": "10 min",
+                    "required": true
+                },
+                {
+                    "id": "possessives",
+                    "title": "Possessives",
+                    "summary": "My, your, his, her",
+                    "estimated_time": "10 min",
+                    "required": true
+                },
+                {
+                    "id": "prepositions",
+                    "title": "Prepositions",
+                    "summary": "In, on, at",
+                    "estimated_time": "12 min",
+                    "required": true
+                },
+                {
+                    "id": "comparatives",
+                    "title": "Comparatives",
+                    "summary": "Bigger, better",
+                    "estimated_time": "12 min",
+                    "required": true
+                },
+                {
+                    "id": "superlatives",
+                    "title": "Superlatives",
+                    "summary": "The biggest, the best",
+                    "estimated_time": "12 min",
+                    "required": true
+                },
+                {
+                    "id": "modal-can-could",
+                    "title": "Modal: Can & Could",
+                    "summary": "Ability and permission",
+                    "estimated_time": "15 min",
+                    "required": true
+                }
+            ],
+            "completion_badge": {
+                "name": "Beginner Master",
+                "icon": "🌟",
+                "xp_reward": 100
+            }
+        },
+        {
+            "id": "2",
+            "title": "Level 2: Intermediate",
+            "subtitle": "Strong Beginner Skills",
+            "description": "Build comprehensive grammar foundation",
+            "emoji": "🚀",
+            "order": 2,
+            "estimated_time": "5-6 hours",
+            "unlock_after": "1",
+            "topics": [
+                {
+                    "id": "past-continuous",
+                    "title": "Past Continuous",
+                    "summary": "Ongoing past actions",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "present-perfect",
+                    "title": "Present Perfect",
+                    "summary": "Past with present relevance",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "future-continuous",
+                    "title": "Future Continuous",
+                    "summary": "Ongoing future actions",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "past-perfect",
+                    "title": "Past Perfect",
+                    "summary": "Earlier past actions",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "going-to-vs-will",
+                    "title": "Going to vs Will",
+                    "summary": "Future intentions",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "modal-should",
+                    "title": "Should & Ought to",
+                    "summary": "Advice and recommendations",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "modal-must",
+                    "title": "Must & Have to",
+                    "summary": "Obligation and necessity",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "modal-might-may",
+                    "title": "Might & May",
+                    "summary": "Possibility",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "modal-would",
+                    "title": "Modal: Would",
+                    "summary": "Polite requests and habits",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "modal-perfect",
+                    "title": "Modal Perfect",
+                    "summary": "Past deductions",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "wh-questions",
+                    "title": "Wh-Questions",
+                    "summary": "What, where, when, why",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "yes-no-questions",
+                    "title": "Yes/No Questions",
+                    "summary": "Question formation",
+                    "estimated_time": "12 min",
+                    "required": true
+                },
+                {
+                    "id": "question-tags",
+                    "title": "Question Tags",
+                    "summary": "Isn't it, don't you",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "conjunctions",
+                    "title": "Conjunctions",
+                    "summary": "And, but, or, so, because",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "relative-clauses",
+                    "title": "Relative Clauses",
+                    "summary": "Who, which, that",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "passive-voice",
+                    "title": "Passive Voice",
+                    "summary": "Is made, was built",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "reported-speech",
+                    "title": "Reported Speech",
+                    "summary": "He said, she told",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "countable-uncountable",
+                    "title": "Countable/Uncountable",
+                    "summary": "Nouns and articles",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "quantifiers",
+                    "title": "Quantifiers",
+                    "summary": "Much, many, some, any",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "first-conditional",
+                    "title": "First Conditional",
+                    "summary": "If + present, will",
+                    "estimated_time": "18 min",
+                    "required": true
+                }
+            ],
+            "completion_badge": {
+                "name": "Intermediate Champion",
+                "icon": "🎯",
+                "xp_reward": 250
+            }
+        },
+        {
+            "id": "3",
+            "title": "Level 3: Advanced",
+            "subtitle": "Complex Structures",
+            "description": "Master the nuances of English grammar",
+            "emoji": "👑",
+            "order": 3,
+            "estimated_time": "4-5 hours",
+            "unlock_after": "2",
+            "topics": [
+                {
+                    "id": "present-perfect-continuous",
+                    "title": "Present Perfect Continuous",
+                    "summary": "Duration with completion",
+                    "estimated_time": "25 min",
+                    "required": true
+                }
+            ],
+            "completion_badge": {
+                "name": "Grammar Master",
+                "icon": "👑",
+                "xp_reward": 300
+            }
+        }
+    ],
+    "progression_rules": {
+        "unlock_mode": "sequential",
+        "allow_skip": false,
+        "min_quiz_score": 70
+    }
+}

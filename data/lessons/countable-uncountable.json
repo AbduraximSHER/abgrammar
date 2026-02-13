@@ -1,0 +1,40 @@
+﻿{
+    "id":  "countable-uncountable",
+    "meta":  {
+                 "topic":  "Countable/Uncountable",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "We need a chair and two tables, but we also need some water and advice.",
+                           "highlight_indices":  [
+                                                     "a",
+                                                     "two",
+                                                     "some"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Countable nouns can be counted; uncountable nouns are treated as mass nouns.",
+                               "formula":  "countable: a/an, many, few | uncountable: much, little, some",
+                               "common_mistake":  "Do not use plural form with uncountable nouns like advice, information, furniture."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which option is correct?",
+                                             "options":  [
+                                                             "many informations",
+                                                             "much information",
+                                                             "an information",
+                                                             "informations"
+                                                         ],
+                                             "correct_answer":  "much information",
+                                             "explanation_for_failure":  "Information is uncountable."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "She gave me many advices.",
+                                             "corrected_sentence":  "She gave me a lot of advice.",
+                                             "error_analysis":  "Advice is uncountable; use quantifiers like a lot of, some, much."
+                                         }
+                                     ]
+}

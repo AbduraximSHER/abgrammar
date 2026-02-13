@@ -1,0 +1,40 @@
+﻿{
+    "id":  "articles",
+    "meta":  {
+                 "topic":  "Articles: A, An, The",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "I saw a dog in the park. The dog followed me to an old gate.",
+                           "highlight_indices":  [
+                                                     "a",
+                                                     "the",
+                                                     "an"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use a/an for one non-specific item and the for a specific or known item.",
+                               "formula":  "a + consonant sound, an + vowel sound, the + specific noun",
+                               "common_mistake":  "Choose by sound, not letter name alone: \u0027an hour\u0027 because hour starts with a vowel sound."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the best sentence.",
+                                             "options":  [
+                                                             "I bought an book.",
+                                                             "I bought a book.",
+                                                             "I bought the book (first mention).",
+                                                             "I bought book."
+                                                         ],
+                                             "correct_answer":  "I bought a book.",
+                                             "explanation_for_failure":  "Use \u0027a\u0027 before consonant sounds and first mention of a singular countable noun."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "She is an university student.",
+                                             "corrected_sentence":  "She is a university student.",
+                                             "error_analysis":  "University starts with a /ju/ consonant sound, so use \u0027a\u0027."
+                                         }
+                                     ]
+}

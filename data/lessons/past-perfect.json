@@ -1,0 +1,40 @@
+﻿{
+    "id":  "past-perfect",
+    "meta":  {
+                 "topic":  "Past Perfect",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "By the time we arrived, the train had left.",
+                           "highlight_indices":  [
+                                                     "had",
+                                                     "left",
+                                                     "by"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use past perfect for an earlier past action before another past event.",
+                               "formula":  "Subject + had + past participle",
+                               "common_mistake":  "Use past perfect only when sequence between two past events matters."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Pick the best sentence.",
+                                             "options":  [
+                                                             "When I got home, they had eat dinner.",
+                                                             "When I got home, they had eaten dinner.",
+                                                             "When I got home, they have eaten dinner.",
+                                                             "When I got home, they ate already dinner had."
+                                                         ],
+                                             "correct_answer":  "When I got home, they had eaten dinner.",
+                                             "explanation_for_failure":  "Past perfect uses had + past participle (eaten)."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "After he had finished, he had called me immediately.",
+                                             "corrected_sentence":  "After he had finished, he called me immediately.",
+                                             "error_analysis":  "Only the earlier action needs past perfect; the later one is often past simple."
+                                         }
+                                     ]
+}

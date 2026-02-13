@@ -1,0 +1,40 @@
+﻿{
+    "id":  "comparatives",
+    "meta":  {
+                 "topic":  "Comparatives",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "This task is easier than the last one, but your explanation is clearer.",
+                           "highlight_indices":  [
+                                                     "easier",
+                                                     "than",
+                                                     "clearer"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use comparatives to compare two people, things, or ideas.",
+                               "formula":  "short adj + er + than | more + long adj + than",
+                               "common_mistake":  "Avoid double comparison: not \u0027more easier\u0027."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Pick the correct comparative sentence.",
+                                             "options":  [
+                                                             "Math is more easier than history.",
+                                                             "Math is easier than history.",
+                                                             "Math is easiest than history.",
+                                                             "Math is easy than history."
+                                                         ],
+                                             "correct_answer":  "Math is easier than history.",
+                                             "explanation_for_failure":  "Use one comparative form only: easier, not more easier."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "This phone is more cheaper than mine.",
+                                             "corrected_sentence":  "This phone is cheaper than mine.",
+                                             "error_analysis":  "Cheap is a short adjective, so use \u0027cheaper\u0027, not \u0027more cheaper\u0027."
+                                         }
+                                     ]
+}

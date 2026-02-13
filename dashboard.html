@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - English Grammar Master</title>
+
+    <link rel="icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+    <script type="module" crossorigin src="/assets/dashboard-iFqtEoMd.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/auth-Tfpdhhiz.js">
+    <link rel="modulepreload" crossorigin href="/assets/guard-opDxWjIk.js">
+    <link rel="stylesheet" crossorigin href="/assets/dashboard-D4nIFCdy.css">
+
+    <style>
+        :root {
+            --bg: #f6f8fc;
+            --panel: #ffffff;
+            --text: #182230;
+            --muted: #556274;
+            --border: #dce4ef;
+            --primary: #2563eb;
+            --primary-soft: #dbeafe;
+            --success: #16a34a;
+            --warn: #b45309;
+            --shadow: 0 14px 30px rgba(26, 42, 67, 0.08);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Manrope, "Segoe UI", sans-serif;
+            color: var(--text);
+            background:
+                radial-gradient(1200px 350px at 20% -10%, #dbeafe, transparent 55%),
+                radial-gradient(900px 280px at 80% -10%, #dcfce7, transparent 55%),
+                var(--bg);
+        }
+
+        .dashboard-container {
+            max-width: 1160px;
+            margin: 0 auto;
+            padding: 26px 18px 40px;
+        }
+
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 18px;
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 16px 18px;
+            box-shadow: var(--shadow);
+            margin-bottom: 18px;
+        }
+
+        .header-left h1 {
+            margin: 0;
+            font-family: Fraunces, serif;
+            font-size: 1.5rem;
+            letter-spacing: 0.2px;
+        }
+
+        .header-right {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .user-name {
+            background: var(--primary-soft);
+            color: #1e3a8a;
+            border: 1px solid #bfdbfe;
+            font-weight: 700;
+            padding: 8px 10px;
+            border-radius: 10px;
+        }
+
+        .logout-btn {
+            border: 1px solid #cbd5e1;
+            background: #fff;
+            color: #334155;
+            border-radius: 10px;
+            padding: 8px 14px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .logout-btn:hover {
+            border-color: #94a3b8;
+            background: #f8fafc;
+        }
+
+        .dashboard-main {
+            display: grid;
+            gap: 16px;
+        }
+
+        .stats-card {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            padding: 20px;
+            box-shadow: var(--shadow);
+        }
+
+        .level-display {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 14px;
+            border-bottom: 1px dashed var(--border);
+            padding-bottom: 12px;
+        }
+
+        .level-label {
+            color: var(--muted);
+            font-weight: 700;
+            font-size: 0.92rem;
+            text-transform: uppercase;
+            letter-spacing: 0.7px;
+        }
+
+        .level-badge {
+            font-size: 1.3rem;
+            padding: 9px 16px;
+            border-radius: 11px;
+            font-weight: 800;
+            color: #fff;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        }
+
+        .level-badge.a1 {
+            background: linear-gradient(135deg, #16a34a, #15803d);
+        }
+
+        .level-badge.a2 {
+            background: linear-gradient(135deg, #65a30d, #4d7c0f);
+        }
+
+        .level-badge.b1 {
+            background: linear-gradient(135deg, #ca8a04, #a16207);
+        }
+
+        .level-badge.b2 {
+            background: linear-gradient(135deg, #ea580c, #c2410c);
+        }
+
+        .level-badge.c1 {
+            background: linear-gradient(135deg, #dc2626, #b91c1c);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 10px;
+        }
+
+        .stat {
+            background: #f8fbff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .stat-value {
+            display: block;
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: #1d4ed8;
+        }
+
+        .stat-label {
+            display: block;
+            font-size: 0.8rem;
+            color: var(--muted);
+            margin-top: 2px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .access-denied {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 14px;
+            border: 1px solid #f5d0a7;
+            background: #fff7ed;
+            color: var(--warn);
+            border-radius: 12px;
+            font-weight: 600;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        .learning-section,
+        .actions-section {
+            background: var(--panel);
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            box-shadow: var(--shadow);
+            padding: 18px;
+        }
+
+        .learning-section h2,
+        .actions-section h2 {
+            margin: 0 0 6px;
+            font-size: 1.35rem;
+            font-weight: 800;
+        }
+
+        .section-desc {
+            margin: 0 0 16px;
+            color: var(--muted);
+        }
+
+        .levels-container {
+            display: grid;
+            gap: 10px;
+        }
+
+        .level-card {
+            background: #fff;
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 14px;
+            display: grid;
+            gap: 9px;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            transition: transform .16s ease, box-shadow .16s ease, border-color .16s ease;
+        }
+
+        .level-card:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 8px 20px rgba(37, 99, 235, 0.08);
+            border-color: #bfdbfe;
+        }
+
+        .level-card.locked {
+            opacity: 0.68;
+            background: #f8fafc;
+        }
+
+        .level-header {
+            grid-column: 1 / -1;
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            flex-wrap: wrap;
+        }
+
+        .level-tag {
+            color: #fff;
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 0.76rem;
+            font-weight: 800;
+            letter-spacing: 0.6px;
+        }
+
+        .level-tag.a1 {
+            background: #15803d;
+        }
+
+        .level-tag.a2 {
+            background: #4d7c0f;
+        }
+
+        .level-tag.b1 {
+            background: #a16207;
+        }
+
+        .level-tag.b2 {
+            background: #c2410c;
+        }
+
+        .level-tag.c1 {
+            background: #b91c1c;
+        }
+
+        .level-title {
+            font-weight: 800;
+            margin-right: auto;
+        }
+
+        .level-status {
+            font-size: 0.86rem;
+            color: #334155;
+            background: #eef2ff;
+            border: 1px solid #c7d2fe;
+            border-radius: 999px;
+            padding: 3px 9px;
+        }
+
+        .level-desc {
+            margin: 0;
+            color: #475569;
+            font-size: 0.95rem;
+            line-height: 1.45;
+        }
+
+        .level-link {
+            text-decoration: none;
+            background: linear-gradient(135deg, #2563eb, #1d4ed8);
+            color: #fff;
+            border-radius: 10px;
+            border: none;
+            padding: 9px 13px;
+            font-weight: 800;
+            font-size: 0.86rem;
+            letter-spacing: 0.2px;
+            white-space: nowrap;
+        }
+
+        .level-link:hover {
+            filter: brightness(1.07);
+        }
+
+        .level-link.disabled {
+            background: #e2e8f0;
+            color: #64748b;
+            cursor: not-allowed;
+        }
+
+        .actions-grid {
+            display: grid;
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+            gap: 10px;
+        }
+
+        .action-card {
+            border: 1px solid #dbe2eb;
+            border-radius: 14px;
+            background: #fff;
+            padding: 16px 14px;
+            text-decoration: none;
+            color: var(--text);
+            display: grid;
+            gap: 6px;
+            align-content: start;
+            min-height: 150px;
+        }
+
+        .action-card:hover {
+            border-color: #93c5fd;
+            background: #f8fbff;
+        }
+
+        .action-icon {
+            font-size: 1.5rem;
+        }
+
+        .action-title {
+            font-size: 1rem;
+            font-weight: 800;
+        }
+
+        .action-desc {
+            color: var(--muted);
+            line-height: 1.45;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 860px) {
+            .dashboard-header {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .header-right {
+                justify-content: space-between;
+            }
+
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .level-card {
+                grid-template-columns: 1fr;
+            }
+
+            .actions-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="dashboard-container">
+        <header class="dashboard-header">
+            <div class="header-left">
+                <h1>English Grammar Master Dashboard</h1>
+            </div>
+            <div class="header-right">
+                <span id="user-name" class="user-name">User</span>
+                <button id="logout-btn" class="logout-btn">Logout</button>
+            </div>
+        </header>
+
+        <main class="dashboard-main">
+            <div class="stats-card">
+                <div class="level-display">
+                    <span class="level-label">Current CEFR Level</span>
+                    <span id="user-level" class="level-badge">B1</span>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat">
+                        <span class="stat-value" id="placement-score">0%</span>
+                        <span class="stat-label">Placement Score</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="confidence">0%</span>
+                        <span class="stat-label">Confidence</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="member-since">-</span>
+                        <span class="stat-label">Member Since</span>
+                    </div>
+                </div>
+            </div>
+
+            <div id="access-denied" class="access-denied hidden">
+                <span class="access-icon">Warning:</span>
+                <span id="access-message"></span>
+            </div>
+
+            <section class="learning-section">
+                <h2>Learning Path</h2>
+                <p class="section-desc">Progress through levels in sequence. Locked levels unlock automatically.</p>
+
+                <div class="levels-container">
+                    <div class="level-card" id="level-a1" data-level="A1">
+                        <div class="level-header">
+                            <span class="level-tag a1">A1</span>
+                            <span class="level-title">Beginner</span>
+                            <span class="level-status">Unlocked</span>
+                        </div>
+                        <p class="level-desc">Be verb, articles, present and past basics, prepositions, comparatives.</p>
+                        <a href="/" class="level-link">Start Learning</a>
+                    </div>
+
+                    <div class="level-card" id="level-a2" data-level="A2">
+                        <div class="level-header">
+                            <span class="level-tag a2">A2</span>
+                            <span class="level-title">Elementary</span>
+                            <span class="level-status">Unlocked</span>
+                        </div>
+                        <p class="level-desc">Everyday sentence patterns, simple question forms, and practical usage.</p>
+                        <a href="/" class="level-link">Start Learning</a>
+                    </div>
+
+                    <div class="level-card" id="level-b1" data-level="B1">
+                        <div class="level-header">
+                            <span class="level-tag b1">B1</span>
+                            <span class="level-title">Intermediate</span>
+                            <span class="level-status">Unlocked</span>
+                        </div>
+                        <p class="level-desc">Perfect tenses, modals, passive voice, and reported speech.</p>
+                        <a href="/" class="level-link">Start Learning</a>
+                    </div>
+
+                    <div class="level-card locked" id="level-b2" data-level="B2">
+                        <div class="level-header">
+                            <span class="level-tag b2">B2</span>
+                            <span class="level-title">Upper Intermediate</span>
+                            <span class="level-status">Locked</span>
+                        </div>
+                        <p class="level-desc">Advanced combinations, stronger control of nuance and form.</p>
+                        <span class="level-link disabled">Complete B1 first</span>
+                    </div>
+
+                    <div class="level-card locked" id="level-c1" data-level="C1">
+                        <div class="level-header">
+                            <span class="level-tag c1">C1</span>
+                            <span class="level-title">Advanced</span>
+                            <span class="level-status">Locked</span>
+                        </div>
+                        <p class="level-desc">High-level fluency and precision for academic and professional use.</p>
+                        <span class="level-link disabled">Complete B2 first</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="actions-section">
+                <h2>Quick Actions</h2>
+                <div class="actions-grid">
+                    <a href="/" class="action-card">
+                        <span class="action-icon">Lessons</span>
+                        <span class="action-title">Open All Lessons</span>
+                        <span class="action-desc">Browse every grammar topic and continue where you left off.</span>
+                    </a>
+                    <a href="/placement-test.html" class="action-card">
+                        <span class="action-icon">Test</span>
+                        <span class="action-title">Retake Placement Test</span>
+                        <span class="action-desc">Recalculate your level after improving your grammar skills.</span>
+                    </a>
+                    <a href="/login.html" class="action-card">
+                        <span class="action-icon">Account</span>
+                        <span class="action-title">Account & Access</span>
+                        <span class="action-desc">Switch account, sign in again, or manage your session.</span>
+                    </a>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

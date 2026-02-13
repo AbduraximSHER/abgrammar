@@ -1,0 +1,40 @@
+﻿{
+    "id":  "conjunctions",
+    "meta":  {
+                 "topic":  "Conjunctions",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "I wanted to go out, but it was raining, so I stayed home.",
+                           "highlight_indices":  [
+                                                     "but",
+                                                     "so",
+                                                     "because"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use conjunctions to connect clauses logically.",
+                               "formula":  "Clause + and/but/or/so/because + clause",
+                               "common_mistake":  "Choose conjunction by meaning: contrast, reason, result, or addition."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Pick the best connector: \u0027I stayed home ___ I was sick.\u0027",
+                                             "options":  [
+                                                             "because",
+                                                             "but",
+                                                             "or",
+                                                             "so"
+                                                         ],
+                                             "correct_answer":  "because",
+                                             "explanation_for_failure":  "Because introduces the reason."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "He was tired, because he finished the job.",
+                                             "corrected_sentence":  "He was tired, but he finished the job.",
+                                             "error_analysis":  "Use \u0027but\u0027 for contrast, not \u0027because\u0027."
+                                         }
+                                     ]
+}

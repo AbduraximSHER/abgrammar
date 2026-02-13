@@ -1,0 +1,40 @@
+﻿{
+    "id":  "modal-would",
+    "meta":  {
+                 "topic":  "Modal: Would",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "When I was a child, we would visit my grandparents every summer.",
+                           "highlight_indices":  [
+                                                     "would",
+                                                     "visit",
+                                                     "summer"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use would for polite requests, hypothetical meaning, and repeated past habits.",
+                               "formula":  "would + base verb",
+                               "common_mistake":  "Do not confuse would with simple past in hypothetical sentences."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which is a polite request?",
+                                             "options":  [
+                                                             "Would you open the window?",
+                                                             "Will open the window?",
+                                                             "You would open the window.",
+                                                             "Would you to open the window?"
+                                                         ],
+                                             "correct_answer":  "Would you open the window?",
+                                             "explanation_for_failure":  "Polite request form is \u0027Would you + base verb?\u0027."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "If I would have time, I travel more.",
+                                             "corrected_sentence":  "If I had time, I would travel more.",
+                                             "error_analysis":  "In second conditional, the if-clause uses past simple, not would."
+                                         }
+                                     ]
+}

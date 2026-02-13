@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placement Test - English Grammar Master</title>
+    <link rel="icon" href="/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/placement-test-DOnVrxpZ.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/auth-Tfpdhhiz.js">
+  <link rel="modulepreload" crossorigin href="/assets/guard-opDxWjIk.js">
+  <link rel="stylesheet" crossorigin href="/assets/style-CHq9g1KY.css">
+</head>
+
+<body>
+    <div class="test-container">
+        <!-- Intro Section -->
+        <div id="test-intro" class="test-intro">
+            <div class="intro-icon">Placement</div>
+            <h1>Adaptive Placement Test</h1>
+            <p class="intro-desc">This test adapts to your level. Questions get harder when you answer correctly, and
+                easier when you miss one.</p>
+
+            <div class="intro-features">
+                <div class="feature">
+                    <span class="feature-icon">Format</span>
+                    <span>12-18 questions</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">Engine</span>
+                    <span>Adaptive difficulty</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">Time</span>
+                    <span>About 10 minutes</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">Rule</span>
+                    <span>No going back</span>
+                </div>
+            </div>
+
+            <div class="level-scale">
+                <h3>Possible Levels</h3>
+                <div class="levels">
+                    <span class="level-badge a1">A1</span>
+                    <span class="level-badge a2">A2</span>
+                    <span class="level-badge b1">B1</span>
+                    <span class="level-badge b2">B2</span>
+                    <span class="level-badge c1">C1</span>
+                </div>
+                <p class="level-desc">From Beginner (A1) to Advanced (C1)</p>
+            </div>
+
+            <button id="start-test-btn" class="start-btn">Begin Test</button>
+        </div>
+
+        <!-- Access Denied Message -->
+        <div id="access-denied" class="access-denied hidden">
+            <span class="access-icon">Warning:</span>
+            <span id="access-message">You need to complete the placement test first.</span>
+        </div>
+
+        <!-- Test Section -->
+        <div id="test-content" class="test-content hidden">
+            <div class="test-header">
+                <div class="progress-info">
+                    <span id="question-count">Question 1</span>
+                    <span id="level-indicator" class="level-indicator">Level: B1</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+                </div>
+            </div>
+
+            <div id="question-card" class="question-card">
+                <div class="skill-tag" id="skill-tag">Grammar</div>
+                <h2 id="question-text" class="question-text">Loading question...</h2>
+
+                <div id="choices-container" class="choices-container">
+                    <!-- Choices will be inserted here -->
+                </div>
+
+                <div id="feedback-section" class="feedback-section hidden">
+                    <div id="feedback-icon" class="feedback-icon"></div>
+                    <p id="feedback-text" class="feedback-text"></p>
+                    <p id="explanation" class="explanation"></p>
+                    <button id="next-btn" class="next-btn">Next Question</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="test-results" class="test-results hidden">
+            <div class="results-icon">Complete</div>
+            <h1>Test Complete!</h1>
+
+            <div class="result-card">
+                <div class="result-level">
+                    <span class="label">Your Level</span>
+                    <span id="result-level" class="level-value">B1</span>
+                </div>
+
+                <div class="result-stats">
+                    <div class="stat">
+                        <span class="stat-value" id="result-score">0%</span>
+                        <span class="stat-label">Accuracy</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="result-confidence">0%</span>
+                        <span class="stat-label">Confidence</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-value" id="result-questions">0</span>
+                        <span class="stat-label">Questions</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="level-description" id="level-description">
+                <!-- Level description will be inserted here -->
+            </div>
+
+            <button id="go-dashboard-btn" class="dashboard-btn">Go to Dashboard</button>
+        </div>
+
+        <!-- Loading Overlay -->
+        <div id="loading-overlay" class="loading-overlay hidden">
+            <div class="spinner"></div>
+            <p>Saving your results...</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

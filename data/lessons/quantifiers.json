@@ -1,0 +1,40 @@
+﻿{
+    "id":  "quantifiers",
+    "meta":  {
+                 "topic":  "Quantifiers",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "There are many students, much noise, and a few empty seats.",
+                           "highlight_indices":  [
+                                                     "many",
+                                                     "much",
+                                                     "few"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use quantifiers to show amount with countable and uncountable nouns.",
+                               "formula":  "many/few + countable plural | much/little + uncountable",
+                               "common_mistake":  "Do not use much with countable plural nouns in standard affirmative statements."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct sentence.",
+                                             "options":  [
+                                                             "There are much books on the desk.",
+                                                             "There are many books on the desk.",
+                                                             "There is many books on the desk.",
+                                                             "There are a little books on the desk."
+                                                         ],
+                                             "correct_answer":  "There are many books on the desk.",
+                                             "explanation_for_failure":  "Books are countable plural, so use many."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "I have a few money left.",
+                                             "corrected_sentence":  "I have a little money left.",
+                                             "error_analysis":  "Money is uncountable; use little/a little."
+                                         }
+                                     ]
+}

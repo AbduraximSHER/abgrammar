@@ -1,0 +1,40 @@
+﻿{
+    "id":  "relative-clauses",
+    "meta":  {
+                 "topic":  "Relative Clauses",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "The woman who called you is my aunt. The phone that I bought is excellent.",
+                           "highlight_indices":  [
+                                                     "who",
+                                                     "that",
+                                                     "which"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use relative clauses to add information about a noun.",
+                               "formula":  "Noun + who/which/that + clause",
+                               "common_mistake":  "Use who for people, which for things, and that for both in many defining clauses."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct sentence.",
+                                             "options":  [
+                                                             "The man which lives next door is a pilot.",
+                                                             "The man who lives next door is a pilot.",
+                                                             "The man where lives next door is a pilot.",
+                                                             "The man whose lives next door is a pilot."
+                                                         ],
+                                             "correct_answer":  "The man who lives next door is a pilot.",
+                                             "explanation_for_failure":  "Use \u0027who\u0027 for people."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "The book who I borrowed is useful.",
+                                             "corrected_sentence":  "The book that I borrowed is useful.",
+                                             "error_analysis":  "For things, use that or which, not who."
+                                         }
+                                     ]
+}

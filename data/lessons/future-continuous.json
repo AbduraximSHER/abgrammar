@@ -1,0 +1,40 @@
+﻿{
+    "id":  "future-continuous",
+    "meta":  {
+                 "topic":  "Future Continuous",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "This time tomorrow, we will be flying over the ocean.",
+                           "highlight_indices":  [
+                                                     "will",
+                                                     "be",
+                                                     "flying"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use future continuous for actions that will be in progress at a future time.",
+                               "formula":  "Subject + will be + verb-ing",
+                               "common_mistake":  "Do not use present form after \u0027will be\u0027; use -ing."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct future continuous sentence.",
+                                             "options":  [
+                                                             "I will be work at 10.",
+                                                             "I will be working at 10.",
+                                                             "I will working at 10.",
+                                                             "I am will be working at 10."
+                                                         ],
+                                             "correct_answer":  "I will be working at 10.",
+                                             "explanation_for_failure":  "Pattern is will be + verb-ing."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "At noon, she will be write emails.",
+                                             "corrected_sentence":  "At noon, she will be writing emails.",
+                                             "error_analysis":  "Use the -ing form after \u0027will be\u0027."
+                                         }
+                                     ]
+}

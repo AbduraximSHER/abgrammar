@@ -1,0 +1,40 @@
+﻿{
+    "id":  "question-tags",
+    "meta":  {
+                 "topic":  "Question Tags",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "You are coming, aren\u0027t you? He can swim, can\u0027t he?",
+                           "highlight_indices":  [
+                                                     "aren\u0027t",
+                                                     "can\u0027t",
+                                                     "you"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use a question tag with opposite polarity to ask for confirmation.",
+                               "formula":  "Statement, auxiliary + pronoun?",
+                               "common_mistake":  "If the statement is positive, the tag is negative, and vice versa."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct tag: \u0027She is tired, ___?\u0027",
+                                             "options":  [
+                                                             "is she",
+                                                             "isn\u0027t she",
+                                                             "doesn\u0027t she",
+                                                             "wasn\u0027t she"
+                                                         ],
+                                             "correct_answer":  "isn\u0027t she",
+                                             "explanation_for_failure":  "Use the same auxiliary with opposite polarity."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "They don\u0027t know, don\u0027t they?",
+                                             "corrected_sentence":  "They don\u0027t know, do they?",
+                                             "error_analysis":  "Negative statement takes positive tag."
+                                         }
+                                     ]
+}

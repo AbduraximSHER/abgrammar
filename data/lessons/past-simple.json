@@ -1,0 +1,40 @@
+﻿{
+    "id":  "past-simple",
+    "meta":  {
+                 "topic":  "Past Simple",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "Yesterday we visited the museum, watched a film, and arrived home late.",
+                           "highlight_indices":  [
+                                                     "yesterday",
+                                                     "visited",
+                                                     "watched"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use past simple for completed actions at a finished time in the past.",
+                               "formula":  "Subject + past form of verb",
+                               "common_mistake":  "Do not mix present and past markers in one clear past event."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which sentence is correct in past simple?",
+                                             "options":  [
+                                                             "We go to the market yesterday.",
+                                                             "We went to the market yesterday.",
+                                                             "We are going to the market yesterday.",
+                                                             "We gone to the market yesterday."
+                                                         ],
+                                             "correct_answer":  "We went to the market yesterday.",
+                                             "explanation_for_failure":  "Use the past form \u0027went\u0027 with \u0027yesterday\u0027."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "Last night I watch a movie.",
+                                             "corrected_sentence":  "Last night I watched a movie.",
+                                             "error_analysis":  "A finished past time expression requires a past-tense verb."
+                                         }
+                                     ]
+}

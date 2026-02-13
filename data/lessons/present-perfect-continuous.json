@@ -1,0 +1,40 @@
+﻿{
+    "id":  "present-perfect-continuous",
+    "meta":  {
+                 "topic":  "Present Perfect Continuous",
+                 "level":  "Advanced"
+             },
+    "step_1_context":  {
+                           "text":  "I have been studying for three hours, so I need a short break.",
+                           "highlight_indices":  [
+                                                     "have",
+                                                     "been",
+                                                     "for"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use present perfect continuous for actions that started in the past and continue now, or just stopped with visible result.",
+                               "formula":  "Subject + have/has been + verb-ing",
+                               "common_mistake":  "Use for with duration and since with starting point."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct sentence.",
+                                             "options":  [
+                                                             "She has been work here since 2020.",
+                                                             "She has been working here since 2020.",
+                                                             "She is been working here since 2020.",
+                                                             "She has working here since 2020."
+                                                         ],
+                                             "correct_answer":  "She has been working here since 2020.",
+                                             "explanation_for_failure":  "Pattern is has/have been + verb-ing."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "I have been waiting since two hours.",
+                                             "corrected_sentence":  "I have been waiting for two hours.",
+                                             "error_analysis":  "Use for with a duration (two hours), since with a starting point (2 p.m.)."
+                                         }
+                                     ]
+}

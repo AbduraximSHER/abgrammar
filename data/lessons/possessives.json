@@ -1,0 +1,40 @@
+﻿{
+    "id":  "possessives",
+    "meta":  {
+                 "topic":  "Possessives",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "This is my bag, that is your seat, and their car is outside.",
+                           "highlight_indices":  [
+                                                     "my",
+                                                     "your",
+                                                     "their"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use possessive adjectives before nouns to show ownership.",
+                               "formula":  "my/your/his/her/its/our/their + noun",
+                               "common_mistake":  "Do not confuse possessive adjectives with subject pronouns (my vs I, their vs they)."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Which sentence is correct?",
+                                             "options":  [
+                                                             "This is I book.",
+                                                             "This is my book.",
+                                                             "This is me book.",
+                                                             "This is mine book."
+                                                         ],
+                                             "correct_answer":  "This is my book.",
+                                             "explanation_for_failure":  "Use possessive adjective \u0027my\u0027 before a noun."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "They forgot they keys.",
+                                             "corrected_sentence":  "They forgot their keys.",
+                                             "error_analysis":  "Before a noun, use possessive adjective \u0027their\u0027, not \u0027they\u0027."
+                                         }
+                                     ]
+}

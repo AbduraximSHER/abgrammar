@@ -1,0 +1,40 @@
+﻿{
+    "id":  "present-continuous",
+    "meta":  {
+                 "topic":  "Present Continuous",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "Listen: the children are laughing and the teacher is writing on the board right now.",
+                           "highlight_indices":  [
+                                                     "are",
+                                                     "is",
+                                                     "right"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use present continuous for actions happening now or around now.",
+                               "formula":  "Subject + am/is/are + verb-ing",
+                               "common_mistake":  "Do not use base verb after am/is/are in this tense."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Pick the correct present continuous sentence.",
+                                             "options":  [
+                                                             "They play in the yard now.",
+                                                             "They are playing in the yard now.",
+                                                             "They is playing in the yard now.",
+                                                             "They were playing in the yard now."
+                                                         ],
+                                             "correct_answer":  "They are playing in the yard now.",
+                                             "explanation_for_failure":  "Use are + verb-ing with \u0027they\u0027."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "I am study for my exam now.",
+                                             "corrected_sentence":  "I am studying for my exam now.",
+                                             "error_analysis":  "After am/is/are, use the -ing form, not the base verb."
+                                         }
+                                     ]
+}

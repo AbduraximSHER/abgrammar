@@ -1,0 +1,139 @@
+{
+    "quizzes": [
+        {
+            "id": "present-simple-basics",
+            "topic": "present-simple",
+            "title": "Present Simple - Quick Practice",
+            "description": "Test your understanding of Present Simple",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "She ___ to school every day.",
+                    "options": [
+                        "go",
+                        "goes",
+                        "going",
+                        "went"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use 'goes' (base verb + s) with 'she' because it's third person singular.",
+                    "hint": "Think about third person singular"
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "They ___ English at university.",
+                    "options": [
+                        "study",
+                        "studies",
+                        "studying",
+                        "studied"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use 'study' (base form) with 'they' because it's plural. No 's' needed."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "My brother ___ in a hospital. (work)",
+                    "correct": [
+                        "works"
+                    ],
+                    "explanation": "Use 'works' (base verb + s) with 'my brother' (he) because it's third person singular.",
+                    "hint": "Add 's' for he/she/it"
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "I ___ coffee every morning.",
+                    "options": [
+                        "drinks",
+                        "drink",
+                        "drinking",
+                        "drank"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use 'drink' (base form) with 'I'. Don't add 's' for first person."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "The sun ___ in the east. (rise)",
+                    "correct": [
+                        "rises"
+                    ],
+                    "explanation": "Use 'rises' (base verb + s) with 'the sun' (it) because it's third person singular. This is a general truth."
+                }
+            ]
+        },
+        {
+            "id": "present-simple-advanced",
+            "topic": "present-simple",
+            "title": "Present Simple - Advanced Practice",
+            "description": "Challenge yourself with harder questions",
+            "passThreshold": 80,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "Water ___ at 100 degrees Celsius.",
+                    "options": [
+                        "boil",
+                        "boils",
+                        "boiling",
+                        "boiled"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use 'boils' for general scientific facts. Water (it) is third person singular."
+                },
+                {
+                    "id": 2,
+                    "type": "fill-blank",
+                    "question": "My parents ___ in London. (live)",
+                    "correct": [
+                        "live"
+                    ],
+                    "explanation": "Use 'live' (base form) with 'my parents' (they) because it's plural."
+                },
+                {
+                    "id": 3,
+                    "type": "multiple-choice",
+                    "question": "He ___ his homework after dinner.",
+                    "options": [
+                        "do",
+                        "does",
+                        "doing",
+                        "did"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use 'does' with 'he' (third person singular). 'Do' becomes 'does' for he/she/it.",
+                    "hint": "Irregular verb: do → does"
+                },
+                {
+                    "id": 4,
+                    "type": "fill-blank",
+                    "question": "She ___ three languages. (speak)",
+                    "correct": [
+                        "speaks"
+                    ],
+                    "explanation": "Use 'speaks' with 'she' (third person singular). Add 's' to the base verb."
+                },
+                {
+                    "id": 5,
+                    "type": "multiple-choice",
+                    "question": "We ___ to the gym twice a week.",
+                    "options": [
+                        "goes",
+                        "go",
+                        "going",
+                        "went"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use 'go' (base form) with 'we' (plural). No 's' needed for we/they."
+                }
+            ]
+        }
+    ]
+}

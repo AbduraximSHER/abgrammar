@@ -1,0 +1,40 @@
+﻿{
+    "id":  "future-simple",
+    "meta":  {
+                 "topic":  "Future Simple",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "I think it will rain tonight, and we will stay home.",
+                           "highlight_indices":  [
+                                                     "will",
+                                                     "tonight",
+                                                     "think"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use will for predictions, instant decisions, and promises.",
+                               "formula":  "Subject + will + base verb",
+                               "common_mistake":  "After will, always use the base verb, not verb + s or verb + ing."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct future simple sentence.",
+                                             "options":  [
+                                                             "She will goes tomorrow.",
+                                                             "She will go tomorrow.",
+                                                             "She is will go tomorrow.",
+                                                             "She will going tomorrow."
+                                                         ],
+                                             "correct_answer":  "She will go tomorrow.",
+                                             "explanation_for_failure":  "After will, the verb stays in base form."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "I will studies tonight.",
+                                             "corrected_sentence":  "I will study tonight.",
+                                             "error_analysis":  "Modal \u0027will\u0027 is followed by the base verb only."
+                                         }
+                                     ]
+}

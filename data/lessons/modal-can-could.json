@@ -1,0 +1,40 @@
+﻿{
+    "id":  "modal-can-could",
+    "meta":  {
+                 "topic":  "Modal: Can \u0026 Could",
+                 "level":  "Beginner"
+             },
+    "step_1_context":  {
+                           "text":  "I can swim now, and when I was six I could swim only short distances.",
+                           "highlight_indices":  [
+                                                     "can",
+                                                     "could",
+                                                     "now"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use can for present ability/permission and could for past ability or polite requests.",
+                               "formula":  "Subject + can/could + base verb",
+                               "common_mistake":  "Do not add \u0027to\u0027 after can/could."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the correct sentence.",
+                                             "options":  [
+                                                             "She can to drive.",
+                                                             "She can drive.",
+                                                             "She cans drive.",
+                                                             "She could drives."
+                                                         ],
+                                             "correct_answer":  "She can drive.",
+                                             "explanation_for_failure":  "Can/could are followed by base verb without \u0027to\u0027."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "Could you to help me?",
+                                             "corrected_sentence":  "Could you help me?",
+                                             "error_analysis":  "After modal verbs, use the base form directly."
+                                         }
+                                     ]
+}

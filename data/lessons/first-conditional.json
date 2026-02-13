@@ -1,0 +1,40 @@
+﻿{
+    "id":  "first-conditional",
+    "meta":  {
+                 "topic":  "First Conditional",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "If it rains tomorrow, we will cancel the picnic.",
+                           "highlight_indices":  [
+                                                     "If",
+                                                     "rains",
+                                                     "will"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use first conditional for real future possibilities.",
+                               "formula":  "If + present simple, will + base verb",
+                               "common_mistake":  "Do not use will in the if-clause."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Pick the correct first conditional sentence.",
+                                             "options":  [
+                                                             "If she will call, I will answer.",
+                                                             "If she calls, I will answer.",
+                                                             "If she called, I will answer.",
+                                                             "If she calls, I answer."
+                                                         ],
+                                             "correct_answer":  "If she calls, I will answer.",
+                                             "explanation_for_failure":  "Use present simple after if, then will in the main clause."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "If it will be sunny, we will go out.",
+                                             "corrected_sentence":  "If it is sunny, we will go out.",
+                                             "error_analysis":  "The if-clause uses present simple, not will."
+                                         }
+                                     ]
+}

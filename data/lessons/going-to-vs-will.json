@@ -1,0 +1,40 @@
+﻿{
+    "id":  "going-to-vs-will",
+    "meta":  {
+                 "topic":  "Going to vs Will",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "Look at those clouds - it is going to rain. I think prices will rise next year.",
+                           "highlight_indices":  [
+                                                     "going",
+                                                     "will",
+                                                     "think"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use be going to for plans/evidence and will for decisions, predictions, and promises.",
+                               "formula":  "be going to + verb | will + verb",
+                               "common_mistake":  "Do not overuse one form for every future meaning."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Choose the best completion: \u0027I forgot my wallet. I ___ pay you tomorrow.\u0027",
+                                             "options":  [
+                                                             "am going to",
+                                                             "will",
+                                                             "was going to",
+                                                             "am"
+                                                         ],
+                                             "correct_answer":  "will",
+                                             "explanation_for_failure":  "A spontaneous decision is usually expressed with will."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "Look at the sky. It will to rain.",
+                                             "corrected_sentence":  "Look at the sky. It is going to rain.",
+                                             "error_analysis":  "Visible evidence favors \u0027be going to\u0027."
+                                         }
+                                     ]
+}

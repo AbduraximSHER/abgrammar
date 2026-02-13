@@ -1,0 +1,40 @@
+﻿{
+    "id":  "past-continuous",
+    "meta":  {
+                 "topic":  "Past Continuous",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "At 8 p.m. last night, I was reading while my sister was cooking.",
+                           "highlight_indices":  [
+                                                     "was",
+                                                     "were",
+                                                     "while"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use past continuous for actions in progress at a specific past time.",
+                               "formula":  "Subject + was/were + verb-ing",
+                               "common_mistake":  "Use was for I/he/she/it and were for you/we/they."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Select the correct sentence.",
+                                             "options":  [
+                                                             "They was studying at 9 p.m.",
+                                                             "They were studying at 9 p.m.",
+                                                             "They studied at 9 p.m. now.",
+                                                             "They are studying at 9 p.m. yesterday."
+                                                         ],
+                                             "correct_answer":  "They were studying at 9 p.m.",
+                                             "explanation_for_failure":  "With \u0027they\u0027, use were + verb-ing."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "I were watching TV when you called.",
+                                             "corrected_sentence":  "I was watching TV when you called.",
+                                             "error_analysis":  "First person singular takes \u0027was\u0027 in past continuous."
+                                         }
+                                     ]
+}

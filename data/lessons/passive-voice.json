@@ -1,0 +1,40 @@
+﻿{
+    "id":  "passive-voice",
+    "meta":  {
+                 "topic":  "Passive Voice",
+                 "level":  "Intermediate"
+             },
+    "step_1_context":  {
+                           "text":  "The bridge was built in 1998, and the report is checked every week.",
+                           "highlight_indices":  [
+                                                     "was",
+                                                     "is",
+                                                     "built"
+                                                 ]
+                       },
+    "step_2_explanation":  {
+                               "simple_rule":  "Use passive voice when the action is more important than the doer.",
+                               "formula":  "be + past participle (+ by agent)",
+                               "common_mistake":  "Keep tense on be, and use past participle on the main verb."
+                           },
+    "step_3_interactive_exercises":  [
+                                         {
+                                             "type":  "multiple_choice",
+                                             "question":  "Select the correct passive sentence.",
+                                             "options":  [
+                                                             "The email sent yesterday.",
+                                                             "The email was sent yesterday.",
+                                                             "The email was send yesterday.",
+                                                             "The email is sent yesterday."
+                                                         ],
+                                             "correct_answer":  "The email was sent yesterday.",
+                                             "explanation_for_failure":  "Passive needs be + past participle; yesterday needs past tense was."
+                                         },
+                                         {
+                                             "type":  "error_correction",
+                                             "incorrect_sentence":  "The cake was make by my sister.",
+                                             "corrected_sentence":  "The cake was made by my sister.",
+                                             "error_analysis":  "Use past participle \u0027made\u0027 after was."
+                                         }
+                                     ]
+}
