@@ -265,6 +265,113 @@
       font-size: 12px;
       font-weight: 700;
     }
+
+    /* Learn view overrides to match the new system */
+    .learn-view .top-bar {
+      background: rgba(246, 248, 252, 0.92);
+      border-bottom: 1px solid var(--border);
+      backdrop-filter: blur(8px);
+    }
+
+    .learn-view .site-title,
+    .learn-view .title-link {
+      color: var(--text);
+      font-family: Fraunces, serif;
+      text-decoration: none;
+    }
+
+    .learn-view .search-input {
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--text);
+    }
+
+    .learn-view .progress-text {
+      color: #1d4ed8;
+    }
+
+    .learn-view .slider {
+      background-color: #e2e8f0;
+    }
+
+    .learn-view input:checked + .slider {
+      background-color: #2563eb;
+    }
+
+    .learn-view .sidebar {
+      background: #f8fafc;
+      border-right: 1px solid var(--border);
+    }
+
+    .learn-view .roadmap-header {
+      background: var(--panel);
+      border: 1px solid var(--border);
+    }
+
+    .learn-view .roadmap-header h2 {
+      color: #1d4ed8;
+      background: none;
+      -webkit-text-fill-color: initial;
+    }
+
+    .learn-view .rm-level-header {
+      background: #fff;
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: Manrope, "Segoe UI", sans-serif;
+    }
+
+    .learn-view .rm-level-header.active {
+      background: #eff6ff;
+      border-left: 3px solid #2563eb;
+    }
+
+    .learn-view .rm-level-emoji,
+    .learn-view .rm-topic-icon,
+    .learn-view .rm-lock-icon {
+      display: none;
+    }
+
+    .learn-view .rm-topic-link {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #334155;
+    }
+
+    .learn-view .rm-topic-link.active {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border-color: #93c5fd;
+    }
+
+    .learn-view .rm-topic-time {
+      color: #64748b;
+    }
+
+    .learn-view .welcome-screen h1 {
+      font-family: Fraunces, serif;
+      color: var(--text);
+      background: none;
+      -webkit-text-fill-color: initial;
+    }
+
+    .learn-view .welcome-card,
+    .learn-view .cta-section {
+      background: #fff;
+      border: 1px solid var(--border);
+    }
+
+    .learn-view .card-icon {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.8px;
+      color: #1d4ed8;
+    }
+
+    .learn-view .cta-button {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #fff;
+    }
   </style>
 </head>
 
