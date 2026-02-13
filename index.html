@@ -372,6 +372,235 @@
       background: linear-gradient(135deg, #2563eb, #1d4ed8);
       color: #fff;
     }
+
+    /* Lesson view redesign (light, consistent with dashboard) */
+    .lesson-container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 24px 20px 48px;
+      color: var(--text);
+    }
+
+    .lesson-meta {
+      align-items: flex-start;
+      text-align: left;
+      gap: 10px;
+      margin-bottom: 28px;
+    }
+
+    .lesson-title {
+      font-family: Fraunces, serif;
+      font-size: 2.4rem;
+      color: var(--text);
+      background: none;
+      -webkit-text-fill-color: initial;
+      letter-spacing: 0.2px;
+    }
+
+    .lesson-level {
+      background: var(--primary-soft);
+      color: #1e3a8a;
+      border: 1px solid #bfdbfe;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-family: Manrope, "Segoe UI", sans-serif;
+    }
+
+    .lesson-section {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .lesson-section:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 34px rgba(26, 42, 67, 0.12);
+    }
+
+    .section-header {
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .section-number {
+      width: 36px;
+      height: 36px;
+      background: #2563eb;
+      border-radius: 10px;
+      font-size: 1rem;
+      box-shadow: none;
+    }
+
+    .section-header h2 {
+      font-family: Fraunces, serif;
+      color: var(--text);
+    }
+
+    .context-story {
+      background: #f8fbff;
+      border: 1px solid #dbeafe;
+      border-radius: 12px;
+    }
+
+    .context-story:before {
+      background: #2563eb;
+    }
+
+    .context-story p {
+      color: #334155;
+      font-size: 1.05rem;
+    }
+
+    .grammar-highlight {
+      background: #dbeafe;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+    }
+
+    .rule-card {
+      background: #f0fdf4;
+      border: 1px solid #bbf7d0;
+      border-radius: 12px;
+    }
+
+    .rule-icon {
+      filter: none;
+      color: #16a34a;
+    }
+
+    .simple-rule {
+      color: #166534;
+    }
+
+    .formula-box {
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      box-shadow: none;
+    }
+
+    .formula-label {
+      color: #1e3a8a;
+    }
+
+    .formula-content {
+      color: #1d4ed8;
+      font-family: "Segoe UI", sans-serif;
+      font-size: 1.2rem;
+    }
+
+    .mistake-alert {
+      background: #fff7ed;
+      border-left: 4px solid #f97316;
+    }
+
+    .alert-content strong {
+      color: #c2410c;
+    }
+
+    .alert-content p {
+      color: #7c2d12;
+    }
+
+    .exercise-card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+    }
+
+    .exercise-type {
+      background: #dbeafe;
+      color: #1e3a8a;
+      border: 1px solid #bfdbfe;
+    }
+
+    .exercise-question {
+      color: var(--text);
+      font-size: 1.1rem;
+    }
+
+    .exercise-options {
+      grid-template-columns: 1fr;
+    }
+
+    .option-btn {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      color: #1f2937;
+    }
+
+    .option-btn:hover:not(:disabled) {
+      border-color: #93c5fd;
+      background: #eff6ff;
+      transform: translateY(-1px);
+      box-shadow: none;
+    }
+
+    .option-btn.correct {
+      background: #ecfdf3;
+      border-color: #86efac;
+      color: #166534;
+      box-shadow: none;
+    }
+
+    .option-btn.incorrect {
+      background: #fff1f2;
+      border-color: #fecdd3;
+      color: #9f1239;
+      box-shadow: none;
+    }
+
+    .option-letter {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      color: #64748b;
+    }
+
+    .lesson-footer {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      box-shadow: var(--shadow);
+    }
+
+    .completion-icon {
+      filter: none;
+    }
+
+    .completion-text h3 {
+      color: var(--text);
+      font-family: Fraunces, serif;
+    }
+
+    .completion-text p {
+      color: var(--muted);
+    }
+
+    .continue-learning-btn {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: #fff;
+      font-family: Manrope, "Segoe UI", sans-serif;
+      box-shadow: none;
+    }
+
+    .continue-learning-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
+    }
+
+    .reveal-btn {
+      background: #1d4ed8;
+      box-shadow: none;
+    }
+
+    .reveal-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2);
+    }
   </style>
 </head>
 
