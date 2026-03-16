@@ -1,16 +1,48 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - English Grammar Master</title>
+    <title>Login - English Grammar Master</title>
     <link rel="icon" href="/favicon.ico">
-  <script type="module" crossorigin src="/assets/login-BXuwGMdO.js"></script>
-  <link rel="modulepreload" crossorigin href="/assets/auth-Tfpdhhiz.js">
-  <link rel="stylesheet" crossorigin href="/assets/login-B5ySaat5.css">
+    <script type="module" crossorigin src="/assets/login-BXuwGMdO.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/auth-Tfpdhhiz.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap" rel="stylesheet">
+    <style>
+        *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+        html{-webkit-font-smoothing:antialiased}
+        body{font-family:'DM Sans',sans-serif;background:#FAFAF7;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px;position:relative;overflow:hidden}
+        body::before{content:'';position:fixed;top:-40%;right:-30%;width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(255,107,53,0.08) 0%,transparent 70%);pointer-events:none}
+        body::after{content:'';position:fixed;bottom:-40%;left:-20%;width:700px;height:700px;border-radius:50%;background:radial-gradient(circle,rgba(108,99,255,0.06) 0%,transparent 70%);pointer-events:none}
+        .auth-container{width:100%;max-width:440px;position:relative;z-index:1;animation:fadeUp .6s cubic-bezier(.16,1,.3,1)}
+        @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+        .auth-card{background:#FFF;border:1px solid #E8E4DF;border-radius:24px;padding:40px;box-shadow:0 2px 8px rgba(26,26,46,.04),0 16px 48px rgba(26,26,46,.08);position:relative;overflow:hidden}
+        .auth-card::before{content:'';position:absolute;top:0;left:0;right:0;height:4px;background:linear-gradient(90deg,#FF6B35,#F59E0B,#10B981)}
+        .auth-header{text-align:center;margin-bottom:32px}
+        .logo{font-family:'Sora',sans-serif;font-size:14px;font-weight:800;color:#FF6B35;background:#FFF0EB;display:inline-flex;align-items:center;justify-content:center;width:52px;height:52px;border-radius:16px;margin-bottom:16px;letter-spacing:-0.02em;border:1px solid rgba(255,107,53,0.15)}
+        .auth-header h1{color:#1A1A2E;font-family:'Sora',sans-serif;font-size:1.5rem;font-weight:800;letter-spacing:-0.04em;margin-bottom:6px}
+        .auth-header p{color:#8E8EA0;font-size:.9rem}
+        .auth-tabs{display:flex;background:#F5F0EB;border-radius:12px;padding:4px;margin-bottom:24px}
+        .tab-btn{flex:1;padding:11px;background:transparent;border:none;color:#8E8EA0;font-family:'Sora',sans-serif;font-size:.85rem;font-weight:600;cursor:pointer;border-radius:8px;transition:all .25s cubic-bezier(.16,1,.3,1)}
+        .tab-btn.active{background:#FF6B35;color:#fff;box-shadow:0 4px 12px rgba(255,107,53,.25)}
+        .auth-form{display:none}.auth-form.active{display:block}
+        .form-group{margin-bottom:18px}
+        .form-group label{display:block;color:#4A4A68;font-size:.82rem;font-weight:600;margin-bottom:6px}
+        .form-group input{width:100%;padding:13px 16px;background:#F5F0EB;border:1.5px solid #E8E4DF;border-radius:12px;color:#1A1A2E;font-family:'DM Sans',sans-serif;font-size:.92rem;transition:all .3s}
+        .form-group input:focus{outline:none;border-color:#FF6B35;background:#FFF;box-shadow:0 0 0 4px rgba(255,107,53,.1)}
+        .form-group input::placeholder{color:#B4B4C7}
+        .submit-btn{width:100%;padding:14px;background:#FF6B35;border:none;border-radius:12px;color:#fff;font-family:'Sora',sans-serif;font-size:.95rem;font-weight:700;cursor:pointer;transition:all .3s cubic-bezier(.16,1,.3,1);box-shadow:0 4px 14px rgba(255,107,53,.25)}
+        .submit-btn:hover{transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,107,53,.3);background:#E85D2C}
+        .divider{display:flex;align-items:center;margin:24px 0}
+        .divider::before,.divider::after{content:'';flex:1;height:1px;background:#E8E4DF}
+        .divider span{color:#B4B4C7;font-size:.78rem;padding:0 14px}
+        .google-btn{width:100%;padding:13px;background:#FAFAF7;border:1.5px solid #E8E4DF;border-radius:12px;color:#1A1A2E;font-family:'DM Sans',sans-serif;font-size:.9rem;font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;transition:all .3s}
+        .google-btn:hover{transform:translateY(-1px);box-shadow:0 4px 16px rgba(26,26,46,.08);background:#FFF}
+        .error-message{display:none;background:#FFF1F2;border:1px solid rgba(244,63,94,.2);color:#881337;padding:12px 16px;border-radius:10px;font-size:.82rem;margin-top:16px;text-align:center}
+    </style>
 </head>
-
 <body>
     <div class="auth-container">
         <div class="auth-card">
@@ -19,13 +51,10 @@
                 <h1>English Grammar Master</h1>
                 <p>Master English grammar step by step</p>
             </div>
-
             <div class="auth-tabs">
                 <button class="tab-btn active" data-tab="login">Login</button>
                 <button class="tab-btn" data-tab="signup">Sign Up</button>
             </div>
-
-            <!-- Login Form -->
             <form id="login-form" class="auth-form active">
                 <div class="form-group">
                     <label for="login-email">Email</label>
@@ -37,8 +66,6 @@
                 </div>
                 <button type="submit" class="submit-btn">Login</button>
             </form>
-
-            <!-- Signup Form -->
             <form id="signup-form" class="auth-form">
                 <div class="form-group">
                     <label for="signup-name">Display Name</label>
@@ -50,34 +77,17 @@
                 </div>
                 <div class="form-group">
                     <label for="signup-password">Password</label>
-                    <input type="password" id="signup-password" placeholder="Create a password (min 6 chars)" required
-                        minlength="6">
+                    <input type="password" id="signup-password" placeholder="Create a password (min 6 chars)" required minlength="6">
                 </div>
                 <button type="submit" class="submit-btn">Create Account</button>
             </form>
-
-            <div class="divider">
-                <span>or continue with</span>
-            </div>
-
+            <div class="divider"><span>or continue with</span></div>
             <button id="google-btn" class="google-btn">
-                <svg width="20" height="20" viewBox="0 0 48 48">
-                    <path fill="#FFC107"
-                        d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z" />
-                    <path fill="#FF3D00"
-                        d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z" />
-                    <path fill="#4CAF50"
-                        d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z" />
-                    <path fill="#1976D2"
-                        d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z" />
-                </svg>
+                <svg width="18" height="18" viewBox="0 0 48 48"><path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"/><path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"/><path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"/><path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"/></svg>
                 Continue with Google
             </button>
-
             <div id="auth-error" class="error-message"></div>
         </div>
     </div>
-
 </body>
-
 </html>
