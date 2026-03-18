@@ -109,7 +109,7 @@
                     ],
                     "correct": 1,
                     "explanation": "Use 'does' with 'he' (third person singular). 'Do' becomes 'does' for he/she/it.",
-                    "hint": "Irregular verb: do → does"
+                    "hint": "Irregular verb: do \u2192 does"
                 },
                 {
                     "id": 4,
@@ -132,6 +132,733 @@
                     ],
                     "correct": 1,
                     "explanation": "Use 'go' (base form) with 'we' (plural). No 's' needed for we/they."
+                }
+            ]
+        },
+        {
+            "id": "be-verb-basics",
+            "topic": "be-verb",
+            "title": "Be Verb Basics",
+            "description": "Practice am, is, are",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I ___ a student.",
+                    "options": [
+                        "am",
+                        "is",
+                        "are",
+                        "be"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"am\" with \"I\"."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "They ___ from London.",
+                    "options": [
+                        "am",
+                        "is",
+                        "are",
+                        "be"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use \"are\" with \"they\"."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "She ___ happy today.",
+                    "correct": [
+                        "is"
+                    ],
+                    "explanation": "Use \"is\" with \"she\"."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "We ___ not tired.",
+                    "options": [
+                        "am",
+                        "is",
+                        "are",
+                        "be"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use \"are\" with \"we\"."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "It ___ a beautiful day.",
+                    "correct": [
+                        "is"
+                    ],
+                    "explanation": "Use \"is\" with \"it\"."
+                }
+            ]
+        },
+        {
+            "id": "present-continuous-basics",
+            "topic": "present-continuous",
+            "title": "Present Continuous Basics",
+            "description": "Actions happening now",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I am ___ a book now.",
+                    "options": [
+                        "read",
+                        "reads",
+                        "reading",
+                        "readed"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use verb + ing for continuous actions."
+                },
+                {
+                    "id": 2,
+                    "type": "fill-blank",
+                    "question": "They are ___ football at the moment. (play)",
+                    "correct": [
+                        "playing"
+                    ],
+                    "explanation": "Use verb + ing with are for they."
+                },
+                {
+                    "id": 3,
+                    "type": "multiple-choice",
+                    "question": "She is ___ a cake for the party.",
+                    "options": [
+                        "make",
+                        "makes",
+                        "making",
+                        "made"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use verb + ing for she is."
+                },
+                {
+                    "id": 4,
+                    "type": "fill-blank",
+                    "question": "We are ___ English right now. (learn)",
+                    "correct": [
+                        "learning"
+                    ],
+                    "explanation": "Use verb + ing with are for we."
+                },
+                {
+                    "id": 5,
+                    "type": "multiple-choice",
+                    "question": "Look! It is ___.",
+                    "options": [
+                        "rain",
+                        "rains",
+                        "raining",
+                        "rained"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use raining for actions happening now."
+                }
+            ]
+        },
+        {
+            "id": "past-simple-basics",
+            "topic": "past-simple",
+            "title": "Past Simple Basics",
+            "description": "Completed past actions",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I ___ to the cinema yesterday.",
+                    "options": [
+                        "go",
+                        "goes",
+                        "going",
+                        "went"
+                    ],
+                    "correct": 3,
+                    "explanation": "\"Went\" is the past tense of \"go\"."
+                },
+                {
+                    "id": 2,
+                    "type": "fill-blank",
+                    "question": "They ___ a new car last week. (buy)",
+                    "correct": [
+                        "bought"
+                    ],
+                    "explanation": "\"Bought\" is the past tense of \"buy\"."
+                },
+                {
+                    "id": 3,
+                    "type": "multiple-choice",
+                    "question": "She ___ her homework an hour ago.",
+                    "options": [
+                        "finish",
+                        "finishes",
+                        "finished",
+                        "finishing"
+                    ],
+                    "correct": 2,
+                    "explanation": "Add -ed for regular past tense."
+                },
+                {
+                    "id": 4,
+                    "type": "fill-blank",
+                    "question": "We ___ dinner at 7 PM. (eat)",
+                    "correct": [
+                        "ate"
+                    ],
+                    "explanation": "\"Ate\" is the past tense of \"eat\"."
+                },
+                {
+                    "id": 5,
+                    "type": "multiple-choice",
+                    "question": "He ___ in London two years ago.",
+                    "options": [
+                        "live",
+                        "lives",
+                        "lived",
+                        "living"
+                    ],
+                    "correct": 2,
+                    "explanation": "Add -d for regular past tense of verbs ending in e."
+                }
+            ]
+        },
+        {
+            "id": "future-simple-basics",
+            "topic": "future-simple",
+            "title": "Future Simple Basics",
+            "description": "Plans and predictions",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I think it ___ rain tomorrow.",
+                    "options": [
+                        "will",
+                        "is",
+                        "be",
+                        "going"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"will\" for predictions."
+                },
+                {
+                    "id": 2,
+                    "type": "fill-blank",
+                    "question": "I ___ help you with your bags.",
+                    "correct": [
+                        "will"
+                    ],
+                    "explanation": "Use \"will\" for offers."
+                },
+                {
+                    "id": 3,
+                    "type": "multiple-choice",
+                    "question": "They ___ arrive at 10 AM.",
+                    "options": [
+                        "will",
+                        "are",
+                        "shall",
+                        "go"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"will\" for future facts."
+                },
+                {
+                    "id": 4,
+                    "type": "fill-blank",
+                    "question": "She ___ be a doctor one day.",
+                    "correct": [
+                        "will"
+                    ],
+                    "explanation": "Use \"will\" for future goals."
+                },
+                {
+                    "id": 5,
+                    "type": "multiple-choice",
+                    "question": "We ___ see you soon.",
+                    "options": [
+                        "will",
+                        "are",
+                        "is",
+                        "be"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"will\" for future intentions."
+                }
+            ]
+        },
+        {
+            "id": "articles-basics",
+            "topic": "articles",
+            "title": "Articles Basics",
+            "description": "Using a, an, the",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I have ___ apple.",
+                    "options": [
+                        "a",
+                        "an",
+                        "the",
+                        "no article"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"an\" before vowel sounds."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "He is ___ teacher.",
+                    "options": [
+                        "a",
+                        "an",
+                        "the",
+                        "no article"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"a\" before consonant sounds."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "The sun is in ___ sky.",
+                    "correct": [
+                        "the"
+                    ],
+                    "explanation": "Use \"the\" for unique objects like the sky."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "She wants ___ umbrella.",
+                    "options": [
+                        "a",
+                        "an",
+                        "the",
+                        "no article"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"an\" before vowel sounds (u in umbrella)."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "I live in ___ big city.",
+                    "correct": [
+                        "a"
+                    ],
+                    "explanation": "Use \"a\" for non-specific singular countable nouns."
+                }
+            ]
+        },
+        {
+            "id": "there-is-are-basics",
+            "topic": "there-is-are",
+            "title": "There Is & There Are Basics",
+            "description": "Describing existence",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "There ___ a book on the table.",
+                    "options": [
+                        "is",
+                        "are",
+                        "am",
+                        "be"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"is\" for singular nouns."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "There ___ five apples in the bag.",
+                    "options": [
+                        "is",
+                        "are",
+                        "am",
+                        "be"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"are\" for plural nouns."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "There ___ some milk in the fridge.",
+                    "correct": [
+                        "is"
+                    ],
+                    "explanation": "Use \"is\" for uncountable nouns like milk."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "There ___ many students in the class.",
+                    "options": [
+                        "is",
+                        "are",
+                        "am",
+                        "be"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"are\" for plural nouns."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "There ___ a cat under the chair.",
+                    "correct": [
+                        "is"
+                    ],
+                    "explanation": "Use \"is\" for singular nouns."
+                }
+            ]
+        },
+        {
+            "id": "possessives-basics",
+            "topic": "possessives",
+            "title": "Possessives Basics",
+            "description": "My, your, his, her, etc.",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I have a car. ___ car is blue.",
+                    "options": [
+                        "My",
+                        "Your",
+                        "His",
+                        "Her"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"my\" for I."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "You have a sister. ___ sister is nice.",
+                    "options": [
+                        "My",
+                        "Your",
+                        "His",
+                        "Her"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"your\" for you."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "He has a cat. ___ cat is black.",
+                    "correct": [
+                        "His"
+                    ],
+                    "explanation": "Use \"his\" for he."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "She has a book. ___ book is interesting.",
+                    "options": [
+                        "My",
+                        "Your",
+                        "His",
+                        "Her"
+                    ],
+                    "correct": 3,
+                    "explanation": "Use \"her\" for she."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "We have a house. ___ house is big.",
+                    "correct": [
+                        "Our"
+                    ],
+                    "explanation": "Use \"our\" for we."
+                }
+            ]
+        },
+        {
+            "id": "prepositions-basics",
+            "topic": "prepositions",
+            "title": "Prepositions Basics",
+            "description": "In, on, at",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I was born ___ June.",
+                    "options": [
+                        "in",
+                        "on",
+                        "at",
+                        "to"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"in\" for months."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "The meeting is ___ 10 AM.",
+                    "options": [
+                        "in",
+                        "on",
+                        "at",
+                        "to"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use \"at\" for specific times."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "The book is ___ the table.",
+                    "correct": [
+                        "on"
+                    ],
+                    "explanation": "Use \"on\" for surfaces."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "We go to school ___ Monday.",
+                    "options": [
+                        "in",
+                        "on",
+                        "at",
+                        "to"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"on\" for days of the week."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "He lives ___ London.",
+                    "correct": [
+                        "in"
+                    ],
+                    "explanation": "Use \"in\" for cities and countries."
+                }
+            ]
+        },
+        {
+            "id": "comparatives-basics",
+            "topic": "comparatives",
+            "title": "Comparatives Basics",
+            "description": "Bigger, faster, etc.",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "A car is ___ than a bike.",
+                    "options": [
+                        "fast",
+                        "faster",
+                        "fastest",
+                        "more fast"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use adjective + er for comparatives."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "An elephant is ___ than a mouse.",
+                    "options": [
+                        "big",
+                        "bigger",
+                        "biggest",
+                        "more big"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use adjective + er for comparatives."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "Summer is ___ than winter. (hot)",
+                    "correct": [
+                        "hotter"
+                    ],
+                    "explanation": "Hot becomes hotter in comparative form."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "This book is ___ than that one.",
+                    "options": [
+                        "good",
+                        "better",
+                        "best",
+                        "more good"
+                    ],
+                    "correct": 1,
+                    "explanation": "Better is the irregular comparative of good."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "Today is ___ than yesterday. (cold)",
+                    "correct": [
+                        "colder"
+                    ],
+                    "explanation": "Add -er for comparative form of cold."
+                }
+            ]
+        },
+        {
+            "id": "superlatives-basics",
+            "topic": "superlatives",
+            "title": "Superlatives Basics",
+            "description": "The biggest, the best, etc.",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "Everest is the ___ mountain.",
+                    "options": [
+                        "high",
+                        "higher",
+                        "highest",
+                        "most high"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use the + adjective + est for superlatives."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "Russia is the ___ country.",
+                    "options": [
+                        "big",
+                        "bigger",
+                        "biggest",
+                        "most big"
+                    ],
+                    "correct": 2,
+                    "explanation": "Use the + adjective + est for superlatives."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "He is the ___ student in the class. (good)",
+                    "correct": [
+                        "best"
+                    ],
+                    "explanation": "Best is the irregular superlative of good."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "This is the ___ day of my life.",
+                    "options": [
+                        "happy",
+                        "happier",
+                        "happiest",
+                        "most happy"
+                    ],
+                    "correct": 2,
+                    "explanation": "Happiest is the superlative of happy (y changes to i)."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "The Nile is the ___ river. (long)",
+                    "correct": [
+                        "longest"
+                    ],
+                    "explanation": "Add -est for superlative form of long."
+                }
+            ]
+        },
+        {
+            "id": "modal-can-could-basics",
+            "topic": "modal-can-could",
+            "title": "Can & Could Basics",
+            "description": "Ability and permission",
+            "passThreshold": 70,
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "multiple-choice",
+                    "question": "I ___ swim when I was five.",
+                    "options": [
+                        "can",
+                        "could",
+                        "shall",
+                        "will"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"could\" for past ability."
+                },
+                {
+                    "id": 2,
+                    "type": "multiple-choice",
+                    "question": "She ___ speak three languages.",
+                    "options": [
+                        "can",
+                        "could",
+                        "shall",
+                        "will"
+                    ],
+                    "correct": 0,
+                    "explanation": "Use \"can\" for present ability."
+                },
+                {
+                    "id": 3,
+                    "type": "fill-blank",
+                    "question": "___ you help me, please?",
+                    "correct": [
+                        "Can",
+                        "Could"
+                    ],
+                    "explanation": "Both \"Can\" and \"Could\" are used for requests."
+                },
+                {
+                    "id": 4,
+                    "type": "multiple-choice",
+                    "question": "He ___ not come to the party yesterday.",
+                    "options": [
+                        "can",
+                        "could",
+                        "shall",
+                        "will"
+                    ],
+                    "correct": 1,
+                    "explanation": "Use \"could not\" for past inability."
+                },
+                {
+                    "id": 5,
+                    "type": "fill-blank",
+                    "question": "They ___ play guitar very well.",
+                    "correct": [
+                        "can"
+                    ],
+                    "explanation": "Use \"can\" for present ability."
                 }
             ]
         }
