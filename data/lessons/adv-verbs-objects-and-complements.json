@@ -1,0 +1,82 @@
+{
+    "id": "adv-verbs-objects-and-complements",
+    "meta": {
+        "topic": "Verbs, objects and complements",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "Some verbs can be either transitive or intransitive, allowing us to focus on either the person or thing performing the action, or the person or thing affected by the action. Compare:",
+        "highlight_indices": [
+            "closed",
+            "closed",
+            "ripped"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Some verbs can be either transitive or intransitive, allowing us to focus on either the person or thing performing the action, or the person or thing affected by the action.",
+        "formula": "Some transitive verbs don't need an object when the meaning is clear from the context:\n • I often sing (songs) in the shower.",
+        "common_mistake": "After some verbs we usually add a complement – a phrase which completes the meaning of a verb, noun or adjective – which is an adverb or prepositional phrase:\n • The disease originated in Britain."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "28.1.1 Aya was (reading) a book when the telephone rang. (Is 'a book' omittable?)",
+            "options": [
+                "(a book)",
+                "a book",
+                "reading (a book)",
+                "No change possible"
+            ],
+            "correct_answer": "(a book)",
+            "explanation_for_failure": "Read is a verb where the object can be omitted if clear from context."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "28.1.3 Would you like to come over to eat dinner tonight? (Is 'dinner' omittable?)",
+            "options": [
+                "eat (dinner)",
+                "eat dinner",
+                "eat tonight",
+                "No change possible"
+            ],
+            "correct_answer": "eat (dinner)",
+            "explanation_for_failure": "Eat is a verb where the object can be omitted."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "28.1.5 She washed herself... (Is 'herself' omittable?)",
+            "options": [
+                "washed (herself)",
+                "washed herself",
+                "wash herself",
+                "No change possible"
+            ],
+            "correct_answer": "washed (herself)",
+            "explanation_for_failure": "Wash can be used intransitively when referring to oneself."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "28.1.10 ...reached their house... (Is 'their house' omittable?)",
+            "options": [
+                "reached their house",
+                "(reached) their house",
+                "reached (their house)",
+                "No change possible"
+            ],
+            "correct_answer": "reached their house",
+            "explanation_for_failure": "Reach usually requires an object."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "28.2.1 Electors deserve more from a political party that ___ national leadership.",
+            "options": [
+                "aspires to",
+                "aspires for",
+                "aspires in",
+                "aspires toward"
+            ],
+            "correct_answer": "aspires to",
+            "explanation_for_failure": "Aspire + to + noun phrase."
+        }
+    ]
+}
