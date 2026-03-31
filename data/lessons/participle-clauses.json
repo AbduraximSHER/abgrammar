@@ -1,0 +1,41 @@
+{
+    "id": "participle-clauses",
+    "meta": {
+        "topic": "Participle Clauses",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "Walking through the park, she noticed a strange bird. Exhausted by the journey, they fell asleep immediately.",
+        "highlight_indices": [
+            "Walking",
+            "noticed",
+            "Exhausted",
+            "fell"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Participle clauses shorten sentences by replacing a relative clause or time clause. Present participle (-ing) for active meaning, past participle (-ed) for passive.",
+        "formula": "Active: Verb-ing + ..., subject + verb. Passive: Past participle + ..., subject + verb.",
+        "common_mistake": "The subject of the participle must match the subject of the main clause. 'Walking home, the rain started' is wrong because rain was not walking."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "___ the book, she returned it to the library.",
+            "options": [
+                "Finishing",
+                "Having finished",
+                "Finished",
+                "Both A and B are correct"
+            ],
+            "correct_answer": "Having finished",
+            "explanation_for_failure": "'Having finished' (perfect participle) shows the action was completed before the main action."
+        },
+        {
+            "type": "error_correction",
+            "incorrect_sentence": "Driving to work, the accident happened.",
+            "corrected_sentence": "Driving to work, he saw an accident happen.",
+            "error_analysis": "The accident was not driving. The subject of the participle must match the main clause subject."
+        }
+    ]
+}
