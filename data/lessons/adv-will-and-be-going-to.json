@@ -1,0 +1,82 @@
+{
+    "id": "adv-will-and-be-going-to",
+    "meta": {
+        "topic": "Will and be going to",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "We can use either will or be going to to talk about something that is planned, or something that we think is likely to happen in the future:",
+        "highlight_indices": [
+            "will",
+            "be going to",
+            "will"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "We can use either will or be going to to talk about something that is planned, or something that we think is likely to happen in the future:\n • We will study climate change in a later part of the course.",
+        "formula": "(or We are going to study …)\n • Where will you stay in Berlin?",
+        "common_mistake": "We use will rather than be going to to make a prediction based on our opinion or experience:\n • Why not come over at the weekend?"
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "9.1.1 Have you seen Nadia recently? She'll have another baby.",
+            "options": [
+                "Correct — 'will' is fine here",
+                "Should be 'is going to have' (present evidence)",
+                "Should be 'is having'",
+                "Should be 'will be having'"
+            ],
+            "correct_answer": "Should be 'is going to have' (present evidence)",
+            "explanation_for_failure": "Present evidence (she's visibly pregnant) → use 'be going to'."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "9.1.2 The method is quite simple, and I'm sure it will be familiar to most of you.",
+            "options": [
+                "Correct — prediction based on opinion",
+                "Should be 'is going to be'",
+                "Should be 'is being'",
+                "Should be 'would be'"
+            ],
+            "correct_answer": "Correct — prediction based on opinion",
+            "explanation_for_failure": "Prediction based on opinion with 'I'm sure' → will."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "9.1.3 B: I'll see you tomorrow evening, then.",
+            "options": [
+                "Correct — decision now",
+                "Should be 'I'm going to see'",
+                "Should be 'I see'",
+                "Should be 'I'm seeing'"
+            ],
+            "correct_answer": "Correct — decision now",
+            "explanation_for_failure": "Decision made at the moment of speaking → will."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "9.1.4 Are these new skis yours? Will you take up skiing?",
+            "options": [
+                "Correct",
+                "Should be 'Are you going to take up' (prior plan)",
+                "Should be 'Do you take up'",
+                "Should be 'Would you take up'"
+            ],
+            "correct_answer": "Should be 'Are you going to take up' (prior plan)",
+            "explanation_for_failure": "Asking about a previously decided plan → be going to."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "9.1.5 Wherever you go in Brazil, you'll find the people very friendly.",
+            "options": [
+                "Correct — prediction based on opinion",
+                "Should be 'you're going to find'",
+                "Should be 'you find'",
+                "Should be 'you'd find'"
+            ],
+            "correct_answer": "Correct — prediction based on opinion",
+            "explanation_for_failure": "General prediction based on experience → will."
+        }
+    ]
+}
