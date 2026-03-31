@@ -7,13 +7,7 @@
     <title>Beginner Lessons - English Grammar Master</title>
 
     <link rel="icon" href="/favicon.ico">
-    <script type="module">
-    import { getFirestore, doc, getDoc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
-    window.createUserDocument = async function(user, provider) {
-      try { const db = getFirestore(); const userRef = doc(db, "users", user.uid); const snap = await getDoc(userRef);
-      if (!snap.exists()) { await setDoc(userRef, { uid: user.uid, email: user.email, displayName: user.displayName || (user.email ? user.email.split("@")[0] : "User"), provider: provider, createdAt: serverTimestamp(), hasPlacement: false, level: null, placementScore: null, placementTakenAt: null }); }
-      return userRef; } catch(e) { console.error("createUserDocument error:", e); throw e; } };
-    </script>
+    <script type="module" src="/create-user-document.js"></script>
     <script type="module" crossorigin src="/assets/lessons/beginner/index-SmzqQXC5.js"></script>
     <link rel="modulepreload" crossorigin href="/assets/auth-Tfpdhhiz.js">
     <link rel="modulepreload" crossorigin href="/assets/guard-opDxWjIk.js">
