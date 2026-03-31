@@ -1,0 +1,39 @@
+{
+    "id": "causative",
+    "meta": {
+        "topic": "Causative: Have/Get Something Done",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "I had my car repaired last week. I didn't fix it myself — the mechanic did it for me.",
+        "highlight_indices": [
+            "had",
+            "repaired"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Use the causative to show that someone else does an action for you.",
+        "formula": "Have + object + past participle (formal). Get + object + past participle (informal).",
+        "common_mistake": "Do not confuse 'I had my hair cut' (someone cut it for me) with 'I cut my hair' (I did it myself)."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "She ___ her house painted last summer.",
+            "options": [
+                "has",
+                "had",
+                "got",
+                "Both 'had' and 'got' are correct"
+            ],
+            "correct_answer": "Both 'had' and 'got' are correct",
+            "explanation_for_failure": "Both 'had' and 'got' work in the causative. 'Had' is more formal."
+        },
+        {
+            "type": "error_correction",
+            "incorrect_sentence": "I need to have my phone repair.",
+            "corrected_sentence": "I need to have my phone repaired.",
+            "error_analysis": "The causative requires past participle: repaired, not base form."
+        }
+    ]
+}
