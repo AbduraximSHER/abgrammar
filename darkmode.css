@@ -1,0 +1,121 @@
+/* ============================================================
+   Dark Mode — Overrides for ABGrammar "Luminous Craft" design
+   Activated by [data-theme="dark"] on <html>
+   ============================================================ */
+
+[data-theme="dark"] {
+  --bg: #0F0F1A;
+  --bg-warm: #161625;
+  --bg-cream: #1A1A2E;
+  --bg-card: #1E1E32;
+  --bg-elevated: #252540;
+  --text: #E8E8F0;
+  --text-secondary: #B4B4C7;
+  --text-muted: #7A7A94;
+  --text-light: #5A5A74;
+  --primary-soft: rgba(255, 107, 53, 0.15);
+  --primary-glow: rgba(255, 107, 53, 0.25);
+  --secondary-soft: rgba(108, 99, 255, 0.15);
+  --accent-emerald-soft: rgba(16, 185, 129, 0.15);
+  --accent-amber-soft: rgba(245, 158, 11, 0.15);
+  --accent-rose-soft: rgba(244, 63, 94, 0.15);
+  --border: #2A2A44;
+  --border-light: #222238;
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.25);
+  --shadow-lg: 0 12px 40px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 24px 60px rgba(0, 0, 0, 0.35);
+  --shadow-glow: 0 0 40px rgba(255, 107, 53, 0.2);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.2), 0 12px 32px rgba(0, 0, 0, 0.15);
+  color-scheme: dark;
+}
+
+[data-theme="dark"] body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+[data-theme="dark"] .top-bar {
+  background: rgba(15, 15, 26, 0.95);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .sidebar {
+  background: var(--bg-warm);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .topic-card,
+[data-theme="dark"] .card,
+[data-theme="dark"] .level-card,
+[data-theme="dark"] .stat-card {
+  background: var(--bg-card);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .topic-card:hover,
+[data-theme="dark"] .card:hover {
+  background: var(--bg-elevated);
+}
+
+[data-theme="dark"] .search-input {
+  background: var(--bg-card);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] input,
+[data-theme="dark"] select,
+[data-theme="dark"] textarea {
+  background: var(--bg-card);
+  color: var(--text);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .level-banner {
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .welcome-screen h1,
+[data-theme="dark"] h1, [data-theme="dark"] h2, [data-theme="dark"] h3 {
+  color: var(--text);
+}
+
+[data-theme="dark"] .lessons-header {
+  background: var(--bg-warm);
+  border-color: var(--border);
+}
+
+[data-theme="dark"] .back-link {
+  color: var(--text-secondary);
+}
+
+/* Dark mode toggle button */
+.dark-mode-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 9999;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid var(--border);
+  background: var(--bg-card);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  box-shadow: var(--shadow-md);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.dark-mode-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: var(--shadow-lg);
+}
+
+[data-theme="dark"] .dark-mode-toggle {
+  border-color: var(--border);
+  background: var(--bg-elevated);
+}
