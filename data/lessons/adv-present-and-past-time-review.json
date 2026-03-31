@@ -1,0 +1,82 @@
+{
+    "id": "adv-present-and-past-time-review",
+    "meta": {
+        "topic": "Present and past time: review",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "When we focus on an activity itself, starting before and continuing up to (and possibly beyond) a particular point of time, rather than focusing on actions as completed events, we use continuous forms",
+        "highlight_indices": [
+            "s washing",
+            "re not using",
+            "was flying"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "When we focus on an activity itself, starting before and continuing up to (and possibly beyond) a particular point of time, rather than focusing on actions as completed events, we use continuous forms:\n • Ingrid can't come to the phone.",
+        "formula": "She's washing her hair.",
+        "common_mistake": "We use perfect verb forms to describe one event or state from the point of view of a later time."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "8.1 Amy's blog (1): I (1) ___ (write) this blog in a hotel room in Perth.",
+            "options": [
+                "am writing",
+                "write",
+                "wrote",
+                "was writing"
+            ],
+            "correct_answer": "am writing",
+            "explanation_for_failure": "Activity in progress at the time of speaking = present continuous."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "8.1 Amy's blog (2): I (2) ___ (arrive) here a couple of hours ago.",
+            "options": [
+                "arrived",
+                "have arrived",
+                "was arriving",
+                "arrive"
+            ],
+            "correct_answer": "arrived",
+            "explanation_for_failure": "Specific past time with 'ago' = past simple."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "8.1 Amy's blog (3): I (3) ___ (feel) pretty tired so this will only be a short post.",
+            "options": [
+                "feel",
+                "am feeling",
+                "felt",
+                "was feeling"
+            ],
+            "correct_answer": "am feeling",
+            "explanation_for_failure": "Temporary state at the moment of speaking = present continuous."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "8.1 Amy's blog (4): before I (4) ___ (go) to sleep.",
+            "options": [
+                "go",
+                "am going",
+                "went",
+                "have gone"
+            ],
+            "correct_answer": "go",
+            "explanation_for_failure": "Future reference after 'before' = present simple."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "8.1 Amy's blog (5): As you (5) ___ (know), I spent last week in Adelaide with Ruby.",
+            "options": [
+                "know",
+                "are knowing",
+                "knew",
+                "have known"
+            ],
+            "correct_answer": "know",
+            "explanation_for_failure": "State verb 'know' used in present simple."
+        }
+    ]
+}
