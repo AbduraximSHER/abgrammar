@@ -1,0 +1,48 @@
+{
+    "id": "cleft-sentences",
+    "meta": {
+        "topic": "Cleft Sentences",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "It was John who broke the window. What I need is a good rest. The reason I called is to apologize.",
+        "highlight_indices": [
+            "It was",
+            "who",
+            "What",
+            "is",
+            "The reason"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Cleft sentences split a simple sentence to emphasize one part of it. Common types: It-cleft, What-cleft, All-cleft.",
+        "formula": "It-cleft: It is/was + focus + who/that + rest. What-cleft: What + subject + verb + is/was + focus.",
+        "common_mistake": "Use 'who' for people and 'that' for things in it-cleft sentences."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "It was the noise ___ woke me up, not the light.",
+            "options": [
+                "who",
+                "what",
+                "that",
+                "which"
+            ],
+            "correct_answer": "that",
+            "explanation_for_failure": "Use 'that' for things in it-cleft sentences."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "___ I really want is a cup of coffee.",
+            "options": [
+                "It",
+                "What",
+                "That",
+                "Which"
+            ],
+            "correct_answer": "What",
+            "explanation_for_failure": "What-cleft: 'What + subject + verb + is + focus'. 'What I want is...' emphasizes the thing you want."
+        }
+    ]
+}
