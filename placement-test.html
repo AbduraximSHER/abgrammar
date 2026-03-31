@@ -10,20 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script type="module">
-    import { getFirestore, doc, getDoc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
-    window.createUserDocument = async function(user, provider) {
-      try {
-        const db = getFirestore();
-        const userRef = doc(db, "users", user.uid);
-        const snap = await getDoc(userRef);
-        if (!snap.exists()) {
-          await setDoc(userRef, { uid: user.uid, email: user.email, displayName: user.displayName || (user.email ? user.email.split("@")[0] : "User"), provider: provider, createdAt: serverTimestamp(), hasPlacement: false, level: null, placementScore: null, placementTakenAt: null });
-        }
-        return userRef;
-      } catch(e) { console.error("createUserDocument error:", e); throw e; }
-    };
-  </script>
+  <script type="module" src="/create-user-document.js"></script>
   <script type="module" crossorigin src="/assets/placement-test-DOnVrxpZ.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/auth-Tfpdhhiz.js">
   <link rel="modulepreload" crossorigin href="/assets/guard-opDxWjIk.js">
