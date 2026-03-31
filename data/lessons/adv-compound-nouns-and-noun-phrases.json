@@ -1,0 +1,82 @@
+{
+    "id": "adv-compound-nouns-and-noun-phrases",
+    "meta": {
+        "topic": "Compound nouns and noun phrases",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "In a compound consisting of noun + noun, often the second noun gives the general class of things to which the compound belongs and the first noun indicates the type within this class. The first noun u",
+        "highlight_indices": [
+            "noun + noun",
+            "address book",
+            "savings account"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "In a compound consisting of noun + noun, often the second noun gives the general class of things to which the compound belongs and the first noun indicates the type within this class.",
+        "formula": "Sometimes a noun + noun is not appropriate.",
+        "common_mistake": "Some compound nouns are made up of verbs and prepositions or adverbs, and may be related to a multi-word verb."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "43.1.1 He wants to be (a) a films star. Which word is incorrect?",
+            "options": [
+                "films star -> film star",
+                "a films -> the films",
+                "no correction needed",
+                "films star -> filming star"
+            ],
+            "correct_answer": "films star -> film star",
+            "explanation_for_failure": "In noun+noun compounds, the first noun is usually singular (film star)."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "43.1.2 The tracks on his latest album range from (a) love songs to (b) pollution songs. Which phrase is unnatural?",
+            "options": [
+                "pollution songs -> songs about pollution",
+                "love songs -> songs of love",
+                "both are unnatural",
+                "neither is unnatural"
+            ],
+            "correct_answer": "pollution songs -> songs about pollution",
+            "explanation_for_failure": "'Pollution songs' doesn't refer to a well-known class of items, so noun+preposition+noun is preferred."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "43.2.1 Nathan tried to cover up the fact that he had lied. -> He attempted a ___ .",
+            "options": [
+                "cover-up",
+                "cover up",
+                "covering-up",
+                "up-cover"
+            ],
+            "correct_answer": "cover-up",
+            "explanation_for_failure": "A compound noun from a phrasal verb is often hyphenated or joined."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "43.3.1 Since the attempt to assassinate him last year, the Defence Minister has been given ___ protection by the police.",
+            "options": [
+                "round-the-clock",
+                "day-to-day",
+                "once-in-a-lifetime",
+                "step-by-step"
+            ],
+            "correct_answer": "round-the-clock",
+            "explanation_for_failure": "'Round-the-clock' means all day and all night."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "43.3.2 Eleni has a refreshing, ___ approach to management. She's much less concerned with theory than with getting things done.",
+            "options": [
+                "middle-of-the-road",
+                "larger-than-life",
+                "down-to-earth",
+                "step-by-step"
+            ],
+            "correct_answer": "down-to-earth",
+            "explanation_for_failure": "'Down-to-earth' means practical rather than theoretical."
+        }
+    ]
+}
