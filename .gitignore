@@ -1,0 +1,14 @@
+# Debug & backup files
+*.backup
+*.log
+data/needs_review*.json
+data/review_checklist.md
+data/extracted_words.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
