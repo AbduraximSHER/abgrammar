@@ -1,0 +1,52 @@
+{
+    "id": "third-conditional",
+    "meta": {
+        "topic": "Third Conditional",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "If I had studied harder, I would have passed the exam. Unfortunately, I failed.",
+        "highlight_indices": [
+            "If",
+            "had studied",
+            "would have passed"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Use third conditional for unreal situations in the past — things that did not happen.",
+        "formula": "If + past perfect, would have + past participle",
+        "common_mistake": "Do not confuse with second conditional. Third conditional is always about the past."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "If I ___ earlier, I would have caught the bus.",
+            "options": [
+                "woke up",
+                "had woken up",
+                "would wake up",
+                "wake up"
+            ],
+            "correct_answer": "had woken up",
+            "explanation_for_failure": "Third conditional requires past perfect (had + past participle) in the if-clause."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "She ___ the job if she had applied on time.",
+            "options": [
+                "would get",
+                "would have got",
+                "will get",
+                "got"
+            ],
+            "correct_answer": "would have got",
+            "explanation_for_failure": "The result clause uses would have + past participle."
+        },
+        {
+            "type": "error_correction",
+            "incorrect_sentence": "If they would have called, I would have answered.",
+            "corrected_sentence": "If they had called, I would have answered.",
+            "error_analysis": "Never use 'would have' in the if-clause. Use past perfect: had called."
+        }
+    ]
+}
