@@ -1,0 +1,81 @@
+{
+    "id": "adv-reporting-with-passives-it-is-said-that",
+    "meta": {
+        "topic": "Reporting with passives; it is said that...",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "We often use a passive to report what people say, think, etc., particularly if it is not important to mention who is being reported:",
+        "highlight_indices": [
+            "have been told",
+            "was asked"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "We often use a passive to report what people say, think, etc.",
+        "formula": "Another common way of reporting what is said by an unspecified group of people is to use it + passive verb + that-clause (see Unit 33 for more on that-clauses).",
+        "common_mistake": "An alternative to it + passive verb + that-clause is to use subject + passive verb + to-infinitive if we want the subject to be the topic of the sentence (see Unit 22C)."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "25.1.1 It was ___ to hold new negotiations next month.",
+            "options": [
+                "announced",
+                "agreed",
+                "Both announced and agreed",
+                "mentioned"
+            ],
+            "correct_answer": "Both announced and agreed",
+            "explanation_for_failure": "Both agree and announce can be used with it + passive + to-infinitive clause."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "25.1.2 It has been ___ that the crash was the result of pilot error.",
+            "options": [
+                "shown",
+                "proposed",
+                "revealed",
+                "Both shown and revealed"
+            ],
+            "correct_answer": "Both shown and revealed",
+            "explanation_for_failure": "Show and reveal are both possible here."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "25.1.3 It was ___ that Mrs Ho would chair the meeting.",
+            "options": [
+                "hoped",
+                "explained",
+                "revealed",
+                "Both hoped and revealed"
+            ],
+            "correct_answer": "Both hoped and revealed",
+            "explanation_for_failure": "Hope and reveal are both possible; explain is not used in Pattern 1."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "25.1.4 It has been ___ to appoint Dr Ahmadi as head teacher.",
+            "options": [
+                "suggested",
+                "decided",
+                "proposed",
+                "Both decided and proposed"
+            ],
+            "correct_answer": "Both decided and proposed",
+            "explanation_for_failure": "Decide and propose can be followed by a to-infinitive clause."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "25.1.6 It has now been ___ that half of cancer cases are lifestyle-related.",
+            "options": [
+                "revealed",
+                "established",
+                "discovered",
+                "All of these"
+            ],
+            "correct_answer": "All of these",
+            "explanation_for_failure": "Reveal, establish, and discover all work for Pattern 1."
+        }
+    ]
+}
