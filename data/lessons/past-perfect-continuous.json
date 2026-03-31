@@ -1,0 +1,41 @@
+{
+    "id": "past-perfect-continuous",
+    "meta": {
+        "topic": "Past Perfect Continuous",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "She had been waiting for an hour before the bus finally arrived. Her feet were tired.",
+        "highlight_indices": [
+            "had",
+            "been",
+            "waiting",
+            "for"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Use past perfect continuous for actions that continued up to a point in the past, often showing cause of a past result.",
+        "formula": "Subject + had been + verb-ing",
+        "common_mistake": "Do not use with state verbs (know, believe, want). Use past perfect simple instead."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "They ___ for two hours before it stopped raining.",
+            "options": [
+                "had been driving",
+                "have been driving",
+                "were driving",
+                "had driven"
+            ],
+            "correct_answer": "had been driving",
+            "explanation_for_failure": "Had been + verb-ing shows a continuous action before another past event."
+        },
+        {
+            "type": "error_correction",
+            "incorrect_sentence": "He had been knowing her for years before they married.",
+            "corrected_sentence": "He had known her for years before they married.",
+            "error_analysis": "'Know' is a state verb — use past perfect simple (had known), not continuous."
+        }
+    ]
+}
