@@ -261,24 +261,101 @@
             "id": "3",
             "title": "Level 3: Advanced",
             "subtitle": "Complex Structures",
-            "description": "Master the nuances of English grammar",
+            "description": "Master the nuances of English grammar for fluent, natural expression",
             "emoji": "👑",
             "order": 3,
-            "estimated_time": "4-5 hours",
+            "estimated_time": "5-6 hours",
             "unlock_after": "2",
             "topics": [
                 {
                     "id": "present-perfect-continuous",
                     "title": "Present Perfect Continuous",
-                    "summary": "Duration with completion",
-                    "estimated_time": "25 min",
+                    "summary": "Duration with present result",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "past-perfect-continuous",
+                    "title": "Past Perfect Continuous",
+                    "summary": "Duration before a past event",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "future-perfect",
+                    "title": "Future Perfect",
+                    "summary": "Completed before a future time",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "second-conditional",
+                    "title": "Second Conditional",
+                    "summary": "Unreal present situations",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "third-conditional",
+                    "title": "Third Conditional",
+                    "summary": "Unreal past situations",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "mixed-conditionals",
+                    "title": "Mixed Conditionals",
+                    "summary": "Crossing time frames",
+                    "estimated_time": "22 min",
+                    "required": true
+                },
+                {
+                    "id": "wish-and-if-only",
+                    "title": "Wish & If Only",
+                    "summary": "Regrets and desires",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "gerunds-and-infinitives",
+                    "title": "Gerunds & Infinitives",
+                    "summary": "-ing vs to + verb",
+                    "estimated_time": "22 min",
+                    "required": true
+                },
+                {
+                    "id": "causative",
+                    "title": "Causative: Have/Get Done",
+                    "summary": "Someone does it for you",
+                    "estimated_time": "18 min",
+                    "required": true
+                },
+                {
+                    "id": "participle-clauses",
+                    "title": "Participle Clauses",
+                    "summary": "Shortening with -ing/-ed",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "inversion",
+                    "title": "Inversion",
+                    "summary": "Never have I seen...",
+                    "estimated_time": "20 min",
+                    "required": true
+                },
+                {
+                    "id": "cleft-sentences",
+                    "title": "Cleft Sentences",
+                    "summary": "It was... / What I need is...",
+                    "estimated_time": "18 min",
                     "required": true
                 }
             ],
             "completion_badge": {
                 "name": "Grammar Master",
                 "icon": "👑",
-                "xp_reward": 300
+                "xp_reward": 500
             }
         }
     ],
