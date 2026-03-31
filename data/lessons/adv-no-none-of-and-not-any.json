@@ -1,0 +1,82 @@
+{
+    "id": "adv-no-none-of-and-not-any",
+    "meta": {
+        "topic": "No, none (of) and not any",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "We can use no and none (of) instead of not a or not any for particular emphasis. Compare:",
+        "highlight_indices": [
+            "no",
+            "none (of)",
+            "not a"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "We can use no and none (of) instead of not a or not any for particular emphasis.",
+        "formula": "We don't usually use not a / any, not anyone, etc.",
+        "common_mistake": "In a formal or literary style we can use not a in initial position or after and, but or that:\n • Not a sound came from the room."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "49.1.1 Where are the biscuits? There are ___ in the cupboard.",
+            "options": [
+                "none",
+                "no",
+                "not any",
+                "nothing"
+            ],
+            "correct_answer": "none",
+            "explanation_for_failure": "Use 'none' as a pronoun when it stands alone without a noun."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "49.2.1 I've got a headache. - ___ . You've been in front of that computer screen for hours.",
+            "options": [
+                "No wonder",
+                "No idea",
+                "No problem",
+                "No comment"
+            ],
+            "correct_answer": "No wonder",
+            "explanation_for_failure": "'No wonder' means 'it's not surprising'."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "49.3.1 I phoned the car hire company and had to wait hours for someone to turn up. It was hot and there (was no shade) as there (is no tree) in that part of the island. (Find the mistake in the phrase in brackets)",
+            "options": [
+                "is no tree -> are no trees",
+                "was no shade -> wasn't any shade",
+                "is no tree -> was no trees",
+                "no mistake"
+            ],
+            "correct_answer": "is no tree -> are no trees",
+            "explanation_for_failure": "Use a plural noun ('trees') where we would expect more than one."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "49.4.1 A: 'Can you give me a lift to the station?' B: '___ . I'll pick you up at eight.'",
+            "options": [
+                "No problem",
+                "No way",
+                "No wonder",
+                "No idea"
+            ],
+            "correct_answer": "No problem",
+            "explanation_for_failure": "'No problem' means it isn't difficult to do."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "49.5.1 I made lots of cakes for the party but ___ the children liked them. (Use an emphatic phrase)",
+            "options": [
+                "not one of",
+                "no amount of",
+                "not a single",
+                "none"
+            ],
+            "correct_answer": "not one of",
+            "explanation_for_failure": "Use 'not one of' with plural nouns for special emphasis."
+        }
+    ]
+}
