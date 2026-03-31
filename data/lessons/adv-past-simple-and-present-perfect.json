@@ -1,0 +1,82 @@
+{
+    "id": "adv-past-simple-and-present-perfect",
+    "meta": {
+        "topic": "Past simple and present perfect",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "Time expressions that refer to the present, such as this morning / week / month and today, can be used with either past simple or present perfect verbs.",
+        "highlight_indices": [
+            "this morning / week / month",
+            "today",
+            "this morning"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Time expressions that refer to the present, such as this morning / week / month and today, can be used with either past simple or present perfect verbs.",
+        "formula": "In a sentence which includes a time clause with since, we generally prefer a past simple verb in the time clause (referring to a particular point in the past) and a present perfect verb in the main clause:\n • Since Mr Dodson became president unemployment has increased.",
+        "common_mistake": "With time clauses introduced by after, when, until, as soon as, once, by the time and the time expressions the minute / second / moment the past simple refers to past, completed events and the present perfect refers to future events."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "3.1.1 A: Shall I make us some dinner? ... B: No, thanks. I ___ to the dentist this afternoon and my mouth hurts too much to eat anything. (go)",
+            "options": [
+                "have gone",
+                "went",
+                "am going",
+                "go"
+            ],
+            "correct_answer": "went",
+            "explanation_for_failure": "The period of the afternoon is fully completed in the speaker's mind."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "3.1.2 I ___ three lectures today and I still have two more later this afternoon. (have)",
+            "options": [
+                "had",
+                "have had",
+                "was having",
+                "have"
+            ],
+            "correct_answer": "have had",
+            "explanation_for_failure": "The period 'today' includes the present moment, and more lectures are expected."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "3.1.3 It was so hot today that I ___ shorts and a T-shirt at work. (wear)",
+            "options": [
+                "have worn",
+                "wear",
+                "wore",
+                "am wearing"
+            ],
+            "correct_answer": "wore",
+            "explanation_for_failure": "The work day is over, even though it's still 'today'."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "3.1.4 We ___ £400 on food this month and there's another week to go before I get paid. (spend)",
+            "options": [
+                "spent",
+                "have spent",
+                "spend",
+                "are spending"
+            ],
+            "correct_answer": "have spent",
+            "explanation_for_failure": "The period 'this month' is incomplete."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "3.1.5 A: Do you want a lift home? B: No, I ___ this morning because my alarm clock didn't go off, so I need to work late. (oversleep)",
+            "options": [
+                "have overslept",
+                "oversleep",
+                "overslept",
+                "am oversleeping"
+            ],
+            "correct_answer": "overslept",
+            "explanation_for_failure": "The 'morning' is definitely over as they are leaving work now."
+        }
+    ]
+}
