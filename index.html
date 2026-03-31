@@ -15,34 +15,7 @@
     rel="stylesheet">
 
   <!-- App bundles -->
-  <script type="module">
-    // FIX #3: Define createUserDocument globally (guard module calls it but it was never exported)
-    import { getFirestore, doc, getDoc, setDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-firestore.js";
-    window.createUserDocument = async function(user, provider) {
-      try {
-        const db = getFirestore();
-        const userRef = doc(db, "users", user.uid);
-        const snap = await getDoc(userRef);
-        if (!snap.exists()) {
-          await setDoc(userRef, {
-            uid: user.uid,
-            email: user.email,
-            displayName: user.displayName || (user.email ? user.email.split("@")[0] : "User"),
-            provider: provider,
-            createdAt: serverTimestamp(),
-            hasPlacement: false,
-            level: null,
-            placementScore: null,
-            placementTakenAt: null
-          });
-        }
-        return userRef;
-      } catch(e) {
-        console.error("createUserDocument error:", e);
-        throw e;
-      }
-    };
-  </script>
+  <script type="module" src="/create-user-document.js"></script>
   <script type="module" crossorigin src="/assets/index-D9aNNi-L.js"></script>
   <link rel="modulepreload" crossorigin href="/assets/auth-Tfpdhhiz.js">
   <link rel="modulepreload" crossorigin href="/assets/guard-opDxWjIk.js">
