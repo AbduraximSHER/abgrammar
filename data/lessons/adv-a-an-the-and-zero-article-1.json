@@ -1,0 +1,81 @@
+{
+    "id": "adv-a-an-the-and-zero-article-1",
+    "meta": {
+        "topic": "A / an, the and zero article 1",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "We usually use the when we talk about things which are unique; that is, there is only one of them (or one set of them):",
+        "highlight_indices": [
+            "the",
+            "the"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "We usually use the when we talk about things which are unique; that is, there is only one of them (or one set of them):\n • the world, the sky, the atmosphere, the sun, the ground, the climate, the horizon, the human race, the environment, the travel industry, the internet\n We use the with general ge",
+        "formula": "We can use the when we make generalisations about classes of things using singular countable nouns.",
+        "common_mistake": "Some nouns can be used uncountably when we talk about the whole substance or idea, but countably when we talk about particular instances of it."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "45.1.1 I think the best Australian wine is as good as any in ___ (world).",
+            "options": [
+                "the world",
+                "a world",
+                "world",
+                "worlds"
+            ],
+            "correct_answer": "the world",
+            "explanation_for_failure": "Use 'the' for things which are unique (only one of them)."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "45.1.2 As a child, Dariya would often daydream about travelling forward in time to ___ (future) very different from the one she lived in.",
+            "options": [
+                "a future",
+                "the future",
+                "future",
+                "futures"
+            ],
+            "correct_answer": "a future",
+            "explanation_for_failure": "Use 'a' when describing a particular instance or type of future."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "45.2.1 We get some strange requests in our shop. We had ___ in the other day who wanted to buy chocolate-covered ants.",
+            "options": [
+                "a customer",
+                "the customer",
+                "both 'a customer' and 'the customer'",
+                "customer"
+            ],
+            "correct_answer": "a customer",
+            "explanation_for_failure": "Use 'a' to refer to a particular but unspecified individual."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "45.2.2 The campaign against smoking in public places argues that its harmful effects are not confined to ___ .",
+            "options": [
+                "the smoker / a smoker",
+                "the smoker",
+                "a smoker",
+                "smokers only"
+            ],
+            "correct_answer": "the smoker / a smoker",
+            "explanation_for_failure": "Both 'the smoker' (general class) and 'a smoker' (generalization true of an individual item) are possible."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "45.3.1 Most red meat is relatively high in ___ (iron).",
+            "options": [
+                "iron",
+                "an iron",
+                "the iron",
+                "irons"
+            ],
+            "correct_answer": "iron",
+            "explanation_for_failure": "When talking about the whole substance, 'iron' is uncountable."
+        }
+    ]
+}
