@@ -1,0 +1,82 @@
+{
+    "id": "adv-should-ought-to-and-had-better",
+    "meta": {
+        "topic": "Should, ought to and had better",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "We can often use either should or ought to to talk about obligations and recommendations (e.g. You should / ought to finish your homework before you go out) and probability (e.g. It should / ought to ",
+        "highlight_indices": [
+            "should",
+            "ought to",
+            "should / ought to"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "We can often use either should or ought to to talk about obligations and recommendations (e.g. You should / ought to finish your homework before you go out) and probability (e.g. It should / ought to be ready by now) although in general should is used more frequently.",
+        "formula": "Ought to is used particularly in speech and most often to talk about obligation rather than probability.",
+        "common_mistake": "We use should / ought to + have + past participle to talk about something that didn't happen in the past and we are sorry that it didn't:\n • We should / ought to have waited for the rain to stop."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "20.1.1 Thomas is running so well at the moment that he ___ the 800 metres easily.",
+            "options": [
+                "should/ought to win",
+                "should/ought to have won",
+                "should be winning",
+                "must win"
+            ],
+            "correct_answer": "should/ought to win",
+            "explanation_for_failure": "Probability about a future event → should/ought to + infinitive."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "20.1.2 Where ___ the cheese? In the fridge?",
+            "options": [
+                "should I put (question — should preferred)",
+                "ought I to put",
+                "shall I put",
+                "must I put"
+            ],
+            "correct_answer": "should I put (question — should preferred)",
+            "explanation_for_failure": "Question asking for advice → should preferred."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "20.1.3 The tickets ___ a couple of weeks before we go on holiday.",
+            "options": [
+                "should be sent (passive — outside authority/plan)",
+                "ought to be sent",
+                "Both should be sent and ought to be sent",
+                "must be sent"
+            ],
+            "correct_answer": "Both should be sent and ought to be sent",
+            "explanation_for_failure": "Both should and ought to work for passive obligation."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "20.1.5 All packaging ___ before switching on the printer for the first time.",
+            "options": [
+                "should be removed (instruction from authority → should preferred)",
+                "ought to be removed",
+                "must be removed",
+                "had better be removed"
+            ],
+            "correct_answer": "should be removed (instruction from authority → should preferred)",
+            "explanation_for_failure": "Instruction from authority (manual) → should preferred."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "20.1.6 It's important to look smart at the interview. You ___ a suit.",
+            "options": [
+                "should wear / ought to wear (recommendation)",
+                "should have worn",
+                "had better wear",
+                "must wear"
+            ],
+            "correct_answer": "should wear / ought to wear (recommendation)",
+            "explanation_for_failure": "Personal recommendation → should/ought to + infinitive."
+        }
+    ]
+}
