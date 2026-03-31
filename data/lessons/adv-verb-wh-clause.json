@@ -1,0 +1,82 @@
+{
+    "id": "adv-verb-wh-clause",
+    "meta": {
+        "topic": "Verb + wh-clause",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "Some verbs can be followed by a clause beginning with a wh-word (how, what, when, where, which, who, or why):",
+        "highlight_indices": [
+            "wh-word",
+            "explain why",
+            "decide which"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Some verbs can be followed by a clause beginning with a wh-word (how, what, when, where, which, who, or why):\n • That might explain why he's unhappy.",
+        "formula": "Some verbs must have an object before the wh-clause:\n • She reminded me what (I had) to do.",
+        "common_mistake": "We can use whether in a wh-clause to show choices."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "34.1.1 Before the meeting finished they arranged ___ to meet next.",
+            "options": [
+                "when",
+                "how",
+                "what",
+                "which"
+            ],
+            "correct_answer": "when",
+            "explanation_for_failure": "Arranged when/where to meet."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "34.1.2 He took my hands and showed ___ to fit the parts back together.",
+            "options": [
+                "me how",
+                "how",
+                "it how",
+                "me"
+            ],
+            "correct_answer": "me how",
+            "explanation_for_failure": "Show + object + how + to-infinitive."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "34.2.1 She was ___ whether to invite Jeremy over for dinner.",
+            "options": [
+                "debating",
+                "thinking",
+                "speculating",
+                "concluding"
+            ],
+            "correct_answer": "debating",
+            "explanation_for_failure": "Debate/consider/choose can be followed by whether + to-infinitive."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "34.2.2 The council is meeting to ___ whether to increase local taxes.",
+            "options": [
+                "discuss",
+                "ask",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "discuss",
+            "explanation_for_failure": "Discuss fits the context of a meeting better."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "34.3.1 I couldn't decide ___ to carry on or go back down.",
+            "options": [
+                "whether",
+                "if",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "whether",
+            "explanation_for_failure": "Only 'whether' is used before a to-infinitive."
+        }
+    ]
+}
