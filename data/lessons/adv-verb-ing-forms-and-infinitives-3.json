@@ -1,0 +1,81 @@
+{
+    "id": "adv-verb-ing-forms-and-infinitives-3",
+    "meta": {
+        "topic": "Verb + -ing forms and infinitives 3",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "Some verbs can be followed by an -ing form or a to-infinitive with little difference in meaning. These include: attempt, begin, can't bear, cease, continue, hate, intend, like, love, prefer, start.",
+        "highlight_indices": [
+            "-ing form",
+            "to-infinitive"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Some verbs can be followed by an -ing form or a to-infinitive with little difference in meaning.",
+        "formula": "Other verbs can be followed by an -ing form or a to-infinitive, but there is a difference in meaning.",
+        "common_mistake": "Pay attention to the context when choosing the correct form."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "32.1.1 I'm beginning ___ that it was a mistake to come here.",
+            "options": [
+                "to think",
+                "thinking",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "to think",
+            "explanation_for_failure": "After continuous 'beginning', use to-infinitive."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "32.1.2 I like ___ the room every morning before I start work.",
+            "options": [
+                "cleaning",
+                "to clean",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "to clean",
+            "explanation_for_failure": "Talking about a habit/routine."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "32.2.1 I regret ___ him that he hadn't got the job.",
+            "options": [
+                "to tell",
+                "telling",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "to tell",
+            "explanation_for_failure": "Regret + to-infinitive is used for bad news/formal statements."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "32.2.2 I regret ___ him that he hadn't got the job.",
+            "options": [
+                "to tell",
+                "telling",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "telling",
+            "explanation_for_failure": "Regret + -ing is for feeling sorry about past actions."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "32.2.3 After two years in the job, she went on ___ the company's youngest manager.",
+            "options": [
+                "to become",
+                "becoming",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "to become",
+            "explanation_for_failure": "Go on + to-infinitive = move to a new action."
+        }
+    ]
+}
