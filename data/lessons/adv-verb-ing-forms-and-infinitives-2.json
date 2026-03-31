@@ -1,0 +1,81 @@
+{
+    "id": "adv-verb-ing-forms-and-infinitives-2",
+    "meta": {
+        "topic": "Verb + -ing forms and infinitives 2",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "After some verbs we need to include an object before a to-infinitive in active sentences:",
+        "highlight_indices": [
+            "to-infinitive",
+            "warned"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "After some verbs we need to include an object before a to-infinitive in active sentences:\n • The police warned everyone to stay inside with their windows closed.",
+        "formula": "After some verbs we have to put a preposition, usually for, between the verb and the object + to-infinitive:\n • They arranged for Rania to stay in London.",
+        "common_mistake": "A number of other to-infinitive and -ing forms can also follow verbs:\n • verb + negative to-infinitive/negative -ing: We decided not to go to Paris after all."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "31.1.1 My mother ___ me to throw away my old toys.",
+            "options": [
+                "threatened",
+                "told",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "told",
+            "explanation_for_failure": "Threatened doesn't take an object before the infinitive."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "31.1.2 My mother ___ to throw away my old toys.",
+            "options": [
+                "threatened",
+                "told",
+                "both",
+                "neither"
+            ],
+            "correct_answer": "threatened",
+            "explanation_for_failure": "Tell requires an object."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "31.2.1 When I advertised ___ a website designer...",
+            "options": [
+                "to",
+                "for",
+                "with",
+                "on"
+            ],
+            "correct_answer": "for",
+            "explanation_for_failure": "Advertise for someone/something."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "31.2.2 But I've now learnt that you can't rely ___ Greta to do anything.",
+            "options": [
+                "to",
+                "for",
+                "on",
+                "with"
+            ],
+            "correct_answer": "on",
+            "explanation_for_failure": "Rely on someone."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "31.3.1 I ___ anyone Marta's new address. (agree - not tell)",
+            "options": [
+                "agreed not to tell",
+                "didn't agree to tell",
+                "agreed not telling",
+                "agreed to not tell"
+            ],
+            "correct_answer": "agreed not to tell",
+            "explanation_for_failure": "Agree + not + to-infinitive."
+        }
+    ]
+}
