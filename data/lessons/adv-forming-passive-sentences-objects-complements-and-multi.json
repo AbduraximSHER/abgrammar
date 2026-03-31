@@ -1,0 +1,82 @@
+{
+    "id": "adv-forming-passive-sentences-objects-complements-and-multi",
+    "meta": {
+        "topic": "Forming passive sentences: objects, complements and multi-word verbs",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "Verbs such as give take both a direct object (DO) and an indirect object (IO) in two patterns: V + IO + DO or V + DO + preposition + IO. These verbs have two corresponding passives:",
+        "highlight_indices": [
+            "give",
+            "V + IO + DO",
+            "V + DO + preposition + IO"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "Verbs such as give take both a direct object (DO) and an indirect object (IO) in two patterns: V + IO + DO or V + DO + preposition + IO.",
+        "formula": "Verbs followed by object + complement in the active have one passive form:\n • They elected her president.",
+        "common_mistake": "Some verbs that are followed by object + bare infinitive (= an infinitive without 'to') in the active are followed by a to-infinitive in the passive:\n • They have made him return the money."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "23.1.1 Someone handed me a note. (Two possible passives)",
+            "options": [
+                "I was handed a note. / A note was handed to me.",
+                "I was handed a note. / A note handed to me.",
+                "I handed a note. / A note was handed me.",
+                "I was hand a note. / A note was handed to me."
+            ],
+            "correct_answer": "I was handed a note. / A note was handed to me.",
+            "explanation_for_failure": "Verbs like hand/give can have two passive forms."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "23.1.2 Someone offered her a second-hand bicycle.",
+            "options": [
+                "She was offered a second-hand bicycle. / A second-hand bicycle was offered (to) her.",
+                "She was offered a second-hand bicycle. / A second-hand bicycle offered her.",
+                "A second-hand bicycle was offered her. / She offered a second-hand bicycle.",
+                "She was offer a second-hand bicycle. / A second-hand bicycle was offered to her."
+            ],
+            "correct_answer": "She was offered a second-hand bicycle. / A second-hand bicycle was offered (to) her.",
+            "explanation_for_failure": "She (IO) becomes subject or bicycle (DO) becomes subject."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "23.1.3 Someone has proposed improvements to the developers.",
+            "options": [
+                "Improvements have been proposed to the developers.",
+                "The developers have been proposed improvements.",
+                "Improvements has been proposed to the developers.",
+                "Both are possible."
+            ],
+            "correct_answer": "Improvements have been proposed to the developers.",
+            "explanation_for_failure": "Verb 'propose' (reporting verb) can only have the DO as subject."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "23.1.7 Someone had mentioned the password to the thieves.",
+            "options": [
+                "The password had been mentioned to the thieves.",
+                "The thieves had been mentioned the password.",
+                "The password has been mentioned to the thieves.",
+                "Both are possible."
+            ],
+            "correct_answer": "The password had been mentioned to the thieves.",
+            "explanation_for_failure": "Verb 'mention' (reporting verb) can only have the DO as subject."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "23.2.1 People helped Rob to his feet after the accident.",
+            "options": [
+                "Rob was helped to his feet after the accident.",
+                "Rob helped to his feet after the accident.",
+                "Rob was help to his feet after the accident.",
+                "Rob has been helped to his feet after the accident."
+            ],
+            "correct_answer": "Rob was helped to his feet after the accident.",
+            "explanation_for_failure": "Passive of help + to-infinitive."
+        }
+    ]
+}
