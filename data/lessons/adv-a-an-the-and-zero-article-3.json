@@ -1,0 +1,82 @@
+{
+    "id": "adv-a-an-the-and-zero-article-3",
+    "meta": {
+        "topic": "A / an, the and zero article 3",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "With plural and uncountable nouns, zero article is used to talk generally, without definite people or things in mind. The is used when we are referring to specific people or things. Compare:",
+        "highlight_indices": [
+            "zero article",
+            "The",
+            "books"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "With plural and uncountable nouns, zero article is used to talk generally, without definite people or things in mind.",
+        "formula": "We often use zero article with the names of holidays, special times of the year, months, and days of the week including Easter, Ramadan, New Year's Day.",
+        "common_mistake": "We use zero article with times of the day and night such as midnight, midday, and noon:\n • If possible, I'd like it finished by midday."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "47.1.1 ___ as young as ten are working in the clothing industry.",
+            "options": [
+                "Children",
+                "The children",
+                "A children",
+                "Child"
+            ],
+            "correct_answer": "Children",
+            "explanation_for_failure": "Use zero article for plural nouns in a general sense."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "47.1.2 While you're painting the sitting room, I'll take ___ over to the park.",
+            "options": [
+                "the children",
+                "children",
+                "a children",
+                "child"
+            ],
+            "correct_answer": "the children",
+            "explanation_for_failure": "Use 'the' for specific children (e.g., our children)."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "47.2.1 I've been working in the garden all ___ afternoon and my back aches.",
+            "options": [
+                "zero article",
+                "the",
+                "an",
+                "a"
+            ],
+            "correct_answer": "zero article",
+            "explanation_for_failure": "We typically say 'all afternoon' without an article."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "47.2.2 A: Can you remember when we last saw Alex? B: It was ___ Sunday in June, I think.",
+            "options": [
+                "a",
+                "the",
+                "zero article",
+                "an"
+            ],
+            "correct_answer": "a",
+            "explanation_for_failure": "Use 'a' when referring to a day of the week, but not which particular one."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "47.3.1 I got ___ from Carla yesterday. B: How is she now?",
+            "options": [
+                "an email",
+                "email",
+                "the email",
+                "emails"
+            ],
+            "correct_answer": "an email",
+            "explanation_for_failure": "When 'email' means a single message, it is a countable noun taking 'a/an'."
+        }
+    ]
+}
