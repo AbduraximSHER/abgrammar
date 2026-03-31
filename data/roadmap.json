@@ -103,7 +103,7 @@
         {
             "id": "2",
             "title": "Level 2: Intermediate",
-            "subtitle": "Strong Beginner Skills",
+            "subtitle": "Expanding Your Grammar",
             "description": "Build comprehensive grammar foundation",
             "emoji": "🚀",
             "order": 2,
@@ -259,9 +259,9 @@
         },
         {
             "id": "3",
-            "title": "Level 3: Advanced",
+            "title": "Level 3: Upper-Intermediate",
             "subtitle": "Complex Structures",
-            "description": "Master the nuances of English grammar for fluent, natural expression",
+            "description": "Master complex grammar for fluent, natural English",
             "emoji": "👑",
             "order": 3,
             "estimated_time": "5-6 hours",
@@ -353,9 +353,393 @@
                 }
             ],
             "completion_badge": {
-                "name": "Grammar Master",
+                "name": "Grammar Expert",
                 "icon": "👑",
                 "xp_reward": 500
+            }
+        },
+        {
+            "id": "4",
+            "title": "Level 4: Advanced — Tenses & Modals",
+            "subtitle": "Deep Tense Mastery",
+            "description": "Advanced tense contrasts, future forms, modals, and passive constructions",
+            "emoji": "🔥",
+            "order": 4,
+            "estimated_time": "6-8 hours",
+            "unlock_after": "3",
+            "topics": [
+                {
+                    "id": "adv-present-continuous-and-present-simple-state-verbs-and",
+                    "title": "Present continuous and present simple: state verbs and performatives",
+                    "summary": "We can use the present continuous with some state ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-using-present-continuous-and-present-simple",
+                    "title": "Using present continuous and present simple",
+                    "summary": "We often use the present simple and present contin...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-past-simple-and-present-perfect",
+                    "title": "Past simple and present perfect",
+                    "summary": "Time expressions that refer to the present, such a...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-past-continuous-and-past-simple",
+                    "title": "Past continuous and past simple",
+                    "summary": "When we talk about two events or activities that w...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-past-perfect-and-past-simple",
+                    "title": "Past perfect and past simple",
+                    "summary": "When we give an account of a sequence of past even...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-present-perfect-continuous-and-present-perfect",
+                    "title": "Present perfect continuous and present perfect",
+                    "summary": "We use the present perfect continuous to express t...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-past-perfect-continuous-past-perfect-and-past-continuous",
+                    "title": "Past perfect continuous, past perfect and past continuous",
+                    "summary": "We use the past perfect continuous to talk about s...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-present-and-past-time-review",
+                    "title": "Present and past time: review",
+                    "summary": "When we focus on an activity itself, starting befo...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-will-and-be-going-to",
+                    "title": "Will and be going to",
+                    "summary": "We can use either will or be going to to talk abou...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-present-simple-and-present-continuous-for-the-future",
+                    "title": "Present simple and present continuous for the future",
+                    "summary": "Present simple\n We can often use either the presen...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-future-continuous-future-perfect-and-future-perfect",
+                    "title": "Future continuous, future perfect and future perfect continuous",
+                    "summary": "We can use the future continuous to talk about:\n (...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-be-to-infinitive-be-about-to-infinitive",
+                    "title": "Be to + infinitive; be about to + infinitive",
+                    "summary": "Be to + infinitive is commonly used in news report...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-other-ways-of-talking-about-the-future",
+                    "title": "Other ways of talking about the future",
+                    "summary": "Some phrases are commonly used to refer to actions...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-the-future-seen-from-the-past",
+                    "title": "The future seen from the past",
+                    "summary": "There are a number of ways of talking about an act...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-can-could-be-able-to-and-be-allowed-to",
+                    "title": "Can, could, be able to and be allowed to",
+                    "summary": "We sometimes use be able to instead of can and cou...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-will-would-and-used-to",
+                    "title": "Will, would and used to",
+                    "summary": "We can use will (for the present) and would (for t...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-may-and-might",
+                    "title": "May and might",
+                    "summary": "May and might often have a similar meaning when we...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-must-and-have-got-to",
+                    "title": "Must and have (got) to",
+                    "summary": "We use must and must not in formal rules and regul...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-neednt-dont-need-to-and-dont-have-to",
+                    "title": "Need(n't), don't need to and don't have to",
+                    "summary": "We can use need as an ordinary verb:\n • I needed t...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-should-ought-to-and-had-better",
+                    "title": "Should, ought to and had better",
+                    "summary": "We can often use either should or ought to to talk...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-linking-verbs-be-appear-seem-become-get-etc",
+                    "title": "Linking verbs: be, appear, seem; become, get, etc.",
+                    "summary": "When an adjective or noun phrase is used after a v...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-using-passives",
+                    "title": "Using passives",
+                    "summary": "We typically use a passive rather than an active i...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-forming-passive-sentences-objects-complements-and-multi",
+                    "title": "Forming passive sentences: objects, complements and multi-word verbs",
+                    "summary": "Verbs such as give take both a direct object (DO) ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-forming-passive-sentences-verb-ing-or-to-infinitive",
+                    "title": "Forming passive sentences: verb + -ing or to-infinitive",
+                    "summary": "Verbs followed by object + -ing in the active are ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-reporting-with-passives-it-is-said-that",
+                    "title": "Reporting with passives; it is said that...",
+                    "summary": "We often use a passive to report what people say, ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                }
+            ],
+            "completion_badge": {
+                "name": "Advanced Scholar",
+                "icon": "🔥",
+                "xp_reward": 750
+            }
+        },
+        {
+            "id": "5",
+            "title": "Level 5: Mastery — Patterns & Precision",
+            "subtitle": "Near-Native Accuracy",
+            "description": "Verb patterns, reporting, subject-verb agreement, articles, and quantifiers",
+            "emoji": "💎",
+            "order": 5,
+            "estimated_time": "6-8 hours",
+            "unlock_after": "4",
+            "topics": [
+                {
+                    "id": "adv-wh-questions-with-who-whom-which-how-and-whose",
+                    "title": "Wh-questions with who, whom, which, how and whose",
+                    "summary": "In wh-questions, who is usually the subject and wh...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-negative-questions-echo-questions-questions-with-that",
+                    "title": "Negative questions; echo questions; questions with that-clauses",
+                    "summary": "We usually make a negative yes/no or wh-question w...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-verbs-objects-and-complements",
+                    "title": "Verbs, objects and complements",
+                    "summary": "Some verbs can be either transitive or intransitiv...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-verb-two-objects",
+                    "title": "Verb + two objects",
+                    "summary": "Some verbs can be followed by two objects.",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-verb-ing-forms-and-infinitives-1",
+                    "title": "Verb + -ing forms and infinitives 1",
+                    "summary": "Some verbs can be followed either by an object + -...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-verb-ing-forms-and-infinitives-2",
+                    "title": "Verb + -ing forms and infinitives 2",
+                    "summary": "After some verbs we need to include an object befo...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-verb-ing-forms-and-infinitives-3",
+                    "title": "Verb + -ing forms and infinitives 3",
+                    "summary": "Some verbs can be followed by an -ing form or a to...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-reporting-statements-that-clauses",
+                    "title": "Reporting statements: that-clauses",
+                    "summary": "When we report what someone said or thought, we of...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-verb-wh-clause",
+                    "title": "Verb + wh-clause",
+                    "summary": "Some verbs can be followed by a clause beginning w...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-tense-choice-in-reporting",
+                    "title": "Tense choice in reporting",
+                    "summary": "When we report something that was said or thought ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-reporting-offers-suggestions-orders-intentions-etc",
+                    "title": "Reporting offers, suggestions, orders, intentions, etc.",
+                    "summary": "When we report offers, suggestions, orders, intent...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-modal-verbs-in-reporting",
+                    "title": "Modal verbs in reporting",
+                    "summary": "When there is a modal verb in the original stateme...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-reporting-what-people-say-using-nouns-and-adjectives",
+                    "title": "Reporting what people say using nouns and adjectives",
+                    "summary": "We sometimes report people's words and thoughts us...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-should-in-that-clauses-the-present-subjunctive",
+                    "title": "Should in that-clauses; the present subjunctive",
+                    "summary": "We can sometimes report advice, orders, requests, ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-agreement-between-subject-and-verb-1",
+                    "title": "Agreement between subject and verb 1",
+                    "summary": "If a sentence has a singular subject, it is follow...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-agreement-between-subject-and-verb-2",
+                    "title": "Agreement between subject and verb 2",
+                    "summary": "With any of, each of, either of, neither of, or no...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-agreement-between-subject-and-verb-3",
+                    "title": "Agreement between subject and verb 3",
+                    "summary": "Some nouns are usually plural and take a plural ve...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-compound-nouns-and-noun-phrases",
+                    "title": "Compound nouns and noun phrases",
+                    "summary": "In a compound consisting of noun + noun, often the...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-a-an-and-one",
+                    "title": "A / an and one",
+                    "summary": "We use a before nouns and noun phrases that begin ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-a-an-the-and-zero-article-1",
+                    "title": "A / an, the and zero article 1",
+                    "summary": "We usually use the when we talk about things which...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-a-an-the-and-zero-article-2",
+                    "title": "A / an, the and zero article 2",
+                    "summary": "We use a / an to talk about a type of job:\n • She ...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-a-an-the-and-zero-article-3",
+                    "title": "A / an, the and zero article 3",
+                    "summary": "With plural and uncountable nouns, zero article is...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-some-and-any",
+                    "title": "Some and any",
+                    "summary": "Before plural and uncountable nouns we sometimes u...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-no-none-of-and-not-any",
+                    "title": "No, none (of) and not any",
+                    "summary": "We can use no and none (of) instead of not a or no...",
+                    "estimated_time": "15 min",
+                    "required": true
+                },
+                {
+                    "id": "adv-much-of-many-of-a-lot-of-lots-of-etc",
+                    "title": "Much (of), many (of), a lot of, lots (of), etc.",
+                    "summary": "In affirmative sentences we generally use a lot of...",
+                    "estimated_time": "15 min",
+                    "required": true
+                }
+            ],
+            "completion_badge": {
+                "name": "Grammar Master",
+                "icon": "💎",
+                "xp_reward": 1000
             }
         }
     ],
