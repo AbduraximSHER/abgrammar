@@ -1,0 +1,82 @@
+{
+    "id": "adv-much-of-many-of-a-lot-of-lots-of-etc",
+    "meta": {
+        "topic": "Much (of), many (of), a lot of, lots (of), etc.",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "In affirmative sentences we generally use a lot of and lots (of) rather than much (of) and many (of), particularly in informal contexts. However, there are a number of exceptions:",
+        "highlight_indices": [
+            "a lot of",
+            "lots (of)",
+            "much (of)"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "In affirmative sentences we generally use a lot of and lots (of) rather than much (of) and many (of), particularly in informal contexts.",
+        "formula": "We can use many following the, my, its, his, her, etc.",
+        "common_mistake": "To emphasise a large number we can use a good / great many with a plural noun:\n • She has a good / great many friends in New Zealand."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "50.1.1 While it is true that [a lot of] thousands of jobs were lost... What would be a better choice in academic writing?",
+            "options": [
+                "many",
+                "plenty of",
+                "loads of",
+                "tons of"
+            ],
+            "correct_answer": "many",
+            "explanation_for_failure": "Use 'many' with number expressions like 'thousands of'."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "50.2.1 She went to stay in Munich with one of ___.",
+            "options": [
+                "her many German relatives",
+                "many a German relative",
+                "her much German relatives",
+                "her plenty German relatives"
+            ],
+            "correct_answer": "her many German relatives",
+            "explanation_for_failure": "We can use 'many' following possessives like 'her' and plural countable nouns."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "50.2.2 I spent ___ sitting on the terrace looking out over the hills.",
+            "options": [
+                "many a sunny afternoon",
+                "my many sunny afternoon",
+                "the many sunny afternoon",
+                "an afternoon many"
+            ],
+            "correct_answer": "many a sunny afternoon",
+            "explanation_for_failure": "Use 'many a' + singular noun to talk about a repeated event."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "50.3.1 Nina doesn't look well. She's lost ___ weight.",
+            "options": [
+                "a lot of",
+                "plenty of",
+                "many a",
+                "too many"
+            ],
+            "correct_answer": "a lot of",
+            "explanation_for_failure": "'Plenty of' means 'enough, or more than enough', which is unlikely here."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "50.4.1 We use ___ before 'too many' or 'too much' to emphasise the amount.",
+            "options": [
+                "far",
+                "much",
+                "many",
+                "loads"
+            ],
+            "correct_answer": "far",
+            "explanation_for_failure": "We say 'far too many' and 'far too much'."
+        }
+    ]
+}
