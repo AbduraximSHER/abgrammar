@@ -1,0 +1,80 @@
+{
+    "id": "adv-a-an-the-and-zero-article-2",
+    "meta": {
+        "topic": "A / an, the and zero article 2",
+        "level": "Advanced"
+    },
+    "step_1_context": {
+        "text": "We use a / an to talk about a type of job:",
+        "highlight_indices": [
+            "a / an",
+            "a company director",
+            "a journalist"
+        ]
+    },
+    "step_2_explanation": {
+        "simple_rule": "We use a / an to talk about a type of job:\n • She was a company director when she retired.",
+        "formula": "We usually use zero article before the name of an individual person or place.",
+        "common_mistake": "Note that a / an, or sometimes zero article, is used with a name when referring to the particular excellent qualities of the person named:\n • Majid plays tennis well, but he'll never be (a) Roger Federer."
+    },
+    "step_3_interactive_exercises": [
+        {
+            "type": "multiple_choice",
+            "question": "46.1.1 She was determined to be author one day. (Find the mistake).",
+            "options": [
+                "be author -> be an author",
+                "determined to be -> determined being",
+                "one day -> a day",
+                "no mistake"
+            ],
+            "correct_answer": "be author -> be an author",
+            "explanation_for_failure": "Use 'a/an' to talk about a type of job."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "46.1.2 I didn't even know Clara was interested in art until I heard that she owns Van Gogh.",
+            "options": [
+                "owns Van Gogh -> owns a Van Gogh",
+                "in art -> in the art",
+                "I didn't even know -> I hadn't even known",
+                "no mistake"
+            ],
+            "correct_answer": "owns Van Gogh -> owns a Van Gogh",
+            "explanation_for_failure": "Use 'a' / 'an' for a work by a particular artist."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "46.2.1 I'm ___ marketing adviser at Dozzle.",
+            "options": [
+                "a",
+                "the",
+                "an",
+                "zero article"
+            ],
+            "correct_answer": "a",
+            "explanation_for_failure": "Use 'a' for a type of job."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "46.2.2 She has been appointed ___ Minister for Industry. (Give all possible answers).",
+            "options": [
+                "the / zero article",
+                "a / an",
+                "a / the",
+                "zero article only"
+            ],
+            "correct_answer": "the / zero article",
+            "explanation_for_failure": "For a unique position/title, use 'the' or zero article."
+        },
+        {
+            "type": "multiple_choice",
+            "question": "46.3.1 Rodrigo's boat wasn't the most elegant in the harbour, but it was certainly ___ biggest. Can we omit 'the'?",
+            "options": [
+                "Yes (biggest)",
+                "No (must be 'the biggest')"
+            ],
+            "correct_answer": "Yes (biggest)",
+            "explanation_for_failure": "When there is no noun or defining phrase after the superlative, 'the' can often be left out."
+        }
+    ]
+}
