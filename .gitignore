@@ -12,3 +12,4 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+# deploy-trigger: phase2
