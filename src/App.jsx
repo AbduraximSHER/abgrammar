@@ -1,5 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import ScrollToTop from './components/ScrollToTop'
 import Home from './pages/Home'
 import Roadmap from './pages/Roadmap'
 import Lesson from './pages/Lesson'
@@ -10,10 +11,12 @@ import ReadingList from './pages/reading/ReadingList'
 import ReadingDetail from './pages/reading/ReadingDetail'
 import WritingPage from './pages/writing/WritingPage'
 import DailyChallenge from './pages/daily/DailyChallenge'
+import NotFound from './pages/NotFound'
 
 export default function App() {
   return (
     <div className="min-h-screen bg-[var(--color-surface)] dark:bg-[var(--color-surface-dark)]">
+      <ScrollToTop />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,6 +30,7 @@ export default function App() {
         <Route path="/writing" element={<WritingPage />} />
         <Route path="/daily" element={<DailyChallenge />} />
         <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   )

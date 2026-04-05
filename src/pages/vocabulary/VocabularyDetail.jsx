@@ -6,20 +6,34 @@ import { addXP } from '../../utils/progress'
 export default function VocabularyDetail() {
   const { topicId } = useParams()
   const [data, setData] = useState(null)
+  const [loading, setLoading] = useState(true)
   const [tab, setTab] = useState('cards')
   
   useEffect(() => {
+    setLoading(true)
     import(`../../data/vocabulary/${topicId}.json`)
-      .then(mod => setData(mod.default))
-      .catch(() => setData(null))
+      .then(mod => { setData(mod.default); setLoading(false) })
+      .catch(() => { setData(null); setLoading(false) })
   }, [topicId])
+
+  if (loading) return (
+    <div className="min-h-screen flex items-center justify-center">
+      <div className="text-center">
+        <div className="w-12 h-12 border-4 border-primary/30 border-t-primary rounded-full animate-spin mx-auto mb-4" />
+        <p className="text-gray-500">Loading topic...</p>
+      </div>
+    </div>
+  )
 
   if (!data) return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center">
-        <BookA size={32} className="text-gray-400 mx-auto mb-3" />
-        <p className="text-gray-500">Loading topic...</p>
-        <Link to="/vocabulary" className="text-primary text-sm hover:underline mt-2 block">Back to Topics</Link>
+        <span className="text-5xl block mb-4">🚧</span>
+        <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-2">Coming Soon!</h2>
+        <p className="text-gray-500 mb-4">This vocabulary topic is being prepared.<br/>Check back soon!</p>
+        <Link to="/vocabulary" className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-xl font-medium hover:bg-primary-dark">
+          <ArrowLeft size={16} /> Back to Topics
+        </Link>
       </div>
     </div>
   )

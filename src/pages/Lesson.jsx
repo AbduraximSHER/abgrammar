@@ -15,12 +15,23 @@ export default function Lesson() {
   const [score, setScore] = useState(0)
   const [finished, setFinished] = useState(false)
   const [completed, setCompleted] = useState(false)
+  const [loading, setLoading] = useState(true)
+  const [error, setError] = useState(false)
 
   useEffect(() => {
+    setLoading(true)
+    setError(false)
+    setLesson(null)
+    setStep(0)
+    setCurrentQ(0)
+    setSelected(null)
+    setShowResult(false)
+    setScore(0)
+    setFinished(false)
     setCompleted(isComplete(id))
     import(`../data/lessons/${id}.json`)
-      .then(mod => setLesson(mod.default))
-      .catch(() => setLesson(null))
+      .then(mod => { setLesson(mod.default); setLoading(false) })
+      .catch(() => { setError(true); setLoading(false) })
   }, [id])
 
   // Find next/prev lesson
@@ -29,15 +40,25 @@ export default function Lesson() {
   const prevLesson = currentIdx > 0 ? allTopics[currentIdx - 1] : null
   const nextLesson = currentIdx < allTopics.length - 1 ? allTopics[currentIdx + 1] : null
 
-  if (!lesson) {
+  if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="text-center">
-          <div className="w-16 h-16 rounded-2xl bg-gray-100 dark:bg-gray-800 flex items-center justify-center mx-auto mb-4">
-            <BookOpen className="text-gray-400" size={28} />
-          </div>
-          <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Loading lesson...</h2>
-          <Link to="/roadmap" className="text-primary hover:underline text-sm">Back to Roadmap</Link>
+          <div className="w-12 h-12 border-4 border-primary/30 border-t-primary rounded-full animate-spin mx-auto mb-4" />
+          <p className="text-gray-500">Loading lesson...</p>
+        </div>
+      </div>
+    )
+  }
+
+  if (error || !lesson) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <span className="text-5xl block mb-4">📚</span>
+          <h2 className="text-xl font-semibold text-gray-900 dark:text-white mb-2">Lesson not found</h2>
+          <p className="text-gray-500 mb-4">This lesson doesn't exist or couldn't be loaded.</p>
+          <Link to="/grammar" className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-xl font-medium hover:bg-primary-dark">Back to Grammar</Link>
         </div>
       </div>
     )
@@ -117,11 +138,16 @@ export default function Lesson() {
               <span className="font-semibold text-sm">Context</span>
             </div>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
-              {lesson.step_1_context.text.split(new RegExp(`(${(lesson.step_1_context.highlight_indices || []).join('|')})`, 'gi')).map((part, i) =>
-                (lesson.step_1_context.highlight_indices || []).some(h => h.toLowerCase() === part.toLowerCase())
-                  ? <mark key={i} className="bg-primary/20 text-primary font-semibold px-1 rounded">{part}</mark>
-                  : part
-              )}
+              {(() => {
+                const highlights = lesson.step_1_context.highlight_indices || []
+                if (highlights.length === 0) return lesson.step_1_context.text
+                const escaped = highlights.map(h => h.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+                return lesson.step_1_context.text.split(new RegExp(`(${escaped.join('|')})`, 'gi')).map((part, i) =>
+                  highlights.some(h => h.toLowerCase() === part.toLowerCase())
+                    ? <mark key={i} className="bg-primary/20 text-primary font-semibold px-1 rounded">{part}</mark>
+                    : part
+                )
+              })()}
             </p>
           </div>
           <button onClick={() => setStep(1)} className="w-full py-3.5 bg-primary hover:bg-primary-dark text-white rounded-xl font-semibold flex items-center justify-center gap-2 transition-colors">
