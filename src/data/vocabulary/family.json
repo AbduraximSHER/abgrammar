@@ -1,0 +1,57 @@
+{
+  "id": "family",
+  "title": "Family & Relationships",
+  "level": "beginner",
+  "words": [
+    { "word": "mother", "meaning": "female parent", "uzbek": "ona", "example": "My mother is a teacher.", "emoji": "👩", "type": "noun" },
+    { "word": "father", "meaning": "male parent", "uzbek": "ota", "example": "My father works in a hospital.", "emoji": "👨", "type": "noun" },
+    { "word": "sister", "meaning": "female sibling", "uzbek": "opa/singil", "example": "I have two sisters.", "emoji": "👧", "type": "noun" },
+    { "word": "brother", "meaning": "male sibling", "uzbek": "aka/uka", "example": "My brother is older than me.", "emoji": "👦", "type": "noun" },
+    { "word": "grandmother", "meaning": "mother's or father's mother", "uzbek": "buvi", "example": "My grandmother tells great stories.", "emoji": "👵", "type": "noun" },
+    { "word": "grandfather", "meaning": "mother's or father's father", "uzbek": "bobo", "example": "My grandfather is 80 years old.", "emoji": "👴", "type": "noun" },
+    { "word": "son", "meaning": "male child", "uzbek": "o'g'il", "example": "They have two sons.", "emoji": "👦", "type": "noun" },
+    { "word": "daughter", "meaning": "female child", "uzbek": "qiz", "example": "Their daughter is in school.", "emoji": "👧", "type": "noun" },
+    { "word": "husband", "meaning": "married man", "uzbek": "er", "example": "Her husband is a doctor.", "emoji": "👨", "type": "noun" },
+    { "word": "wife", "meaning": "married woman", "uzbek": "xotin", "example": "His wife is very kind.", "emoji": "👩", "type": "noun" },
+    { "word": "uncle", "meaning": "parent's brother", "uzbek": "tog'a/amaki", "example": "My uncle lives in Tashkent.", "emoji": "👨", "type": "noun" },
+    { "word": "aunt", "meaning": "parent's sister", "uzbek": "xola/amma", "example": "My aunt cooks delicious food.", "emoji": "👩", "type": "noun" },
+    { "word": "cousin", "meaning": "uncle's or aunt's child", "uzbek": "amakivachcha", "example": "My cousin and I play together.", "emoji": "🧒", "type": "noun" },
+    { "word": "baby", "meaning": "very young child", "uzbek": "chaqaloq", "example": "The baby is sleeping.", "emoji": "👶", "type": "noun" },
+    { "word": "parent", "meaning": "mother or father", "uzbek": "ota-ona", "example": "My parents love me very much.", "emoji": "👪", "type": "noun" },
+    { "word": "child", "meaning": "young person", "uzbek": "bola", "example": "Every child needs love.", "emoji": "🧒", "type": "noun" },
+    { "word": "family", "meaning": "group of related people", "uzbek": "oila", "example": "I love my family.", "emoji": "👨‍👩‍👧‍👦", "type": "noun" },
+    { "word": "nephew", "meaning": "brother's or sister's son", "uzbek": "jiyan", "example": "My nephew is five years old.", "emoji": "👦", "type": "noun" },
+    { "word": "niece", "meaning": "brother's or sister's daughter", "uzbek": "jiyan qiz", "example": "My niece started school this year.", "emoji": "👧", "type": "noun" },
+    { "word": "married", "meaning": "having a husband or wife", "uzbek": "turmush qurgan", "example": "They got married last year.", "emoji": "💍", "type": "adjective" },
+    { "word": "young", "meaning": "not old", "uzbek": "yosh", "example": "She is young and energetic.", "emoji": "🌱", "type": "adjective" },
+    { "word": "old", "meaning": "having lived many years", "uzbek": "keksa", "example": "My grandfather is very old.", "emoji": "👴", "type": "adjective" },
+    { "word": "love", "meaning": "deep caring feeling", "uzbek": "sevmoq/muhabbat", "example": "I love my family.", "emoji": "❤️", "type": "verb/noun" },
+    { "word": "twins", "meaning": "two children born at the same time", "uzbek": "egizaklar", "example": "They are twins!", "emoji": "👯", "type": "noun" },
+    { "word": "neighbor", "meaning": "person living nearby", "uzbek": "qo'shni", "example": "Our neighbor is very friendly.", "emoji": "🏘️", "type": "noun" }
+  ],
+  "exercises": {
+    "matching": [
+      { "word": "mother", "match": "ona" },
+      { "word": "father", "match": "ota" },
+      { "word": "brother", "match": "aka/uka" },
+      { "word": "sister", "match": "opa/singil" },
+      { "word": "grandmother", "match": "buvi" },
+      { "word": "family", "match": "oila" },
+      { "word": "baby", "match": "chaqaloq" },
+      { "word": "love", "match": "sevmoq/muhabbat" }
+    ],
+    "fillIn": [
+      { "sentence": "My ___ is a teacher.", "answer": "mother", "hint": "ona" },
+      { "sentence": "I have two ___ and one brother.", "answer": "sisters", "hint": "opa/singil" },
+      { "sentence": "My ___ is 80 years old.", "answer": "grandfather", "hint": "bobo" },
+      { "sentence": "I ___ my family very much.", "answer": "love", "hint": "sevmoq" },
+      { "sentence": "The ___ is sleeping in the crib.", "answer": "baby", "hint": "chaqaloq" },
+      { "sentence": "They got ___ last year.", "answer": "married", "hint": "turmush qurgan" }
+    ],
+    "multipleChoice": [
+      { "question": "What is 'buvi' in English?", "options": ["Mother", "Aunt", "Grandmother", "Sister"], "correct": "Grandmother" },
+      { "question": "Your uncle's child is your...?", "options": ["Brother", "Nephew", "Cousin", "Son"], "correct": "Cousin" },
+      { "question": "What is 'oila' in English?", "options": ["Friend", "Family", "Neighbor", "Parents"], "correct": "Family" }
+    ]
+  }
+}

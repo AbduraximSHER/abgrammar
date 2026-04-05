@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import { BookOpen, LayoutDashboard, Map, Moon, Sun, Menu, X } from 'lucide-react'
+import { BookOpen, LayoutDashboard, Map, Moon, Sun, Menu, X, BookA, Pencil, Newspaper, Zap } from 'lucide-react'
 import { useState, useEffect } from 'react'
 
 export default function Navbar() {
@@ -16,40 +16,44 @@ export default function Navbar() {
 
   const links = [
     { to: '/', label: 'Home', icon: BookOpen },
-    { to: '/roadmap', label: 'Roadmap', icon: Map },
+    { to: '/grammar', label: 'Grammar', icon: Map },
+    { to: '/vocabulary', label: 'Vocabulary', icon: BookA },
+    { to: '/reading', label: 'Reading', icon: Newspaper },
+    { to: '/writing', label: 'Writing', icon: Pencil },
+    { to: '/daily', label: 'Daily', icon: Zap },
     { to: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   ]
 
-  const isActive = (path) => location.pathname === path
+  const isActive = (path) => path === '/' ? location.pathname === '/' : location.pathname.startsWith(path)
 
   return (
     <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800">
-      <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
-        <Link to="/" className="flex items-center gap-2.5 group">
+      <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
+        <Link to="/" className="flex items-center gap-2 group shrink-0">
           <div className="w-9 h-9 rounded-xl bg-primary flex items-center justify-center text-white font-bold text-lg font-[var(--font-display)] group-hover:scale-110 transition-transform">G</div>
-          <span className="font-[var(--font-display)] text-xl font-semibold text-gray-900 dark:text-white tracking-tight">ABGrammar</span>
+          <span className="hidden sm:block font-[var(--font-display)] text-xl font-semibold text-gray-900 dark:text-white tracking-tight">ABGrammar</span>
         </Link>
 
         {/* Desktop Nav */}
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden lg:flex items-center gap-0.5">
           {links.map(({ to, label, icon: Icon }) => (
             <Link key={to} to={to}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium transition-all ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-sm font-medium transition-all ${
                 isActive(to) 
                   ? 'bg-primary/10 text-primary dark:bg-primary/20' 
                   : 'text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white hover:bg-gray-100 dark:hover:bg-gray-800'
               }`}>
-              <Icon size={18} />
+              <Icon size={16} />
               {label}
             </Link>
           ))}
-          <button onClick={() => setDark(!dark)} className="ml-2 p-2.5 rounded-xl text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
+          <button onClick={() => setDark(!dark)} className="ml-1 p-2 rounded-xl text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors">
             {dark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
         </div>
 
         {/* Mobile */}
-        <div className="flex md:hidden items-center gap-2">
+        <div className="flex lg:hidden items-center gap-1">
           <button onClick={() => setDark(!dark)} className="p-2 rounded-lg text-gray-500">
             {dark ? <Sun size={18} /> : <Moon size={18} />}
           </button>
@@ -61,16 +65,18 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 px-4 pb-4 pt-2">
-          {links.map(({ to, label, icon: Icon }) => (
-            <Link key={to} to={to}
-              className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium ${
-                isActive(to) ? 'bg-primary/10 text-primary' : 'text-gray-600 dark:text-gray-400'
-              }`}>
-              <Icon size={18} />
-              {label}
-            </Link>
-          ))}
+        <div className="lg:hidden border-t border-gray-200 dark:border-gray-800 bg-white dark:bg-gray-900 px-4 pb-4 pt-2">
+          <div className="grid grid-cols-2 gap-1">
+            {links.map(({ to, label, icon: Icon }) => (
+              <Link key={to} to={to}
+                className={`flex items-center gap-2 px-3 py-3 rounded-xl text-sm font-medium ${
+                  isActive(to) ? 'bg-primary/10 text-primary' : 'text-gray-600 dark:text-gray-400'
+                }`}>
+                <Icon size={16} />
+                {label}
+              </Link>
+            ))}
+          </div>
         </div>
       )}
     </nav>

@@ -1,0 +1,76 @@
+{
+  "prompts": [
+    {
+      "id": 1,
+      "level": "beginner",
+      "title": "About Myself",
+      "prompt": "Write 5-8 sentences about yourself. Include your name, age, where you live, your family, and what you like to do.",
+      "hints": ["Start with: My name is...", "Use present simple tense", "Include: family, hobbies, school/work"],
+      "wordLimit": 80,
+      "emoji": "👤"
+    },
+    {
+      "id": 2,
+      "level": "beginner",
+      "title": "My Best Friend",
+      "prompt": "Describe your best friend. What do they look like? What do you do together?",
+      "hints": ["Describe their appearance", "Tell what you do together", "Say why they are your best friend"],
+      "wordLimit": 100,
+      "emoji": "👫"
+    },
+    {
+      "id": 3,
+      "level": "elementary",
+      "title": "My Favorite Day",
+      "prompt": "Write about your favorite day of the week. What do you usually do on that day? Why is it your favorite?",
+      "hints": ["Use time words: in the morning, after lunch", "Use present simple for habits", "Give reasons why you like this day"],
+      "wordLimit": 120,
+      "emoji": "📅"
+    },
+    {
+      "id": 4,
+      "level": "elementary",
+      "title": "A Place I Love",
+      "prompt": "Describe a place you love to visit. It can be a park, a restaurant, or any place. What does it look like? How do you feel there?",
+      "hints": ["Use adjectives to describe", "Include your feelings", "Use 'there is/there are'"],
+      "wordLimit": 120,
+      "emoji": "🏞️"
+    },
+    {
+      "id": 5,
+      "level": "intermediate",
+      "title": "An Unforgettable Experience",
+      "prompt": "Write about an experience you will never forget. What happened? How did you feel? What did you learn from it?",
+      "hints": ["Use past tense", "Describe emotions", "Include a lesson learned"],
+      "wordLimit": 180,
+      "emoji": "⭐"
+    },
+    {
+      "id": 6,
+      "level": "intermediate",
+      "title": "Technology in Our Lives",
+      "prompt": "How has technology changed our daily lives? Write about the positive and negative effects of technology.",
+      "hints": ["Give examples of changes", "Discuss both advantages and disadvantages", "Give your opinion"],
+      "wordLimit": 200,
+      "emoji": "📱"
+    },
+    {
+      "id": 7,
+      "level": "upper-intermediate",
+      "title": "If I Could Change One Thing",
+      "prompt": "If you could change one thing in the world, what would it be? Why? How would you do it?",
+      "hints": ["Use conditional structures", "Explain your reasoning", "Be specific about your plan"],
+      "wordLimit": 250,
+      "emoji": "🌍"
+    },
+    {
+      "id": 8,
+      "level": "advanced",
+      "title": "The Future of Education",
+      "prompt": "Write an essay about how education will change in the next 20 years. Consider technology, methods, and challenges.",
+      "hints": ["Use formal academic style", "Include predictions with evidence", "Consider multiple perspectives"],
+      "wordLimit": 300,
+      "emoji": "🎓"
+    }
+  ]
+}

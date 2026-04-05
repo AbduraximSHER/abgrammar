@@ -1,0 +1,220 @@
+{
+  "levels": [
+    {
+      "id": "beginner",
+      "title": "Beginner",
+      "emoji": "🌱",
+      "color": "green"
+    },
+    {
+      "id": "elementary",
+      "title": "Elementary",
+      "emoji": "📗",
+      "color": "blue"
+    },
+    {
+      "id": "intermediate",
+      "title": "Intermediate",
+      "emoji": "📘",
+      "color": "purple"
+    },
+    {
+      "id": "upper-intermediate",
+      "title": "Upper-Intermediate",
+      "emoji": "📙",
+      "color": "amber"
+    },
+    {
+      "id": "advanced",
+      "title": "Advanced",
+      "emoji": "🎓",
+      "color": "red"
+    }
+  ],
+  "topics": [
+    {
+      "id": "greetings",
+      "title": "Greetings & Introductions",
+      "emoji": "👋",
+      "level": "beginner",
+      "wordCount": 20,
+      "description": "Basic greetings and how to introduce yourself"
+    },
+    {
+      "id": "family",
+      "title": "Family & Relationships",
+      "emoji": "👨‍👩‍👧‍👦",
+      "level": "beginner",
+      "wordCount": 25,
+      "description": "Family members and relationships"
+    },
+    {
+      "id": "food-drinks",
+      "title": "Food & Drinks",
+      "emoji": "🍕",
+      "level": "beginner",
+      "wordCount": 30,
+      "description": "Common foods, drinks, and meals"
+    },
+    {
+      "id": "colors-numbers",
+      "title": "Colors & Numbers",
+      "emoji": "🎨",
+      "level": "beginner",
+      "wordCount": 25,
+      "description": "Colors, numbers, and counting"
+    },
+    {
+      "id": "body-health",
+      "title": "Body & Health",
+      "emoji": "🏥",
+      "level": "beginner",
+      "wordCount": 25,
+      "description": "Body parts and basic health vocabulary"
+    },
+    {
+      "id": "home",
+      "title": "Home & Furniture",
+      "emoji": "🏠",
+      "level": "beginner",
+      "wordCount": 25,
+      "description": "Rooms, furniture, and household items"
+    },
+    {
+      "id": "clothes",
+      "title": "Clothes & Fashion",
+      "emoji": "👕",
+      "level": "elementary",
+      "wordCount": 25,
+      "description": "Clothing items and fashion vocabulary"
+    },
+    {
+      "id": "weather",
+      "title": "Weather & Seasons",
+      "emoji": "🌤️",
+      "level": "elementary",
+      "wordCount": 20,
+      "description": "Weather conditions and seasons"
+    },
+    {
+      "id": "travel",
+      "title": "Travel & Transport",
+      "emoji": "✈️",
+      "level": "elementary",
+      "wordCount": 30,
+      "description": "Transportation and travel vocabulary"
+    },
+    {
+      "id": "shopping",
+      "title": "Shopping & Money",
+      "emoji": "🛒",
+      "level": "elementary",
+      "wordCount": 25,
+      "description": "Shopping, prices, and money"
+    },
+    {
+      "id": "school",
+      "title": "School & Education",
+      "emoji": "📚",
+      "level": "elementary",
+      "wordCount": 25,
+      "description": "School subjects and education"
+    },
+    {
+      "id": "daily-routine",
+      "title": "Daily Routine",
+      "emoji": "⏰",
+      "level": "elementary",
+      "wordCount": 25,
+      "description": "Everyday activities and routines"
+    },
+    {
+      "id": "work-office",
+      "title": "Work & Office",
+      "emoji": "💼",
+      "level": "intermediate",
+      "wordCount": 30,
+      "description": "Office, jobs, and workplace vocabulary"
+    },
+    {
+      "id": "technology",
+      "title": "Technology & Internet",
+      "emoji": "💻",
+      "level": "intermediate",
+      "wordCount": 30,
+      "description": "Computers, internet, and technology"
+    },
+    {
+      "id": "environment",
+      "title": "Environment & Nature",
+      "emoji": "🌍",
+      "level": "intermediate",
+      "wordCount": 25,
+      "description": "Nature, environment, and ecology"
+    },
+    {
+      "id": "emotions",
+      "title": "Emotions & Feelings",
+      "emoji": "😊",
+      "level": "intermediate",
+      "wordCount": 30,
+      "description": "Describing emotions and feelings"
+    },
+    {
+      "id": "media",
+      "title": "Media & Entertainment",
+      "emoji": "🎬",
+      "level": "intermediate",
+      "wordCount": 25,
+      "description": "Movies, music, and entertainment"
+    },
+    {
+      "id": "business",
+      "title": "Business & Finance",
+      "emoji": "📊",
+      "level": "upper-intermediate",
+      "wordCount": 30,
+      "description": "Business terms and financial vocabulary"
+    },
+    {
+      "id": "law-politics",
+      "title": "Law & Politics",
+      "emoji": "⚖️",
+      "level": "upper-intermediate",
+      "wordCount": 25,
+      "description": "Legal and political vocabulary"
+    },
+    {
+      "id": "science",
+      "title": "Science & Research",
+      "emoji": "🔬",
+      "level": "upper-intermediate",
+      "wordCount": 25,
+      "description": "Scientific terms and research vocabulary"
+    },
+    {
+      "id": "idioms",
+      "title": "Idioms & Phrasal Verbs",
+      "emoji": "💬",
+      "level": "advanced",
+      "wordCount": 35,
+      "description": "Common idioms and phrasal verbs"
+    },
+    {
+      "id": "academic",
+      "title": "Academic English",
+      "emoji": "🎓",
+      "level": "advanced",
+      "wordCount": 30,
+      "description": "Academic writing and formal vocabulary"
+    },
+    {
+      "id": "collocations",
+      "title": "Collocations",
+      "emoji": "🔗",
+      "level": "advanced",
+      "wordCount": 30,
+      "description": "Common word combinations and collocations"
+    }
+  ]
+}

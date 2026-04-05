@@ -1,0 +1,67 @@
+{
+  "passages": [
+    {
+      "id": "my-daily-routine",
+      "title": "My Daily Routine",
+      "level": "beginner",
+      "emoji": "⏰",
+      "readTime": "2 min",
+      "text": "My name is Ali. I wake up at 6 o'clock every morning. First, I wash my face and brush my teeth. Then, I have breakfast with my family. I usually eat bread with tea.\n\nI go to school at 8 o'clock. I walk to school because it is near my house. At school, I study English, math, and science. My favorite subject is English.\n\nI come home at 2 o'clock. After lunch, I do my homework. In the evening, I play with my friends. We play football in the park.\n\nI have dinner at 7 o'clock. After dinner, I read a book. I go to bed at 9 o'clock. I love my daily routine!",
+      "questions": [
+        { "question": "What time does Ali wake up?", "options": ["5 o'clock", "6 o'clock", "7 o'clock", "8 o'clock"], "correct": "6 o'clock" },
+        { "question": "How does Ali go to school?", "options": ["By bus", "By car", "He walks", "By bicycle"], "correct": "He walks" },
+        { "question": "What is Ali's favorite subject?", "options": ["Math", "Science", "English", "History"], "correct": "English" },
+        { "question": "What does Ali do in the evening?", "options": ["Studies", "Plays with friends", "Watches TV", "Sleeps"], "correct": "Plays with friends" },
+        { "question": "What time does Ali go to bed?", "options": ["8 o'clock", "9 o'clock", "10 o'clock", "11 o'clock"], "correct": "9 o'clock" }
+      ],
+      "vocabulary": ["routine", "brush", "favorite", "subject", "homework"]
+    },
+    {
+      "id": "the-new-student",
+      "title": "The New Student",
+      "level": "beginner",
+      "emoji": "🏫",
+      "readTime": "2 min",
+      "text": "Today is Monday. There is a new student in our class. Her name is Madina. She is from Samarkand.\n\nMadina is tall and has black hair. She is very friendly and smiles a lot. She sits next to me in class.\n\nDuring the break, I show Madina the school. \"This is the library,\" I say. \"And this is the cafeteria.\" Madina says, \"Thank you! Everyone is so nice here.\"\n\nAfter school, we walk home together. Madina lives on my street! Now we are friends. I am happy to have a new friend.",
+      "questions": [
+        { "question": "Where is Madina from?", "options": ["Tashkent", "Bukhara", "Samarkand", "Fergana"], "correct": "Samarkand" },
+        { "question": "What does Madina look like?", "options": ["Short with brown hair", "Tall with black hair", "Tall with brown hair", "Short with black hair"], "correct": "Tall with black hair" },
+        { "question": "What does the narrator show Madina?", "options": ["The park", "The school", "The market", "The house"], "correct": "The school" },
+        { "question": "Where does Madina live?", "options": ["Far from school", "On the narrator's street", "Next to the park", "Near the library"], "correct": "On the narrator's street" }
+      ],
+      "vocabulary": ["student", "friendly", "library", "cafeteria", "break"]
+    },
+    {
+      "id": "a-trip-to-the-market",
+      "title": "A Trip to the Market",
+      "level": "elementary",
+      "emoji": "🛒",
+      "readTime": "3 min",
+      "text": "Last Saturday, my mother and I went to the big market in the city center. The market was very busy and crowded. There were many people buying and selling things.\n\nFirst, we went to the fruit section. My mother bought apples, bananas, and oranges. The oranges were very fresh and cheap. \"These oranges are from Namangan,\" the seller told us proudly.\n\nThen, we walked to the vegetable area. We needed potatoes, tomatoes, and onions for dinner. My mother always checks the quality carefully before buying anything.\n\nAfter that, we visited the meat section. My mother bought chicken for tonight's dinner. She is going to make her famous chicken soup.\n\nFinally, we bought some bread from the bakery near the exit. The bread was still warm! I couldn't wait to eat it.\n\nWe carried many bags home. I helped my mother carry the heavy ones. She thanked me and said, \"You are a good helper!\" I felt proud.",
+      "questions": [
+        { "question": "When did they go to the market?", "options": ["Last Sunday", "Last Saturday", "Last Friday", "Yesterday"], "correct": "Last Saturday" },
+        { "question": "Where were the oranges from?", "options": ["Tashkent", "Samarkand", "Namangan", "Fergana"], "correct": "Namangan" },
+        { "question": "What is the mother going to cook?", "options": ["Fried chicken", "Chicken salad", "Chicken soup", "Grilled chicken"], "correct": "Chicken soup" },
+        { "question": "What was special about the bread?", "options": ["It was cheap", "It was still warm", "It was big", "It was free"], "correct": "It was still warm" },
+        { "question": "How did the narrator feel at the end?", "options": ["Tired", "Proud", "Hungry", "Sad"], "correct": "Proud" }
+      ],
+      "vocabulary": ["crowded", "section", "quality", "bakery", "proud"]
+    },
+    {
+      "id": "learning-online",
+      "title": "Learning Online",
+      "level": "intermediate",
+      "emoji": "💻",
+      "readTime": "4 min",
+      "text": "The way we learn has changed dramatically in recent years. More and more people are choosing to study online instead of attending traditional classrooms. But is online learning really effective?\n\nThere are several advantages of online learning. First, it offers flexibility. Students can study at their own pace and at any time that suits them. This is especially helpful for people who work during the day. Second, online courses are often more affordable than traditional ones. You don't need to pay for transportation or expensive textbooks.\n\nHowever, online learning also has some disadvantages. One major challenge is the lack of social interaction. Students miss the opportunity to discuss ideas with classmates face to face. Another problem is that it requires strong self-discipline. Without a teacher watching, some students find it hard to stay focused.\n\nDespite these challenges, many experts believe that online learning will continue to grow. The key is to find the right balance between online and offline education. A combination of both methods, known as 'blended learning,' may be the best approach.\n\nIn my opinion, online learning is a wonderful tool, but it cannot completely replace the traditional classroom experience. The best students are those who can take advantage of both methods.",
+      "questions": [
+        { "question": "What is one advantage of online learning?", "options": ["More homework", "Flexibility", "More teachers", "Better food"], "correct": "Flexibility" },
+        { "question": "What is a major challenge of online learning?", "options": ["Too many books", "Lack of social interaction", "Too expensive", "No internet"], "correct": "Lack of social interaction" },
+        { "question": "What is 'blended learning'?", "options": ["Only online", "Only offline", "A mix of online and offline", "Learning in groups"], "correct": "A mix of online and offline" },
+        { "question": "What quality do online students need?", "options": ["Good eyesight", "Self-discipline", "Fast typing", "Many friends"], "correct": "Self-discipline" },
+        { "question": "What is the author's opinion?", "options": ["Online is better", "Traditional is better", "Both methods are valuable", "Neither is good"], "correct": "Both methods are valuable" }
+      ],
+      "vocabulary": ["dramatically", "flexibility", "affordable", "discipline", "approach"]
+    }
+  ]
+}

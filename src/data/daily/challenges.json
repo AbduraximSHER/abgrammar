@@ -1,0 +1,112 @@
+{
+  "challenges": [
+    {
+      "id": 1,
+      "type": "word_of_day",
+      "word": "perseverance",
+      "meaning": "continued effort despite difficulties",
+      "uzbek": "qat'iyat",
+      "example": "Her perseverance helped her pass the exam.",
+      "emoji": "💪"
+    },
+    {
+      "id": 2,
+      "type": "grammar_fix",
+      "sentence": "She don't like coffee.",
+      "correct": "She doesn't like coffee.",
+      "rule": "Third person singular uses 'doesn't' not 'don't'"
+    },
+    {
+      "id": 3,
+      "type": "translate",
+      "uzbek": "Men har kuni ertalab yuguraman.",
+      "answer": "I run every morning.",
+      "alternatives": ["I jog every morning.", "I go running every morning."]
+    },
+    {
+      "id": 4,
+      "type": "word_of_day",
+      "word": "accomplish",
+      "meaning": "to succeed in doing something",
+      "uzbek": "erishmoq",
+      "example": "She accomplished all her goals this year.",
+      "emoji": "🎯"
+    },
+    {
+      "id": 5,
+      "type": "grammar_fix",
+      "sentence": "I have went to school yesterday.",
+      "correct": "I went to school yesterday.",
+      "rule": "Use past simple (not present perfect) with 'yesterday'"
+    },
+    {
+      "id": 6,
+      "type": "fill_blank",
+      "sentence": "If I ___ (be) rich, I would travel the world.",
+      "answer": "were",
+      "hint": "Second conditional uses past subjunctive"
+    },
+    {
+      "id": 7,
+      "type": "word_of_day",
+      "word": "resilient",
+      "meaning": "able to recover from difficulties",
+      "uzbek": "chidamli",
+      "example": "Children are remarkably resilient.",
+      "emoji": "🌱"
+    },
+    {
+      "id": 8,
+      "type": "translate",
+      "uzbek": "Bu kitob juda qiziqarli.",
+      "answer": "This book is very interesting.",
+      "alternatives": ["This book is really interesting."]
+    },
+    {
+      "id": 9,
+      "type": "grammar_fix",
+      "sentence": "He is more taller than his brother.",
+      "correct": "He is taller than his brother.",
+      "rule": "Don't use 'more' with -er comparatives"
+    },
+    {
+      "id": 10,
+      "type": "word_of_day",
+      "word": "enthusiasm",
+      "meaning": "strong excitement about something",
+      "uzbek": "ishtiyoq",
+      "example": "Her enthusiasm for learning is inspiring.",
+      "emoji": "🔥"
+    },
+    {
+      "id": 11,
+      "type": "fill_blank",
+      "sentence": "By next year, I ___ (learn) English for five years.",
+      "answer": "will have been learning",
+      "hint": "Future perfect continuous"
+    },
+    {
+      "id": 12,
+      "type": "translate",
+      "uzbek": "Agar yomg'ir yog'masa, biz parkka boramiz.",
+      "answer": "If it doesn't rain, we will go to the park.",
+      "alternatives": ["If it does not rain, we will go to the park."]
+    },
+    {
+      "id": 13,
+      "type": "grammar_fix",
+      "sentence": "I am agree with you.",
+      "correct": "I agree with you.",
+      "rule": "'Agree' is a verb, not an adjective. Don't use 'am' before it."
+    },
+    {
+      "id": 14,
+      "type": "word_of_day",
+      "word": "procrastinate",
+      "meaning": "to delay doing something",
+      "uzbek": "kechiktirmoq",
+      "example": "Stop procrastinating and start studying!",
+      "emoji": "⏰"
+    }
+  ]
+}
