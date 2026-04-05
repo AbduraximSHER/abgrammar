@@ -1,0 +1,82 @@
+{
+  "id": "adv-other-ways-of-talking-about-the-future",
+  "meta": {
+    "topic": "Other ways of talking about the future",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "Some phrases are commonly used to refer to actions or events in the future with a meaning similar to be about to + infinitive (see Unit 12C). We can use be on the verge of … / brink of … / point of … ",
+    "highlight_indices": [
+      "be about to + infinitive",
+      "be on the verge of",
+      "brink of"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "Some phrases are commonly used to refer to actions or events in the future with a meaning similar to be about to + infinitive (see Unit 12C).",
+    "formula": "We use some verbs with a to-infinitive to talk about intentions:\n • We guarantee to refund your money if you are dissatisfied with the computer.",
+    "common_mistake": "When the phrases and verbs in A and B are used with past tense forms, they are usually concerned with future events seen from the past (see also Unit 14):\n • It was his 64th birthday in 2006 and he was due to retire the following year."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "13.1.1 The decision of the firm to relocate its international headquarters to Switzerland is ___ questions about the government's new profits tax. (bound to raise)",
+      "options": [
+        "bound to raise",
+        "due to raise",
+        "set to raise",
+        "on the point of raising"
+      ],
+      "correct_answer": "bound to raise",
+      "explanation_for_failure": "Emphasis on certainty that questions will be raised → bound to."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "13.1.2 It seems that other major financial firms are ___ their headquarters out of London. (on the point of moving)",
+      "options": [
+        "on the point of moving",
+        "on the verge of moving",
+        "bound to move",
+        "set to move"
+      ],
+      "correct_answer": "on the point of moving",
+      "explanation_for_failure": "Very imminent action → on the point of."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "13.1.3 NASA's latest Mars probe is ___ to Earth later today.",
+      "options": [
+        "due to return",
+        "set to return",
+        "bound to return",
+        "on the verge of returning"
+      ],
+      "correct_answer": "due to return",
+      "explanation_for_failure": "Expected at a particular time → due to."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "13.1.4 The probe would be bringing back rock samples that are ___ exciting new information about the planet.",
+      "options": [
+        "bound to provide",
+        "due to provide",
+        "set to provide",
+        "on the brink of providing"
+      ],
+      "correct_answer": "bound to provide",
+      "explanation_for_failure": "Almost certain outcome → bound to."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "13.1.5 The Countryside Conservation Society is ___ a new million-Euro scheme for the protection of endangered plant species.",
+      "options": [
+        "set to launch",
+        "due to launch",
+        "bound to launch",
+        "on the verge of launching"
+      ],
+      "correct_answer": "set to launch",
+      "explanation_for_failure": "Really going to happen (formal announcement context) → set to."
+    }
+  ]
+}

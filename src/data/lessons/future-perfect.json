@@ -1,0 +1,40 @@
+{
+  "id": "future-perfect",
+  "meta": {
+    "topic": "Future Perfect",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "By next December, I will have graduated from university. Then I can start looking for a job.",
+    "highlight_indices": [
+      "By",
+      "will",
+      "have graduated"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "Use future perfect for actions that will be completed before a specific time in the future.",
+    "formula": "Subject + will have + past participle",
+    "common_mistake": "Always use a time marker like 'by', 'by the time', 'before' to show the deadline."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "By 6 PM, she ___ cooking dinner.",
+      "options": [
+        "will finish",
+        "will have finished",
+        "has finished",
+        "is finishing"
+      ],
+      "correct_answer": "will have finished",
+      "explanation_for_failure": "Future perfect: will have + past participle. 'By 6 PM' sets the deadline."
+    },
+    {
+      "type": "fill_blank",
+      "sentence": "By the time you arrive, we ___ (eat) already.",
+      "correct_answer": "will have eaten",
+      "explanation_for_failure": "Action (eating) will be complete before the arrival. Use will have + past participle."
+    }
+  ]
+}

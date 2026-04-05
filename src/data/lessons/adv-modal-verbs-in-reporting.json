@@ -1,0 +1,81 @@
+{
+  "id": "adv-modal-verbs-in-reporting",
+  "meta": {
+    "topic": "Modal verbs in reporting",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "When there is a modal verb in the original statement, suggestion, etc., it sometimes changes when we report what was said or thought. However, some modal verbs do not change: could, would, should, mig",
+    "highlight_indices": [
+      "could meet",
+      "could meet"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "When there is a modal verb in the original statement, suggestion, etc.",
+    "formula": "The modal verbs will, can, may usually change to would, could, might when reported:\n • 'She may have already left.",
+    "common_mistake": "Shall changes to would when talking about the future:\n • 'I shall (I'll) call you on Monday."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "37.1.1 The doctor says that he ___ see you in 20 minutes.",
+      "options": [
+        "will",
+        "would",
+        "both",
+        "neither"
+      ],
+      "correct_answer": "will",
+      "explanation_for_failure": "If the reporting verb is in the present tense ('says') and refers to the future, use 'will'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "37.1.2 In her letter, Elizabeth revealed that she ___ be getting married soon.",
+      "options": [
+        "may",
+        "might",
+        "both",
+        "neither"
+      ],
+      "correct_answer": "both",
+      "explanation_for_failure": "If the reporting verb is in the past tense but the event is still in the future, both 'may' and 'might' can be used."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "37.2.1 'I won't be late.' $\\rightarrow$ She promised ___ late and she kept her word.",
+      "options": [
+        "that she wouldn't be",
+        "that she shouldn't be",
+        "that she couldn't be",
+        "that she mustn't be"
+      ],
+      "correct_answer": "that she wouldn't be",
+      "explanation_for_failure": "Use a that-clause with 'wouldn't' because the reporting verb is past ('promised') and referring to a past future."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "37.3.1 'I must be getting old.' $\\rightarrow$ She said that she ___ getting old.",
+      "options": [
+        "must be",
+        "had to be",
+        "both",
+        "neither"
+      ],
+      "correct_answer": "must be",
+      "explanation_for_failure": "When 'must' expresses a conclusion, it doesn't change to 'had to' in reported speech."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "37.4.1 'If you want to travel with us, that's fine.' $\\rightarrow$ She said that ___",
+      "options": [
+        "I could travel with them.",
+        "I should travel with them.",
+        "I had to travel with them.",
+        "I must travel with them."
+      ],
+      "correct_answer": "I could travel with them.",
+      "explanation_for_failure": "'Can' (meaning permission or ability in the original intent) changes to 'could' in reported speech."
+    }
+  ]
+}

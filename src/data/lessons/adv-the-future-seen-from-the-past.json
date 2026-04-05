@@ -1,0 +1,82 @@
+{
+  "id": "adv-the-future-seen-from-the-past",
+  "meta": {
+    "topic": "The future seen from the past",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "There are a number of ways of talking about an activity or event that was in the future at a particular point in the past. In order to express this idea, we can use the past tenses of the verb forms w",
+    "highlight_indices": [
+      "Future from now:",
+      "ll stay",
+      "Future from the past:"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "There are a number of ways of talking about an activity or event that was in the future at a particular point in the past.",
+    "formula": "To talk about an activity or event that was in the future at a particular point in the past, we can use was / were to + infinitive (for things that actually happened) and was / were to have + past participle (for things that were expected, but didn't happen):\n • At the time she was probably the best",
+    "common_mistake": "Pay attention to the context when choosing the correct form."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "14.1.1 I'm going to do the washing, but we'd run out of washing powder.",
+      "options": [
+        "was going to do ✓ (future from past)",
+        "I'm going to do ✗",
+        "I was to do",
+        "I would do"
+      ],
+      "correct_answer": "was going to do ✓ (future from past)",
+      "explanation_for_failure": "Past point of view: 'I had plans to...' → was going to."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "14.1.2 The concert tonight would be over by about 9:30. We could eat after that.",
+      "options": [
+        "Correct ✓ (future from past with 'would')",
+        "will be over",
+        "is over",
+        "would have been over"
+      ],
+      "correct_answer": "Correct ✓ (future from past with 'would')",
+      "explanation_for_failure": "'Would be over' is correct — future from past perspective."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "14.1.3 When we were passing Ivan's house, we thought we'd drop in and see him.",
+      "options": [
+        "Correct ✓ (past continuous for future from past)",
+        "would pass",
+        "had been passing",
+        "passed"
+      ],
+      "correct_answer": "Correct ✓ (past continuous for future from past)",
+      "explanation_for_failure": "Past continuous ('were passing') for planned/ongoing future from past — correct."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "14.1.4 A: Sorry, I thought Ella will have shown you. Over there.",
+      "options": [
+        "would have shown ✓ (future perfect from past)",
+        "will have shown ✗",
+        "has shown",
+        "would show"
+      ],
+      "correct_answer": "would have shown ✓ (future perfect from past)",
+      "explanation_for_failure": "Future perfect from past → would have shown."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "14.1.5 The manager of Newtown United said that the team is to be announced at nine tomorrow.",
+      "options": [
+        "Correct ✓ (still in future for speaker — either form possible)",
+        "was to be announced",
+        "Both are possible",
+        "would be announced"
+      ],
+      "correct_answer": "Both are possible",
+      "explanation_for_failure": "Still in future for speaker → both 'is to be' and 'was to be' are possible."
+    }
+  ]
+}

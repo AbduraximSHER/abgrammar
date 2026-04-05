@@ -1,0 +1,82 @@
+{
+  "id": "adv-be-to-infinitive-be-about-to-infinitive",
+  "meta": {
+    "topic": "Be to + infinitive; be about to + infinitive",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "Be to + infinitive is commonly used in news reports to talk about events that are likely to happen in the near future:",
+    "highlight_indices": [
+      "Be to + infinitive",
+      "are to visit",
+      "is to be reopened"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "Be to + infinitive is commonly used in news reports to talk about events that are likely to happen in the near future:\n • Police officers are to visit every home in the area.",
+    "formula": "We often use be to + infinitive in if-clauses to say that something must happen first (in the main clause) before something else can happen (in the if-clause):\n • If the human race is to survive, we must look at environmental problems now.",
+    "common_mistake": "We use be about to + infinitive mainly in conversation to say that something will (not) happen in the very near future:\n • We're about to eat."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "12.1.1 Gil Moritz has written his first new play for 15 years. Its first performance ___ (stage) at the New Victoria Theatre.",
+      "options": [
+        "is to be staged",
+        "will be staged",
+        "stages",
+        "is staged"
+      ],
+      "correct_answer": "is to be staged",
+      "explanation_for_failure": "Formal announcement of a planned/controlled future event → be to + infinitive (passive)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "12.1.2 The new safety system ___ (stop) trains automatically if they pass a danger signal.",
+      "options": [
+        "is to stop",
+        "will stop",
+        "stops",
+        "is stopping"
+      ],
+      "correct_answer": "is to stop",
+      "explanation_for_failure": "Official/formal arrangement or instruction → be to + infinitive."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "12.1.3 Stafford Boys' School ___ (merge) with the nearby Bicton Girls' School to form a new co-educational establishment.",
+      "options": [
+        "is to be merged",
+        "will merge",
+        "is merging",
+        "merges"
+      ],
+      "correct_answer": "is to be merged",
+      "explanation_for_failure": "Official planned event reported as news → be to + infinitive (passive)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "12.1.4 There are fears that sea levels ___ (rise) catastrophically in the next 50 years.",
+      "options": [
+        "will rise",
+        "are to rise",
+        "rise",
+        "are rising"
+      ],
+      "correct_answer": "will rise",
+      "explanation_for_failure": "Prediction about an uncontrollable natural event → will (not be to)."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "12.1.5 The old design and technology programme ___ (replace) with a new computer science course.",
+      "options": [
+        "is to be replaced",
+        "will be replaced",
+        "is replaced",
+        "replaces"
+      ],
+      "correct_answer": "is to be replaced",
+      "explanation_for_failure": "Formal/official arrangement → be to + infinitive (passive)."
+    }
+  ]
+}

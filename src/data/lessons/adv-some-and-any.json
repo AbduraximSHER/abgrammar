@@ -1,0 +1,82 @@
+{
+  "id": "adv-some-and-any",
+  "meta": {
+    "topic": "Some and any",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "Before plural and uncountable nouns we sometimes use some or zero article (i.e. no article) with very little difference in meaning:",
+    "highlight_indices": [
+      "some",
+      "zero article",
+      "(some) friends"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "Before plural and uncountable nouns we sometimes use some or zero article (i.",
+    "formula": "Some is used before a number to mean 'approximately':\n • Some eighty per cent of all residents took part in the vote.",
+    "common_mistake": "When we don't know, can't remember, or it is not important exactly which person or thing we are talking about, we can use some instead of a / an with a singular noun."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "48.1.1 Sports are dangerous. (Correct this sentence if necessary)",
+      "options": [
+        "Some sports are dangerous.",
+        "Sports are some dangerous.",
+        "The sentence is already correct.",
+        "Any sports are dangerous."
+      ],
+      "correct_answer": "Some sports are dangerous.",
+      "explanation_for_failure": "When not referring to the whole class of things, we use 'some' to refer to a subset."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "48.2.1 250 people charged with assault following Molton riots. (Rewrite using 'some' to mean 'approximately')",
+      "options": [
+        "Some 250 people have been charged...",
+        "250 some people have been charged...",
+        "Some people (250) have been charged...",
+        "People charged with some assault..."
+      ],
+      "correct_answer": "Some 250 people have been charged...",
+      "explanation_for_failure": "'Some' can be used before a number to mean approximately."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "48.3.1 I don't know where I got the information from. I must have heard it on ___ radio programme (or other).",
+      "options": [
+        "some",
+        "a",
+        "the",
+        "any"
+      ],
+      "correct_answer": "some",
+      "explanation_for_failure": "When we don't remember exactly which one, we can use 'some' with a singular noun."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "48.4.1 Elias worked hard at learning Japanese but failed to make ___ real progress.",
+      "options": [
+        "any",
+        "some",
+        "a",
+        "zero article"
+      ],
+      "correct_answer": "any",
+      "explanation_for_failure": "Use 'any' in a non-affirmative context (after 'failed to')."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "48.4.2 I was unable to eat ___ of the food.",
+      "options": [
+        "any / some",
+        "any",
+        "some",
+        "zero article"
+      ],
+      "correct_answer": "any / some",
+      "explanation_for_failure": "'any' means none of it; 'some' means you couldn't eat a portion of it."
+    }
+  ]
+}

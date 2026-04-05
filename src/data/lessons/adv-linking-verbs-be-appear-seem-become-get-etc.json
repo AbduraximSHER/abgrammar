@@ -1,0 +1,82 @@
+{
+  "id": "adv-linking-verbs-be-appear-seem-become-get-etc",
+  "meta": {
+    "topic": "Linking verbs: be, appear, seem; become, get, etc.",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "When an adjective or noun phrase is used after a verb to describe the subject or say what or who the subject is, the adjective or noun phrase is a complement and the verb is a linking verb:",
+    "highlight_indices": [
+      "is",
+      "getting",
+      "seemed"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "When an adjective or noun phrase is used after a verb to describe the subject or say what or who the subject is, the adjective or noun phrase is a complement and the verb is a linking verb:\n • Clara is a doctor.",
+    "formula": "After the verbs appear (= seems true), look (= seem), prove, seem, and turn out we can often either include or omit to be:\n • The room appears (to be) brighter than when I last saw it.",
+    "common_mistake": "We use the linking verb become to describe a process of change."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "21.1.1 The job turned out to be far easier than I'd expected.",
+      "options": [
+        "turned out (to be) far easier — 'to be' can be omitted",
+        "turned out to be (must keep)",
+        "Both are correct",
+        "Neither"
+      ],
+      "correct_answer": "turned out (to be) far easier — 'to be' can be omitted",
+      "explanation_for_failure": "After 'turn out', 'to be' can often be left out before an adjective."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "21.1.2 When I looked through the window, Ella appeared to be alone.",
+      "options": [
+        "appeared to be alone — 'to be' should be KEPT (adjective 'alone')",
+        "appeared (to be) alone — can omit",
+        "Both are correct",
+        "Neither"
+      ],
+      "correct_answer": "appeared to be alone — 'to be' should be KEPT (adjective 'alone')",
+      "explanation_for_failure": "Before 'alone', 'to be' is usually included after 'appear'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "21.1.3 What he called his 'little cottage in the country' proved to be a castle.",
+      "options": [
+        "proved to be a castle — 'to be' should be KEPT (noun = what the subject is)",
+        "proved (to be) a castle — can omit",
+        "Both are correct",
+        "Neither"
+      ],
+      "correct_answer": "proved to be a castle — 'to be' should be KEPT (noun = what the subject is)",
+      "explanation_for_failure": "Before a noun telling us what the subject IS, include 'to be'."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "21.1.4 Hassan proved to be an excellent source of information about the town.",
+      "options": [
+        "proved (to be) an excellent source — 'to be' can be left out (opinion)",
+        "proved to be (must keep)",
+        "Both are correct",
+        "Neither"
+      ],
+      "correct_answer": "proved (to be) an excellent source — 'to be' can be left out (opinion)",
+      "explanation_for_failure": "Giving an opinion about the person — 'to be' optional; also in formal English leave it out."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "21.1.6 I've adjusted the aerial and the television seems to be working okay now.",
+      "options": [
+        "seems to be working — 'to be' must be KEPT (before -ing form)",
+        "seems (to be) working — can omit",
+        "Both are correct",
+        "Neither"
+      ],
+      "correct_answer": "seems to be working — 'to be' must be KEPT (before -ing form)",
+      "explanation_for_failure": "Before -ing forms of verbs, 'to be' is usually included."
+    }
+  ]
+}

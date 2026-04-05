@@ -1,0 +1,40 @@
+{
+  "id": "modal-should",
+  "meta": {
+    "topic": "Should & Ought to",
+    "level": "Intermediate"
+  },
+  "step_1_context": {
+    "text": "You should rest tonight; you ought to drink more water too.",
+    "highlight_indices": [
+      "should",
+      "ought",
+      "to"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "Use should/ought to for advice, recommendations, and mild obligation.",
+    "formula": "Subject + should + base verb | Subject + ought to + base verb",
+    "common_mistake": "Remember: ought is followed by to."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "Which sentence is correct?",
+      "options": [
+        "You should to sleep early.",
+        "You should sleep early.",
+        "You should sleeping early.",
+        "You ought sleep early."
+      ],
+      "correct_answer": "You should sleep early.",
+      "explanation_for_failure": "Should is followed by base verb without 'to'."
+    },
+    {
+      "type": "error_correction",
+      "incorrect_sentence": "You ought eat less sugar.",
+      "corrected_sentence": "You ought to eat less sugar.",
+      "error_analysis": "Ought requires 'to' before the main verb."
+    }
+  ]
+}

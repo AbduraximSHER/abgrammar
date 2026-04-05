@@ -1,0 +1,751 @@
+{
+  "levels": [
+    {
+      "id": "1",
+      "title": "Level 1: Beginner",
+      "subtitle": "Foundation Grammar",
+      "description": "Master the essential grammar for everyday communication",
+      "emoji": "🌱",
+      "order": 1,
+      "estimated_time": "3-4 hours",
+      "topics": [
+        {
+          "id": "be-verb",
+          "title": "Be Verb: Am, Is, Are",
+          "summary": "Foundation of English",
+          "estimated_time": "10 min",
+          "required": true
+        },
+        {
+          "id": "present-simple",
+          "title": "Present Simple",
+          "summary": "Habits and facts",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "present-continuous",
+          "title": "Present Continuous",
+          "summary": "Actions happening now",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "past-simple",
+          "title": "Past Simple",
+          "summary": "Completed past actions",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "future-simple",
+          "title": "Future Simple",
+          "summary": "Plans and predictions",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "articles",
+          "title": "Articles: A, An, The",
+          "summary": "Using articles correctly",
+          "estimated_time": "12 min",
+          "required": true
+        },
+        {
+          "id": "there-is-are",
+          "title": "There Is & There Are",
+          "summary": "Describing existence",
+          "estimated_time": "10 min",
+          "required": true
+        },
+        {
+          "id": "possessives",
+          "title": "Possessives",
+          "summary": "My, your, his, her",
+          "estimated_time": "10 min",
+          "required": true
+        },
+        {
+          "id": "prepositions",
+          "title": "Prepositions",
+          "summary": "In, on, at",
+          "estimated_time": "12 min",
+          "required": true
+        },
+        {
+          "id": "comparatives",
+          "title": "Comparatives",
+          "summary": "Bigger, better",
+          "estimated_time": "12 min",
+          "required": true
+        },
+        {
+          "id": "superlatives",
+          "title": "Superlatives",
+          "summary": "The biggest, the best",
+          "estimated_time": "12 min",
+          "required": true
+        },
+        {
+          "id": "modal-can-could",
+          "title": "Modal: Can & Could",
+          "summary": "Ability and permission",
+          "estimated_time": "15 min",
+          "required": true
+        }
+      ],
+      "completion_badge": {
+        "name": "Beginner Master",
+        "icon": "🌟",
+        "xp_reward": 100
+      }
+    },
+    {
+      "id": "2",
+      "title": "Level 2: Intermediate",
+      "subtitle": "Expanding Your Grammar",
+      "description": "Build comprehensive grammar foundation",
+      "emoji": "🚀",
+      "order": 2,
+      "estimated_time": "5-6 hours",
+      "unlock_after": "1",
+      "topics": [
+        {
+          "id": "past-continuous",
+          "title": "Past Continuous",
+          "summary": "Ongoing past actions",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "present-perfect",
+          "title": "Present Perfect",
+          "summary": "Past with present relevance",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "future-continuous",
+          "title": "Future Continuous",
+          "summary": "Ongoing future actions",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "past-perfect",
+          "title": "Past Perfect",
+          "summary": "Earlier past actions",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "going-to-vs-will",
+          "title": "Going to vs Will",
+          "summary": "Future intentions",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "modal-should",
+          "title": "Should & Ought to",
+          "summary": "Advice and recommendations",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "modal-must",
+          "title": "Must & Have to",
+          "summary": "Obligation and necessity",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "modal-might-may",
+          "title": "Might & May",
+          "summary": "Possibility",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "modal-would",
+          "title": "Modal: Would",
+          "summary": "Polite requests and habits",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "modal-perfect",
+          "title": "Modal Perfect",
+          "summary": "Past deductions",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "wh-questions",
+          "title": "Wh-Questions",
+          "summary": "What, where, when, why",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "yes-no-questions",
+          "title": "Yes/No Questions",
+          "summary": "Question formation",
+          "estimated_time": "12 min",
+          "required": true
+        },
+        {
+          "id": "question-tags",
+          "title": "Question Tags",
+          "summary": "Isn't it, don't you",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "conjunctions",
+          "title": "Conjunctions",
+          "summary": "And, but, or, so, because",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "relative-clauses",
+          "title": "Relative Clauses",
+          "summary": "Who, which, that",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "passive-voice",
+          "title": "Passive Voice",
+          "summary": "Is made, was built",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "reported-speech",
+          "title": "Reported Speech",
+          "summary": "He said, she told",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "countable-uncountable",
+          "title": "Countable/Uncountable",
+          "summary": "Nouns and articles",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "quantifiers",
+          "title": "Quantifiers",
+          "summary": "Much, many, some, any",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "first-conditional",
+          "title": "First Conditional",
+          "summary": "If + present, will",
+          "estimated_time": "18 min",
+          "required": true
+        }
+      ],
+      "completion_badge": {
+        "name": "Intermediate Champion",
+        "icon": "🎯",
+        "xp_reward": 250
+      }
+    },
+    {
+      "id": "3",
+      "title": "Level 3: Upper-Intermediate",
+      "subtitle": "Complex Structures",
+      "description": "Master complex grammar for fluent, natural English",
+      "emoji": "👑",
+      "order": 3,
+      "estimated_time": "5-6 hours",
+      "unlock_after": "2",
+      "topics": [
+        {
+          "id": "present-perfect-continuous",
+          "title": "Present Perfect Continuous",
+          "summary": "Duration with present result",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "past-perfect-continuous",
+          "title": "Past Perfect Continuous",
+          "summary": "Duration before a past event",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "future-perfect",
+          "title": "Future Perfect",
+          "summary": "Completed before a future time",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "second-conditional",
+          "title": "Second Conditional",
+          "summary": "Unreal present situations",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "third-conditional",
+          "title": "Third Conditional",
+          "summary": "Unreal past situations",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "mixed-conditionals",
+          "title": "Mixed Conditionals",
+          "summary": "Crossing time frames",
+          "estimated_time": "22 min",
+          "required": true
+        },
+        {
+          "id": "wish-and-if-only",
+          "title": "Wish & If Only",
+          "summary": "Regrets and desires",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "gerunds-and-infinitives",
+          "title": "Gerunds & Infinitives",
+          "summary": "-ing vs to + verb",
+          "estimated_time": "22 min",
+          "required": true
+        },
+        {
+          "id": "causative",
+          "title": "Causative: Have/Get Done",
+          "summary": "Someone does it for you",
+          "estimated_time": "18 min",
+          "required": true
+        },
+        {
+          "id": "participle-clauses",
+          "title": "Participle Clauses",
+          "summary": "Shortening with -ing/-ed",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "inversion",
+          "title": "Inversion",
+          "summary": "Never have I seen...",
+          "estimated_time": "20 min",
+          "required": true
+        },
+        {
+          "id": "cleft-sentences",
+          "title": "Cleft Sentences",
+          "summary": "It was... / What I need is...",
+          "estimated_time": "18 min",
+          "required": true
+        }
+      ],
+      "completion_badge": {
+        "name": "Grammar Expert",
+        "icon": "👑",
+        "xp_reward": 500
+      }
+    },
+    {
+      "id": "4",
+      "title": "Level 4: Advanced — Tenses & Modals",
+      "subtitle": "Deep Tense Mastery",
+      "description": "Advanced tense contrasts, future forms, modals, and passive constructions",
+      "emoji": "🔥",
+      "order": 4,
+      "estimated_time": "6-8 hours",
+      "unlock_after": "3",
+      "topics": [
+        {
+          "id": "adv-present-continuous-and-present-simple-state-verbs-and",
+          "title": "Present continuous and present simple: state verbs and performatives",
+          "summary": "We can use the present continuous with some state ...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-using-present-continuous-and-present-simple",
+          "title": "Using present continuous and present simple",
+          "summary": "We often use the present simple and present contin...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-past-simple-and-present-perfect",
+          "title": "Past simple and present perfect",
+          "summary": "Time expressions that refer to the present, such a...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-past-continuous-and-past-simple",
+          "title": "Past continuous and past simple",
+          "summary": "When we talk about two events or activities that w...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-past-perfect-and-past-simple",
+          "title": "Past perfect and past simple",
+          "summary": "When we give an account of a sequence of past even...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-present-perfect-continuous-and-present-perfect",
+          "title": "Present perfect continuous and present perfect",
+          "summary": "We use the present perfect continuous to express t...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-past-perfect-continuous-past-perfect-and-past-continuous",
+          "title": "Past perfect continuous, past perfect and past continuous",
+          "summary": "We use the past perfect continuous to talk about s...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-present-and-past-time-review",
+          "title": "Present and past time: review",
+          "summary": "When we focus on an activity itself, starting befo...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-will-and-be-going-to",
+          "title": "Will and be going to",
+          "summary": "We can use either will or be going to to talk abou...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-present-simple-and-present-continuous-for-the-future",
+          "title": "Present simple and present continuous for the future",
+          "summary": "Present simple\n We can often use either the presen...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-future-continuous-future-perfect-and-future-perfect",
+          "title": "Future continuous, future perfect and future perfect continuous",
+          "summary": "We can use the future continuous to talk about:\n (...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-be-to-infinitive-be-about-to-infinitive",
+          "title": "Be to + infinitive; be about to + infinitive",
+          "summary": "Be to + infinitive is commonly used in news report...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-other-ways-of-talking-about-the-future",
+          "title": "Other ways of talking about the future",
+          "summary": "Some phrases are commonly used to refer to actions...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-the-future-seen-from-the-past",
+          "title": "The future seen from the past",
+          "summary": "There are a number of ways of talking about an act...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-can-could-be-able-to-and-be-allowed-to",
+          "title": "Can, could, be able to and be allowed to",
+          "summary": "We sometimes use be able to instead of can and cou...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-will-would-and-used-to",
+          "title": "Will, would and used to",
+          "summary": "We can use will (for the present) and would (for t...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-may-and-might",
+          "title": "May and might",
+          "summary": "May and might often have a similar meaning when we...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-must-and-have-got-to",
+          "title": "Must and have (got) to",
+          "summary": "We use must and must not in formal rules and regul...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-neednt-dont-need-to-and-dont-have-to",
+          "title": "Need(n't), don't need to and don't have to",
+          "summary": "We can use need as an ordinary verb:\n • I needed t...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-should-ought-to-and-had-better",
+          "title": "Should, ought to and had better",
+          "summary": "We can often use either should or ought to to talk...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-linking-verbs-be-appear-seem-become-get-etc",
+          "title": "Linking verbs: be, appear, seem; become, get, etc.",
+          "summary": "When an adjective or noun phrase is used after a v...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-using-passives",
+          "title": "Using passives",
+          "summary": "We typically use a passive rather than an active i...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-forming-passive-sentences-objects-complements-and-multi",
+          "title": "Forming passive sentences: objects, complements and multi-word verbs",
+          "summary": "Verbs such as give take both a direct object (DO) ...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-forming-passive-sentences-verb-ing-or-to-infinitive",
+          "title": "Forming passive sentences: verb + -ing or to-infinitive",
+          "summary": "Verbs followed by object + -ing in the active are ...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-reporting-with-passives-it-is-said-that",
+          "title": "Reporting with passives; it is said that...",
+          "summary": "We often use a passive to report what people say, ...",
+          "estimated_time": "15 min",
+          "required": true
+        }
+      ],
+      "completion_badge": {
+        "name": "Advanced Scholar",
+        "icon": "🔥",
+        "xp_reward": 750
+      }
+    },
+    {
+      "id": "5",
+      "title": "Level 5: Mastery — Patterns & Precision",
+      "subtitle": "Near-Native Accuracy",
+      "description": "Verb patterns, reporting, subject-verb agreement, articles, and quantifiers",
+      "emoji": "💎",
+      "order": 5,
+      "estimated_time": "6-8 hours",
+      "unlock_after": "4",
+      "topics": [
+        {
+          "id": "adv-wh-questions-with-who-whom-which-how-and-whose",
+          "title": "Wh-questions with who, whom, which, how and whose",
+          "summary": "In wh-questions, who is usually the subject and wh...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-negative-questions-echo-questions-questions-with-that",
+          "title": "Negative questions; echo questions; questions with that-clauses",
+          "summary": "We usually make a negative yes/no or wh-question w...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-verbs-objects-and-complements",
+          "title": "Verbs, objects and complements",
+          "summary": "Some verbs can be either transitive or intransitiv...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-verb-two-objects",
+          "title": "Verb + two objects",
+          "summary": "Some verbs can be followed by two objects.",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-verb-ing-forms-and-infinitives-1",
+          "title": "Verb + -ing forms and infinitives 1",
+          "summary": "Some verbs can be followed either by an object + -...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-verb-ing-forms-and-infinitives-2",
+          "title": "Verb + -ing forms and infinitives 2",
+          "summary": "After some verbs we need to include an object befo...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-verb-ing-forms-and-infinitives-3",
+          "title": "Verb + -ing forms and infinitives 3",
+          "summary": "Some verbs can be followed by an -ing form or a to...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-reporting-statements-that-clauses",
+          "title": "Reporting statements: that-clauses",
+          "summary": "When we report what someone said or thought, we of...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-verb-wh-clause",
+          "title": "Verb + wh-clause",
+          "summary": "Some verbs can be followed by a clause beginning w...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-tense-choice-in-reporting",
+          "title": "Tense choice in reporting",
+          "summary": "When we report something that was said or thought ...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-reporting-offers-suggestions-orders-intentions-etc",
+          "title": "Reporting offers, suggestions, orders, intentions, etc.",
+          "summary": "When we report offers, suggestions, orders, intent...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-modal-verbs-in-reporting",
+          "title": "Modal verbs in reporting",
+          "summary": "When there is a modal verb in the original stateme...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-reporting-what-people-say-using-nouns-and-adjectives",
+          "title": "Reporting what people say using nouns and adjectives",
+          "summary": "We sometimes report people's words and thoughts us...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-should-in-that-clauses-the-present-subjunctive",
+          "title": "Should in that-clauses; the present subjunctive",
+          "summary": "We can sometimes report advice, orders, requests, ...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-agreement-between-subject-and-verb-1",
+          "title": "Agreement between subject and verb 1",
+          "summary": "If a sentence has a singular subject, it is follow...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-agreement-between-subject-and-verb-2",
+          "title": "Agreement between subject and verb 2",
+          "summary": "With any of, each of, either of, neither of, or no...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-agreement-between-subject-and-verb-3",
+          "title": "Agreement between subject and verb 3",
+          "summary": "Some nouns are usually plural and take a plural ve...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-compound-nouns-and-noun-phrases",
+          "title": "Compound nouns and noun phrases",
+          "summary": "In a compound consisting of noun + noun, often the...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-a-an-and-one",
+          "title": "A / an and one",
+          "summary": "We use a before nouns and noun phrases that begin ...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-a-an-the-and-zero-article-1",
+          "title": "A / an, the and zero article 1",
+          "summary": "We usually use the when we talk about things which...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-a-an-the-and-zero-article-2",
+          "title": "A / an, the and zero article 2",
+          "summary": "We use a / an to talk about a type of job:\n • She ...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-a-an-the-and-zero-article-3",
+          "title": "A / an, the and zero article 3",
+          "summary": "With plural and uncountable nouns, zero article is...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-some-and-any",
+          "title": "Some and any",
+          "summary": "Before plural and uncountable nouns we sometimes u...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-no-none-of-and-not-any",
+          "title": "No, none (of) and not any",
+          "summary": "We can use no and none (of) instead of not a or no...",
+          "estimated_time": "15 min",
+          "required": true
+        },
+        {
+          "id": "adv-much-of-many-of-a-lot-of-lots-of-etc",
+          "title": "Much (of), many (of), a lot of, lots (of), etc.",
+          "summary": "In affirmative sentences we generally use a lot of...",
+          "estimated_time": "15 min",
+          "required": true
+        }
+      ],
+      "completion_badge": {
+        "name": "Grammar Master",
+        "icon": "💎",
+        "xp_reward": 1000
+      }
+    }
+  ],
+  "progression_rules": {
+    "unlock_mode": "sequential",
+    "allow_skip": false,
+    "min_quiz_score": 70
+  }
+}

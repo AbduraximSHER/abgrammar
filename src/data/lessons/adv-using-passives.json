@@ -1,0 +1,82 @@
+{
+  "id": "adv-using-passives",
+  "meta": {
+    "topic": "Using passives",
+    "level": "Advanced"
+  },
+  "step_1_context": {
+    "text": "We typically use a passive rather than an active in the following situations.",
+    "highlight_indices": [
+      "by",
+      "was broken into",
+      "can be found"
+    ]
+  },
+  "step_2_explanation": {
+    "simple_rule": "We typically use a passive rather than an active in the following situations.",
+    "formula": "Note also that some verbs have related nouns which express the same meaning.",
+    "common_mistake": "In English we usually prefer to put the topic (what is already being talked about) at the beginning of a sentence (or clause) and a comment on that topic at the end."
+  },
+  "step_3_interactive_exercises": [
+    {
+      "type": "multiple_choice",
+      "question": "22.1.1 They built the main stadium in under three years. (Start: The main stadium...)",
+      "options": [
+        "The main stadium was built in under three years.",
+        "The main stadium were built in under three years.",
+        "The main stadium had been built in under three years.",
+        "The main stadium builds in under three years."
+      ],
+      "correct_answer": "The main stadium was built in under three years.",
+      "explanation_for_failure": "Past simple passive: was/were + past participle."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "22.1.2 They have designed the main stadium to accommodate many different sports.",
+      "options": [
+        "The main stadium has been designed to accommodate many different sports.",
+        "The main stadium have been designed to accommodate many different sports.",
+        "The main stadium were designed to accommodate many different sports.",
+        "The main stadium has been design to accommodate many different sports."
+      ],
+      "correct_answer": "The main stadium has been designed to accommodate many different sports.",
+      "explanation_for_failure": "Present perfect passive: has/have been + past participle."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "22.1.3 They will take down the temporary stands after the Games.",
+      "options": [
+        "The temporary stands will be taken down after the Games.",
+        "The temporary stands will taken down after the Games.",
+        "The temporary stands would be taken down after the Games.",
+        "The temporary stands being taken down after the Games."
+      ],
+      "correct_answer": "The temporary stands will be taken down after the Games.",
+      "explanation_for_failure": "Future simple passive: will be + past participle."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "22.1.4 They will have completed the basketball arena by the end of May.",
+      "options": [
+        "The basketball arena will have been completed by the end of May.",
+        "The basketball arena will be completed by the end of May.",
+        "The basketball arena will have completed by the end of May.",
+        "The basketball arena would have been completed by the end of May."
+      ],
+      "correct_answer": "The basketball arena will have been completed by the end of May.",
+      "explanation_for_failure": "Future perfect passive: will have been + past participle."
+    },
+    {
+      "type": "multiple_choice",
+      "question": "22.1.5 They are holding the rowing competition on the River Nene.",
+      "options": [
+        "The rowing competition is being held on the River Nene.",
+        "The rowing competition are being held on the River Nene.",
+        "The rowing competition is being hold on the River Nene.",
+        "The rowing competition was being held on the River Nene."
+      ],
+      "correct_answer": "The rowing competition is being held on the River Nene.",
+      "explanation_for_failure": "Present continuous passive: is/are being + past participle."
+    }
+  ]
+}
