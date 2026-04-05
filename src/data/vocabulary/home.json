@@ -1,0 +1,57 @@
+{
+  "id": "home",
+  "title": "Home & Furniture",
+  "level": "beginner",
+  "words": [
+    { "word": "house", "meaning": "building where people live", "uzbek": "uy", "example": "We live in a big house.", "emoji": "🏠", "type": "noun" },
+    { "word": "room", "meaning": "a space in a building", "uzbek": "xona", "example": "My room is on the second floor.", "emoji": "🚪", "type": "noun" },
+    { "word": "kitchen", "meaning": "room for cooking", "uzbek": "oshxona", "example": "My mother cooks in the kitchen.", "emoji": "🍳", "type": "noun" },
+    { "word": "bedroom", "meaning": "room for sleeping", "uzbek": "yotoqxona", "example": "I have my own bedroom.", "emoji": "🛏️", "type": "noun" },
+    { "word": "bathroom", "meaning": "room with a bath or shower", "uzbek": "hammom", "example": "The bathroom is upstairs.", "emoji": "🚿", "type": "noun" },
+    { "word": "living room", "meaning": "room for relaxing", "uzbek": "mehmonxona", "example": "We watch TV in the living room.", "emoji": "🛋️", "type": "noun" },
+    { "word": "garden", "meaning": "area with plants outside", "uzbek": "bog'", "example": "We have flowers in the garden.", "emoji": "🌷", "type": "noun" },
+    { "word": "door", "meaning": "you open it to enter", "uzbek": "eshik", "example": "Please close the door.", "emoji": "🚪", "type": "noun" },
+    { "word": "window", "meaning": "glass opening in wall", "uzbek": "deraza", "example": "Open the window, please.", "emoji": "🪟", "type": "noun" },
+    { "word": "table", "meaning": "flat furniture with legs", "uzbek": "stol", "example": "Put the books on the table.", "emoji": "🪑", "type": "noun" },
+    { "word": "chair", "meaning": "seat for one person", "uzbek": "stul", "example": "Sit on the chair.", "emoji": "🪑", "type": "noun" },
+    { "word": "bed", "meaning": "furniture for sleeping", "uzbek": "karavot", "example": "I go to bed at 10 PM.", "emoji": "🛏️", "type": "noun" },
+    { "word": "sofa", "meaning": "long soft seat", "uzbek": "divan", "example": "Let's sit on the sofa.", "emoji": "🛋️", "type": "noun" },
+    { "word": "fridge", "meaning": "keeps food cold", "uzbek": "muzlatgich", "example": "Put the milk in the fridge.", "emoji": "🧊", "type": "noun" },
+    { "word": "lamp", "meaning": "gives light", "uzbek": "chiroq", "example": "Turn on the lamp, please.", "emoji": "💡", "type": "noun" },
+    { "word": "mirror", "meaning": "shows your reflection", "uzbek": "ko'zgu", "example": "She looked in the mirror.", "emoji": "🪞", "type": "noun" },
+    { "word": "carpet", "meaning": "covers the floor", "uzbek": "gilam", "example": "We have a red carpet.", "emoji": "🟥", "type": "noun" },
+    { "word": "stairs", "meaning": "steps going up or down", "uzbek": "zinalar", "example": "Be careful on the stairs.", "emoji": "🪜", "type": "noun" },
+    { "word": "roof", "meaning": "top of a building", "uzbek": "tom", "example": "The roof is made of tiles.", "emoji": "🏠", "type": "noun" },
+    { "word": "wall", "meaning": "side of a room", "uzbek": "devor", "example": "There's a picture on the wall.", "emoji": "🧱", "type": "noun" },
+    { "word": "floor", "meaning": "bottom surface of a room", "uzbek": "pol", "example": "The floor is clean.", "emoji": "⬜", "type": "noun" },
+    { "word": "key", "meaning": "opens a lock", "uzbek": "kalit", "example": "Don't forget your keys!", "emoji": "🔑", "type": "noun" },
+    { "word": "clean", "meaning": "not dirty", "uzbek": "toza", "example": "Keep your room clean.", "emoji": "✨", "type": "adjective" },
+    { "word": "comfortable", "meaning": "nice to sit or lie on", "uzbek": "qulay", "example": "This sofa is very comfortable.", "emoji": "😌", "type": "adjective" },
+    { "word": "upstairs", "meaning": "on a higher floor", "uzbek": "yuqori qavat", "example": "My bedroom is upstairs.", "emoji": "⬆️", "type": "adverb" }
+  ],
+  "exercises": {
+    "matching": [
+      { "word": "kitchen", "match": "oshxona" },
+      { "word": "bedroom", "match": "yotoqxona" },
+      { "word": "door", "match": "eshik" },
+      { "word": "window", "match": "deraza" },
+      { "word": "table", "match": "stol" },
+      { "word": "bed", "match": "karavot" },
+      { "word": "mirror", "match": "ko'zgu" },
+      { "word": "key", "match": "kalit" }
+    ],
+    "fillIn": [
+      { "sentence": "My mother cooks in the ___.", "answer": "kitchen", "hint": "oshxona" },
+      { "sentence": "Please close the ___.", "answer": "door", "hint": "eshik" },
+      { "sentence": "Put the milk in the ___.", "answer": "fridge", "hint": "muzlatgich" },
+      { "sentence": "I go to ___ at 10 PM.", "answer": "bed", "hint": "karavot" },
+      { "sentence": "There's a picture on the ___.", "answer": "wall", "hint": "devor" },
+      { "sentence": "This sofa is very ___.", "answer": "comfortable", "hint": "qulay" }
+    ],
+    "multipleChoice": [
+      { "question": "Where do you cook food?", "options": ["Bedroom", "Kitchen", "Garden", "Bathroom"], "correct": "Kitchen" },
+      { "question": "What is 'deraza' in English?", "options": ["Door", "Wall", "Window", "Floor"], "correct": "Window" },
+      { "question": "What keeps food cold?", "options": ["Lamp", "Sofa", "Fridge", "Mirror"], "correct": "Fridge" }
+    ]
+  }
+}
